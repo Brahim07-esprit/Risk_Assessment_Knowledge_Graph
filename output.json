@@ -1,0 +1,958 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import os \n",
+    "from langchain.document_loaders import PyPDFLoader, UnstructuredAPIFileIOLoader, PyPDFium2Loader\n",
+    "from langchain.document_loaders import PyPDFDirectoryLoader, DirectoryLoader\n",
+    "from langchain.text_splitter import RecursiveCharacterTextSplitter\n",
+    "from pathlib import Path\n",
+    "import random"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "data_dir = 'TEXT_data'\n",
+    "inputdirectory = Path(f\"./{data_dir}\")\n",
+    "out_dir = data_dir\n",
+    "outputdirectory = Path(f\"./TEXT_data/output\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Loading Data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "100%|██████████| 1/1 [00:00<00:00,  1.95it/s]"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of chunks = 81\n",
+      "The execution of the Project Risk Management process is dealt with in subsequent chapters of this practice standard and so is not discussed here. 2.2 Definition of Project Risk The word “risk” is used in many ways in everyday language and in various specialist disciplines. Its use in the PMBOK Guide – Fourth Edition is as follows: Project risk is an uncertain event or condition that, if it occurs, has a positive or a negative effect on a project’s objectives. This Definition includes two key dimensions of risk: uncertainty and effect on a project’s objectives. When assessing the importance of a project risk, these two dimensions must both be considered. The uncertainty dimension may be described using the term “probability” and the effect may be called “impact” (though other descriptors are possible, such as “likelihood” and “consequence”). The Definition of risk includes both distinct events which are uncertain but can be clearly described, and more general conditions which are less speciﬁ c but also may give risk to uncertainty. The Definition of project risk also encompasses uncertain events which could have a negative effect on a project’s objectives, as well as those which could have a positive effect. These two types of risk are called, respectively, threats and opportunities. It is important to address both threats and opportunities within a uniﬁed Project Risk Management process.\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "loader = DirectoryLoader(inputdirectory, show_progress=True)\n",
+    "documents = loader.load()\n",
+    "\n",
+    "splitter = RecursiveCharacterTextSplitter(\n",
+    "    chunk_size = 1500,\n",
+    "    chunk_overlap = 150,\n",
+    "    length_function = len,\n",
+    "    is_separator_regex = False,\n",
+    ")\n",
+    "\n",
+    "pages = splitter.split_documents(documents)\n",
+    "print(\"Number of chunks =\", len(pages))\n",
+    "print(pages[3].page_content)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Create a dataframe of all the chunks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(81, 3)\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>text</th>\n",
+       "      <th>source</th>\n",
+       "      <th>chunk_id</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>CHAPTER 1 INTRODUCTION Project Management Inst...</td>\n",
+       "      <td>TEXT_data\\risk_management_final.txt</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>While tools and techniques are constantly evol...</td>\n",
+       "      <td>TEXT_data\\risk_management_final.txt</td>\n",
+       "      <td>782faaacdd9b406e951d56b4a27a90b7</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>CHAPTER 1 − INTRODUCTION 1.2 Project Risk Mana...</td>\n",
+       "      <td>TEXT_data\\risk_management_final.txt</td>\n",
+       "      <td>3ed670feb91f4be5bc4b956bfb938497</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>The execution of the Project Risk Management p...</td>\n",
+       "      <td>TEXT_data\\risk_management_final.txt</td>\n",
+       "      <td>6465172d9a58460793682c555aa157e2</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>This allows for the gain of synergies and efﬁ ...</td>\n",
+       "      <td>TEXT_data\\risk_management_final.txt</td>\n",
+       "      <td>bf42d83208804dba90da47c449354dc8</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                                text  \\\n",
+       "0  CHAPTER 1 INTRODUCTION Project Management Inst...   \n",
+       "1  While tools and techniques are constantly evol...   \n",
+       "2  CHAPTER 1 − INTRODUCTION 1.2 Project Risk Mana...   \n",
+       "3  The execution of the Project Risk Management p...   \n",
+       "4  This allows for the gain of synergies and efﬁ ...   \n",
+       "\n",
+       "                                source                          chunk_id  \n",
+       "0  TEXT_data\\risk_management_final.txt  36c6789384b5483a8991ed1052c5e4b5  \n",
+       "1  TEXT_data\\risk_management_final.txt  782faaacdd9b406e951d56b4a27a90b7  \n",
+       "2  TEXT_data\\risk_management_final.txt  3ed670feb91f4be5bc4b956bfb938497  \n",
+       "3  TEXT_data\\risk_management_final.txt  6465172d9a58460793682c555aa157e2  \n",
+       "4  TEXT_data\\risk_management_final.txt  bf42d83208804dba90da47c449354dc8  "
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from helpers.df_helpers import documents2Dataframe\n",
+    "df = documents2Dataframe(pages)\n",
+    "print(df.shape)\n",
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from helpers.df_helpers import df2Graph\n",
+    "from helpers.df_helpers import graph2Df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+       "... very long to paste"
+     ]
+    }
+   ],
+   "source": [
+    "concepts_list = df2Graph(df, model='mistral')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dfg1 = graph2Df(concepts_list)\n",
+    "if not os.path.exists(outputdirectory):\n",
+    "        os.makedirs(outputdirectory)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dfg1.to_csv(outputdirectory/\"graph.csv\", sep=\"|\", index=False)\n",
+    "df.to_csv(outputdirectory/\"chunks.csv\", sep=\"|\", index=False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dfg1 = pd.read_csv('TEXT_data/output/graph.csv', sep='|')\n",
+    "df = pd.read_csv('TEXT_data/output/chunks.csv', sep='|')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dfg1.replace(\"\", np.nan, inplace=True)\n",
+    "dfg1.dropna(subset=[\"node_1\", \"node_2\", 'edge'], inplace=True)\n",
+    "dfg1['count'] = 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(783, 5)"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dfg1.shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>node_1</th>\n",
+       "      <th>node_2</th>\n",
+       "      <th>edge</th>\n",
+       "      <th>chunk_id</th>\n",
+       "      <th>count</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>project risk management processes</td>\n",
+       "      <td>pmbok guide – fourth edition</td>\n",
+       "      <td>The Project Risk Management processes are defi...</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>plan risk management</td>\n",
+       "      <td>chapter 1 (organizational context)</td>\n",
+       "      <td>Chapter 1 provides an introduction to Plan Ris...</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>perform qualitative risk analysis</td>\n",
+       "      <td>chapter 2 (performance domain)</td>\n",
+       "      <td>Chapter 2 provides a detailed description of P...</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>plan risk responses</td>\n",
+       "      <td>chapter 3 (planning domain)</td>\n",
+       "      <td>Chapter 3 provides a detailed description of P...</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>purpose and objectives of each process</td>\n",
+       "      <td>each chapter</td>\n",
+       "      <td>Each chapter in this practice standard address...</td>\n",
+       "      <td>36c6789384b5483a8991ed1052c5e4b5</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                   node_1                              node_2  \\\n",
+       "0       project risk management processes        pmbok guide – fourth edition   \n",
+       "1                    plan risk management  chapter 1 (organizational context)   \n",
+       "2       perform qualitative risk analysis      chapter 2 (performance domain)   \n",
+       "3                     plan risk responses         chapter 3 (planning domain)   \n",
+       "4  purpose and objectives of each process                        each chapter   \n",
+       "\n",
+       "                                                edge  \\\n",
+       "0  The Project Risk Management processes are defi...   \n",
+       "1  Chapter 1 provides an introduction to Plan Ris...   \n",
+       "2  Chapter 2 provides a detailed description of P...   \n",
+       "3  Chapter 3 provides a detailed description of P...   \n",
+       "4  Each chapter in this practice standard address...   \n",
+       "\n",
+       "                           chunk_id  count  \n",
+       "0  36c6789384b5483a8991ed1052c5e4b5      1  \n",
+       "1  36c6789384b5483a8991ed1052c5e4b5      1  \n",
+       "2  36c6789384b5483a8991ed1052c5e4b5      1  \n",
+       "3  36c6789384b5483a8991ed1052c5e4b5      1  \n",
+       "4  36c6789384b5483a8991ed1052c5e4b5      1  "
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dfg1.head(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>node_1</th>\n",
+       "      <th>node_2</th>\n",
+       "      <th>chunk_id</th>\n",
+       "      <th>count</th>\n",
+       "      <th>edge</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>19835</th>\n",
+       "      <td>work breakdown structure (wbs)</td>\n",
+       "      <td>system dynamics analysis</td>\n",
+       "      <td>59786994019441008498f8cd0aec6917,5978699401944...</td>\n",
+       "      <td>3</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19836</th>\n",
+       "      <td>work breakdown structure (wbs)</td>\n",
+       "      <td>system dynamics system (sd)</td>\n",
+       "      <td>59786994019441008498f8cd0aec6917,5978699401944...</td>\n",
+       "      <td>5</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19848</th>\n",
+       "      <td>workshops, interviews, or questionnaires</td>\n",
+       "      <td>data gathering tools</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19851</th>\n",
+       "      <td>workshops, interviews, or questionnaires</td>\n",
+       "      <td>project planning, budgeting, and scheduling</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>5</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19853</th>\n",
+       "      <td>workshops, interviews, or questionnaires</td>\n",
+       "      <td>quantitative analysis results</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>5</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                         node_1  \\\n",
+       "19835            work breakdown structure (wbs)   \n",
+       "19836            work breakdown structure (wbs)   \n",
+       "19848  workshops, interviews, or questionnaires   \n",
+       "19851  workshops, interviews, or questionnaires   \n",
+       "19853  workshops, interviews, or questionnaires   \n",
+       "\n",
+       "                                            node_2  \\\n",
+       "19835                     system dynamics analysis   \n",
+       "19836                  system dynamics system (sd)   \n",
+       "19848                         data gathering tools   \n",
+       "19851  project planning, budgeting, and scheduling   \n",
+       "19853                quantitative analysis results   \n",
+       "\n",
+       "                                                chunk_id  count  \\\n",
+       "19835  59786994019441008498f8cd0aec6917,5978699401944...      3   \n",
+       "19836  59786994019441008498f8cd0aec6917,5978699401944...      5   \n",
+       "19848  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...      2   \n",
+       "19851  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...      5   \n",
+       "19853  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...      5   \n",
+       "\n",
+       "                       edge  \n",
+       "19835  contextual_proximity  \n",
+       "19836  contextual_proximity  \n",
+       "19848  contextual_proximity  \n",
+       "19851  contextual_proximity  \n",
+       "19853  contextual_proximity  "
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def contextual_proximity(df: pd.DataFrame) -> pd.DataFrame:\n",
+    "    dfg_long = pd.melt(\n",
+    "        df, id_vars=[\"chunk_id\"], value_vars=[\"node_1\",\"node_2\"], value_name=\"node\"\n",
+    "    )\n",
+    "\n",
+    "    dfg_long.drop(columns = [\"variable\"], inplace=True)\n",
+    "    dfg_wide = pd.merge(dfg_long, dfg_long, on=\"chunk_id\", suffixes=(\"_1\", \"_2\"))\n",
+    "    self_loops_drop  = dfg_wide[dfg_wide[\"node_1\"]==dfg_wide[\"node_2\"]].index\n",
+    "    dfg2 = dfg_wide.drop(index = self_loops_drop).reset_index(drop=True)\n",
+    "\n",
+    "    dfg2=(\n",
+    "        dfg2.groupby([\"node_1\", \"node_2\"])\n",
+    "        .agg({\"chunk_id\":[\",\".join,\"count\"]})\n",
+    "        .reset_index()\n",
+    "    )\n",
+    "\n",
+    "    dfg2.columns = [\"node_1\", \"node_2\", \"chunk_id\", \"count\"]\n",
+    "    dfg2.replace(\"\", np.nan, inplace=True)\n",
+    "    dfg2.dropna(subset=[\"node_1\", \"node_2\"], inplace=True)\n",
+    "\n",
+    "    dfg2 = dfg2[dfg2[\"count\"] != 1]\n",
+    "    dfg2[\"edge\"] = \"contextual_proximity\"\n",
+    "    return dfg2\n",
+    "\n",
+    "dfg2 = contextual_proximity(dfg1)\n",
+    "dfg2.tail()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dfg = pd.concat([dfg1, dfg2], axis = 0)\n",
+    "dfg = (\n",
+    "    dfg.groupby([\"node_1\", \"node_2\"])\n",
+    "    .agg({\"chunk_id\": \",\".join, \"edge\": ','.join, 'count':'sum'})\n",
+    "    .reset_index()\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>node_1</th>\n",
+       "      <th>node_2</th>\n",
+       "      <th>chunk_id</th>\n",
+       "      <th>edge</th>\n",
+       "      <th>count</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>'confidence'</td>\n",
+       "      <td>data gathering tools</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "      <td>2</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>'confidence'</td>\n",
+       "      <td>project planning, budgeting, and scheduling</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>'confidence'</td>\n",
+       "      <td>quantitative analysis results</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>'correlation between risks'</td>\n",
+       "      <td>data gathering tools</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "      <td>2</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>'correlation between risks'</td>\n",
+       "      <td>project planning, budgeting, and scheduling</td>\n",
+       "      <td>51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...</td>\n",
+       "      <td>contextual_proximity</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                        node_1                                       node_2  \\\n",
+       "0                 'confidence'                         data gathering tools   \n",
+       "1                 'confidence'  project planning, budgeting, and scheduling   \n",
+       "2                 'confidence'                quantitative analysis results   \n",
+       "3  'correlation between risks'                         data gathering tools   \n",
+       "4  'correlation between risks'  project planning, budgeting, and scheduling   \n",
+       "\n",
+       "                                            chunk_id                  edge  \\\n",
+       "0  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...  contextual_proximity   \n",
+       "1  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...  contextual_proximity   \n",
+       "2  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...  contextual_proximity   \n",
+       "3  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...  contextual_proximity   \n",
+       "4  51a83bad1dc544f68546d703a7e816e6,51a83bad1dc54...  contextual_proximity   \n",
+       "\n",
+       "   count  \n",
+       "0      2  \n",
+       "1      5  \n",
+       "2      5  \n",
+       "3      2  \n",
+       "4      5  "
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "dfg.head(5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Calculate the NetworkX Graph"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(993,)"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nodes = pd.concat([dfg['node_1'], dfg['node_2']], axis = 0).unique()\n",
+    "nodes.shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import networkx as nx\n",
+    "G = nx.Graph()\n",
+    "\n",
+    "for node in nodes:\n",
+    "    G.add_node(\n",
+    "        str(node)\n",
+    "    )\n",
+    "\n",
+    "for index, row in dfg.iterrows():\n",
+    "    G.add_edge(\n",
+    "        str(row[\"node_1\"]),\n",
+    "        str(row[\"node_2\"]),\n",
+    "        title=row[\"edge\"],\n",
+    "        weight=row['count']\n",
+    "    )"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Calculate communities for coloring nodes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of Communities: 39\n",
+      "[[\"'confidence'\", \"'correlation between risks'\", \"'expected value of a project decision'\", \"'identity or location within the project model of the most important risks'\", \"'probability distribution of its potential impacts on cost or time'\", \"'probability of a risk occurring'\", \"'probability of achieving a project objective such as finishing on time or within budget'\", \"'set up a business structure in which the customer and the supplier share the risk'\", \"'technical feasibility; actions; and balance between overall impact of the response on the project objectives and the improvement in'\", 'assessment of historical data', 'data gathering tools', 'probability distribution of project completion dates or total costs', 'project communication planning', 'project planning, budgeting, and scheduling', 'pursue the project despite a risk exposure that exceeds the desired level', 'quantitative analysis results', 'workshops, interviews, or questionnaires'], [\"'high risk'\", '14–16 process ﬂ ow diagram', '17 project manager', '19–24, project management plan, 50', '20', '23', '28', '31–35, 34–35', '32 agreed-upon definitions of risk terms', '34 collecting and analyzing data', '34 comparison with quantitative risk analysis', '37–42, 40–42', '38 quantitative risk analysis', '39', '4 process', '40', '43–50, action planning, addressing threats and opportunities, critical success factors, communication with stakeholders, developing strategies before tactical responses, exposure, reviewing and documenting, interaction of risks and responses, ownership and responsibility assignment, project management plan and, purpose and objectives, quantitative risk analysis, resources, budget, and schedule, response identiﬁ cation, response selection, results, documenting, risk register and, roles and responsibilities, clear definition, steps involved, timing, specifying, tools and techniques', '4–5 project-related criteria', '50% confidence', '7.2.3 commitment to collecting high-quality risk data', 'a risk cannot be managed unless it is ﬁ rst identified.', 'access to high-quality function', 'accuracy of input', 'acquisition', 'acquisition and learning of specialized software', 'adapted to the complexity and sensitivity of the project', 'adapting the priority or management focus for additional analysis and as necessary triggering further risk management activities', 'adequate time for the analysis', 'adjusting the relative priority of tasks', 'adjustment', 'affected elements', 'agreed definitions', 'ahp', 'all participants', 'all team members', 'all team members concerned', 'allows for different documenting', 'allows identiﬁ cation of risks that may be related because of their common root causes.', 'analysis', 'analytic hierarchy process', 'analytic hierarchy process computations', 'appendix d risks responded to in the last period', 'appropriate levels of resources', 'appropriate project model', 'appropriate response strategy', 'approving risk responses', 'as a precondition for a successful implementation, it is important to have a clear understanding of the risk thresholds', 'assessing risk importance', 'assessing their impact', 'assumptions', 'assumptions & constraints analysis', 'assumptions list', 'audit of the risk management process', 'auditing risk responses', 'available resources', 'barrier to its use', 'barriers to effectiveness or keys to success in risk management', 'base plan success', 'benefit envisaged', 'benefits', 'benefits of quantitative risk analysis', 'beneﬁ t', 'bias', 'bias in risk data', 'bias should be identified and remedied where possible', 'broad range of sources', 'budgeting for risk management activities', 'buffers', 'calculating estimates of overall project risk', 'calculation', 'category', 'cause', 'cause and effect (ishikawa) diagrams', 'causes', 'ccpm', 'changes to', 'chapter 1 (organizational context)', 'chapter 2 (performance domain)', 'chapter 3 (planning domain)', 'chapter 5', 'chapter 7', 'characteristics', 'checklist', 'choice of list relevant thinking to identify risks', 'circumstance under which a risk strategy or risk action will be invoked', 'circumstances', 'cognitive and motivational bias', 'cognitive bias and motivational bias', 'collection of high-quality information about risks', 'comment acceptance rate', 'common root cause', 'common understanding and agreement of the team and other stakeholders', 'communication', 'communications plan', 'comparison of qualitative and quantitative approaches', 'completeness and correctness of the model of the project', 'complex change request', 'complexity', 'complicated situations', 'comprehensive risk representation', 'condition or situation favorable to the project, a positive set of circumstances, a positive set of events, a risk that will have a positive impact on project objectives, or a possibility for positive changes', 'condition or situation unfavorable to the project', 'conditional future events or conditions', 'conditions for responses', 'conditions which would matter if they did occur', 'consequence', 'consistent with the value of the project to the organization', 'consolidation of information', 'constantly evolving tools and techniques', 'contingency in time and cost', 'contingency plan', 'contingency reserve', 'contingency reserve estimation', 'contingency reserves', 'contingency reserves (time and cost)', 'core experience of participants', 'correlated risks', 'correlated risks or root cause', 'corresponding reserve', 'corresponding risk', 'cost', 'cost estimate', 'cost, time, and scope', 'coverage of omissions', 'creativity level', 'creativity of selecting responses', 'critical chain project management (ccpm)', 'critical success factors for the identify risks process', 'critical success factors for the monitor and control risks process', 'critical values', 'cross-cultural environment', 'current status', 'customer mistrust', 'd.3.1 techniques for perform qualtitative risk analysis', 'data about project elements and risks', 'data collection', 'data gathered from individuals', 'data gathering', 'data relationship with earlier data', 'day-to-day management of the project', 'day-to-day project risk management', 'deal with', 'decision option', 'decision structure', 'decision tree', 'decision tree analysis', 'decision trees', 'decision-support tools', 'decisions in the face of uncertainty', 'definition', \"definition of criteria for ‘unacceptable threats’ and ‘un-missable opportunities'\", 'definitions', 'definitions for levels of probability and impact', 'definitions for levels of probability and impact on four specific objectives', 'definitions of important terms', 'degree of risk', 'degree of variation from the baseline', 'delivering a successful project', 'description', 'description of the closure of every risk', 'detailed brieﬁ ng of other risk identiﬁ cation techniques such as brainstorming', 'detailed level project risk', 'detailed tasks or line-item costs', 'determines appropriate response strategies and actions for each individual risk and for overall project risk, and integrates them into a consolidated project management plan.', 'determining suitable risk actions', 'deterministic assumption', 'development', 'development and implementation of risk responses', 'different approaches to project risk management', 'different, unbiased source of information', 'distinct events', 'document', 'document templates', 'documenting results', 'earlier project stages', 'early identification', 'effect', 'effect of uncertainty on the project as a whole', 'effective organization', 'effective project risk management', 'effective risk management', 'effectiveness of these responses', 'effects', 'efficiency', 'effort and expertise of the risk analyst', 'efﬁ ciencies', 'elements of', 'emergent identification', 'emergent risk', 'emv', 'entities and information flows', 'environment', 'environment of trust, open relationship all participants to contribute', 'environment of trust, open relationship among all participants', 'environmental impacts', 'escalating identified risks', 'estimates', 'estimating techniques', 'evaluates key characteristics of individual risks enabling them to be prioritized for further action.', 'evaluation of likelihood of success', 'event occurring (e.g., major problems)', \"event or condition that affects project's objectives\", 'events or circumstances', 'events or circumstances which currently exist or are certain to exist in the future', 'example of approaches', 'existence of other potential causes', 'existing organizational introduction', 'expected events', 'expected monetary value (emv)', 'expert facilitator in management', 'expert judgment', 'exposes unexpected intuitive insights', 'exposure', 'exposure draft', 'external (opportunities and threats)', 'extra cost', 'feed-back and feed-forward loops', 'feeding buffers', 'figure d11.', 'figure d13', 'financial practices', 'focus', 'frequency', 'frequency of effort', 'full risk management cycle', 'generally applicable guidelines for the organization', 'generates non-risks, questioning skills', 'global context', 'glossary risk register', 'governance-related rules of reporting and disclosure', 'guide - third edition', 'guidelines for a pmi practice standard a.1', 'high impact', 'high risk (h), moderate risk (m) and low risk (l) classes', 'high-quality risk data', 'historic database', 'historical information', 'historical review', 'how likely is the project actual cost confidence in the results?', 'how likely is the project to complete on the schedule date or earlier?', 'how risk is regarded', 'how should the design of the product or system be changed most economically to increase its reliability?', 'identification and analysis of risks', 'identification, documentation, and validation of assumptions', 'identified and quantified risks', 'identified project risk', 'identify risks', 'identify risks and perform qualitative analysis processes', 'identify risks and perform qualitative risk analysis processes', 'identify risks process', 'identify risks process as defined in the project plan', \"identifying and managing proactively and deliberately stakeholders' risk attitudes\", 'impact', 'impact on objectives', 'impact on project objective', 'impact on the plans', 'impact scales, probability scales, pxi matrices', 'impact(s) on objectives', 'impact, high', 'important to address within a uniﬁed project risk management process', 'impossible to know in advance all the risks that may occur in a project', 'improved analysis of project risks', 'improvements in risk management', 'increased cost', 'indicative start estimates', 'individual objectives', 'individual risk', 'individual risks', 'individual risks (in the project model)', 'individual risks on a project', 'industrial relations', 'industry knowledge base', 'influence diagrams', 'influence over the project and its deliverables', 'informal/formal', 'information', 'information gathering about risk', 'initial stages of a project', 'initiating cause', 'initiation step', 'integrated analysis of the risk management process', 'interests positively or negatively affected by execution or completion of the project', 'international, cross-industry, or multi-organizational', 'interrelationships between risks', 'interviews, workshops, and other means', 'interviews, workshops, and other means using expert judgment of those present', 'isbn 0-11331038-2', 'issue', 'issues', 'issues or problems', 'iterative identification', 'iterative nature of identify risks process', 'iterative process', 'judgemental to the project team', 'key ideas', 'key milestones in the project', 'key project decisions', 'key risk drivers', 'key stakeholders’ views on acceptable levels of risk', 'knowledge areas', 'later phases of the project were typically started before the earlier ones were sufﬁ ciently mature', 'later project stages', 'learning', 'lessons applicable in general to a large proportion of the organization’s projects', 'lessons learned', 'lessons learned process', 'lessons to be added to the organizational process assets', 'level of detail', 'level of project risk', 'level of risk exposure', 'levels', 'levels of probability', 'lifespan of the corresponding project', 'likelihood', 'line-item cost estimates', 'line-item costs', 'list of project risks', 'london, uk: the stationery ofﬁ ce', 'long-term process improvements', 'low team morale', 'maintaining acceptable risk exposure', 'major plan elaboration', 'making decisions', 'management and other stakeholders', 'management of risk—guidance for practitioners', 'may adopt different risk attitudes at various stages in the same project', 'may differ from one project to another for the same stakeholders', 'methodology that correctly derives the overall project risk from the individual risks', 'monitor and control risks', 'monitor and control risks process', 'monitoring', 'monte carlo analysis', 'monte carlo simulation', 'monte carlo simulation tools', 'more general conditions', 'negative impact on a project objective if it occurs', 'new risks', 'no valid risk', 'nominal group technique', 'non-probabilistic approach', 'none comprehensive rbs', 'objective', 'objectives', 'objectives beyond the tolerance of stakeholders', 'objectives of project risk management', 'occurrence', 'often', 'open and honest communication', 'open and honest communication about risk', 'opportunities', 'opportunities addressing threats and', 'opportunities and threats', 'opportunity', 'optimal potential response', 'organization', \"organization's culture\", \"organization's preference among objectives\", \"organization's risk tolerance\", 'organizational constraints', 'organizational culture, processes and assets', 'organizational management', 'organizational process assets', 'organizational processes', 'organizational strengths and weaknesses', 'organizations', 'organization’s level of risk tolerance', 'organization’s management or project stakeholders', 'organization’s objectives, policies, and practices compliance', 'other project management processes', 'outcome', 'overall project', 'overall project communications strategy', 'overall project priority list of risks', 'overall project risk', 'overseeing risk management by subcontractors and suppliers', 'owners', 'p (person)', 'p-i matrix', 'pair-wise comparison of objectives', 'partial risk analyses', 'participation of all types of risk', 'particular risk', 'percentages', 'perform qualitative risk analysis', 'perform qualitative risk analysis process', 'perform quantitative risk analysis', 'perform quantitative risk analysis process', 'periodic audits', 'periodically throughout the project', 'person or organization', 'person responsible', 'person responsible for carrying out the approved risk actions', 'plan risk management', 'plan risk management process', 'plan risk responses', 'plan risk responses process', 'planning and execution', 'planning meetings and analysis', 'planning sessions', 'plans', 'pmbok guide - fourth edition', 'pmbok guide - third edition', 'pmi practice standard', 'positive effect on a project objective', 'positive saving in time or cost, or increased functionality', 'post-project reviews/ lessons learned/ historical information', 'post-project reviews/ lessons learned/ historical information (chapter 6)', 'potential actions proposed', 'potential responses', 'practices described in sections 5.2.1 through 5.2.10', 'predictable common cause variation', 'preference for one project objective over another', 'previous mistakes/opportunities', 'principles', 'principles of project risk management', 'prior risk identiﬁcation', 'prior risk management analysis', 'prioritization of project objectives', 'prioritize each project objective', 'prioritized list of identified risks', 'probabilities of change with relatively plausible changes in the input data', 'probability', 'probability and impact matrix', 'probability and impact matrix (p-i matrix)', 'probability and impact of all risks', 'probability and impacts', 'probability models', 'probability of meeting the project’s objectives', 'probability of occurrence', 'probability of occurring', 'problem', 'process-related criteria', 'progress and spending', 'progressive elaboration of the project', 'project', 'project baseline or specified thresholds', 'project budget', 'project charter', 'project closure', 'project cost or project schedule many times using input values, selected at random from probability distributions of possible costs or durations, to calculate a distribution of possible total project cost or completion dates', 'project definition documents', 'project description', 'project elements', 'project execution', 'project life cycle', 'project lifecycle', 'project management', 'project management community', 'project management monitoring and control capabilities', 'project management plan', 'project management process effectiveness', 'project manager', \"project manager's role for project risk management\", 'project model', 'project monitoring and control', 'project objectives', 'project objectives (time, cost, quality, scope)', 'project objectives, elements, or tasks', 'project outcomes', 'project performance', 'project plan (baseline or current)', 'project planning', 'project planning cycle', 'project progress', 'project re-planning', 'project resourced project', 'project reviews', 'project risk', 'project risk analysis', 'project risk management', 'project risk management process', 'project risk priority list', 'project risks', 'project scale', 'project schedule', 'project scope', 'project situation', 'project stages', 'project stakeholders', 'project strategy', 'project success criteria', 'project team', 'project teams', \"project's objectives\", 'project-related criteria', 'project-related features (time and cost)', 'projects', 'projects where quantified risks threaten', 'project’s experience of risks', 'project’s objectives', 'project’s scheduling techniques', 'prompt list', 'proposed responses', 'proposed scope changes', 'providers of information', 'provides ideal base for dominant members who feel it is moving slowly', 'public commitments', 'purpose and objectives of risk management', 'q qualitative risk analysis agreed-upon approach', 'qualitative and quantitative risk analysis processes', 'qualitative risk analysis', 'qualitative risk analysis agreed-upon approach', 'qualitative risk analysis may be appropriate for smaller projects', 'qualitative/quantitative risk analysis', 'quality', 'quality metrics', 'quantitative methods', 'quantitative models', 'quantitative risk analysis', 'quantitative risk analysis process', 'quantitative techniques', 'rate at which each such buffer is used during project execution', 'recognizing when biases occur and combating that bias or developing other unbiased sources of the data', 'reduced functionality', 'regular maintenance', 'related risks', 'relevant risk and response strategy', 'repeated audits', 'reporting', 'reporting or intentional bias', 'requires disciplined determination of appropriate structure', 'reserve analysis', 'reserves', 'resources', 'resources and time as well as management support', 'response strategy', 'responses taken early', 'restriction', 'results', 'results of risk analysis', 'review and update frequency', 'rework', 'risk', 'risk action', 'risk action owner', 'risk analysis', 'risk analysis of cost and schedule', 'risk assessment', 'risk attitudes', 'risk audits', 'risk awareness throughout the project', 'risk breakdown structure (rbs)', 'risk breakdown structures (rbs)', 'risk categories', 'risk categorization', 'risk decisions', 'risk event', 'risk events', 'risk exposure', 'risk identification', 'risk identification process', 'risk identification questionnaire', 'risk identiﬁcation process', 'risk impact calculation', 'risk management', 'risk management activities', 'risk management information', 'risk management methodology', 'risk management plan', 'risk management planning', 'risk management processes', 'risk management reports', 'risk management rules', 'risk management within the project', 'risk metalanguage', 'risk model', 'risk models', 'risk monitoring and control', 'risk monitoring and controlling', 'risk occurrence', 'risk owner', 'risk owner plan risk responses', 'risk prioritization index', 'risk reassessment', 'risk reassessment process d.6.1.4 status meetings', 'risk register', 'risk response planning decisions', 'risk response plans, tracking identified risks, monitoring residual risks, identifying new risks, evaluating the risk process throughout the project life cycle', 'risk response strategies', 'risk responses', 'risk status reports', 'risk that arises as a direct result of implementing a risk response', 'risk threshold', 'risk thresholds', \"risk's impact on project elements\", 'risk-related plans and processes', 'risks', 'risks not on the list will threats, misses opportunities', 'risks related to deliverables (performance)', \"risks' priority\", 'role in project management', 'root cause', 'root cause analysis', 'root cause of risks', 'root-cause analysis (chapter 6)', 'rules of escalation', 'scalability', 'scalable elements', 'scale of the project', 'schedule activities', 'schedule duration, budget, estimated cost, or funds', 'schedule risk', 'schedule risks', 'schedule slips', 'schedules', 'scheduling of risk management activities', 'scope', 'scope and objectives', 'secondary risk', 'secondary risks', 'senior management', 'senior management support', 'senior-level sponsor', 'several risks', 'significant change to the project or its operating environment', 'significant process', 'simple questions', 'simulation', 'single stakeholder', 'something toward which work is to be directed, a strategic position to be attained or a purpose to be achieved, a result to be obtained, a product to be produced, or a service to be performed', 'special causes', 'special software', 'specialized software', 'specialized software implementing ahp', 'specific events or conditions that might affect project objectives', 'specific objectives', 'specific uncertain event or condition', 'specification', 'spreadsheet implementation', 'square decision node', 'stakeholder', 'stakeholders', 'stakeholders or management', \"stakeholders' overall activities\", \"stakeholders' perception of risk management effectiveness\", \"stakeholders' sensitivity\", 'standard submission', 'status meeting agenda', 'status of each risk', 'strategic decision-making, program and portfolio management, and project governance', 'strengths', 'subsequent chapters of this practice standard', 'success depends on the coverage of the questions', 'swot analysis', 'swot analysis structure', 'synergies', 'system dynamics', 'system dynamics analysis', 'system dynamics system (sd)', 'table d3', 'table d3 and d.3.1.1 through d.3.1.3', 'table d3. techniques for perform qualitative risk analysis (continued)', 'team members', 'technique', 'techniques for perform qualitative risk analysis', 'templates', 'terms for probability', 'the combined impact of individual risks on the entire project', 'this organization', 'threat', 'threats', 'threats and opportunities', 'thresholds, weights and other parameters', 'time', 'time buffers', 'time delays', 'tools', 'tools and techniques used', 'tools for tracking overall risk', 'top priority risks at present', 'total project', 'tracking', 'tracking the state of the reserve', 'trend analysis', 'trends and future outcomes', 'trigger condition', 'trigger conditions', 'types of bias which commonly affect the risk process', 'uk ofﬁ ce of government commerce (ogc)', 'uncertain activity durations', 'uncertain cost elements', 'uncertain event or condition', 'uncertain future event or condition', 'uncertain future events or conditions', 'uncertainty', 'uncertainty or instability', 'uncertainty or represented by a range of values', 'uncertainty representation', 'understanding of the specialized software', \"understanding stakeholders' attitudes toward risk\", 'unknowable or emergent risks', 'urgency', 'usage', 'use of tools', 'user', 'variance analysis', 'variance thresholds', 'verifying information about the status of risks', 'way risks are handled as they occur and number or characteristics of such events', 'wbs elements', 'weaknesses', 'weighting of project objectives', 'what are the individual risks that seem to be the most important in determining the overall project risk?', 'what is the status of the actions?', 'will usually differ from one group of stakeholders to another', 'willingness', 'work breakdown structure (wbs)'], ['1', '23 ballots returned', '25 april 2009', '27 march 2009', '28 members', 'afﬁrmative with comment', 'appendix c', 'balloting period', 'consensus body voting results', 'contributors and reviewers of the practice standard for project risk management', 'future revisions of the standard and possible improvements to the comment adjudication process', 'individuals who have contributed to the development', 'pm and deputy pm for this standard', 'pmi standards manager', 'pmi standards program consensus body', 'pmi standards program mag', 'project management profession'], ['a combination of the risk analysis information with the work breakdown structure', 'which areas of the project exhibit the most risk'], ['additional individuals', 'crispin “kik” piney, bsc, pmp', 'cynthia ann berg, phd, pmp', 'david t. hulett, phd, deputy project manager', 'dr. david hillson frsa, firm', 'individuals listed above (cynthia ann berg, david t. hulett, dr. david hillson, kristine persun, crispin ‘kik’ piney, kristin l. vitello and nan wolfslayer)', 'jeannette horne', 'kristin l. vitello', 'kristine persun, ma, pmp', 'nan wolfslayer, astd, standards compliance specialist', 'practice standard for project risk management project team', 'project core team', 'project core team (pct)'], ['ahmad khairiri abdul ghani', 'amr nabil ahmed', 'ananthalakshmi anbuselvan jagathnarayanan', 'angyan, fie, ce', 'archie addo', 'asif m ahmad', 'be, pmp', 'bernard lindekens', 'blaine w. boxwell, mba, pmp', 'capm', 'carlos eduardo m. f. braga', 'ce', 'chukwudi anakudo', 'cisa', 'cissp', 'dave m. bond', 'david benfell', 'david larson', 'douglas a. berry', 'elise labre', 'gail ellen bartz', 'guilherme pereira lima', 'henry lie', 'jandson f. costa', 'jason eddinger', 'javier r. lopez', 'jessica ferreira', 'jeyakumar krishamoorthy', 'jose correia alberto', 'kiron bondale', 'krishna', 'lars kruse', 'leonardo f. gonzales', 'mamoun besaiso', 'maria carolina gonzales', 'mba', 'mba, pmp', 'meng, citp', 'michael avery', 'paul s. bennett', 'pe', 'pe, mba', 'pedro a. pacheco', 'pedro a. pacheco, javier r. lopez', 'pmp', 'pmp, dba', 'pmp, msc', 'pmp, phd', 'polisetty veera subrahmanya kumar', 'priumvada agarwal', 'renato lourenço da silva', 'ricardo a. santos', 'rodrigo ariza pedro carlos auler', 'sai swaminathan baba subramanyan', 'salvador alvarez', 'sandra b. souza', 'sandra b. souza, jandson f. costa', 'sasi kumar', 'teddy alton barnes', 'timothy birus', 'upinder aggarwal', 'valeria brito', 'valeria brito, vania silva', 'vania silva', 'vasco santos', 'vijaya kurada', 'wei lee'], ['alexey d. zimin', 'amanda freitick', 'asbjørn rolstadås, phd, ing', 'c.5 pmi standards member advisory group', 'carol holliday, ma, pmp', 'chris cartwright, mpm, pmp', 'david violette, mpm, pmp', 'david w. ross, pmp, pgmp', 'deborah o’bray, cim (hons)', 'donn greenberg', 'douglas clark', 'e. wencel', 'former standards manager at pmi', 'john zlockie, mba, pmp', 'julia m. bednar, pmp', 'manager, publications at pmi', 'paul e. shaltry, pmp', 'pmbok guide – fourth edition', 'pmi standards member advisory group (mag)', 'pmi standards program administrator', 'project risk management processes', 'rafael piña quintal', 'ruth anne guerrero, mba, pmp', 'terry cooke-davies, phd fcmi', 'tools and techniques for project risk management'], ['alignment with relevant information', 'any other features that may affect the urgency of dealing with a risk', 'application area-specific process', 'appropriate context', 'background description', 'd.1.1.3 risk statement', 'd.1.1.4 risk prioritization and selection guidelines', 'definitions, by project objective', 'development of the first practice standard for project risk management', 'discussion of its strengths and weaknesses', 'eg: one linked to a resource that will soon disappear', 'examples', 'exploration for development', 'extension practice standard', 'first practice standard', 'formal structure for a risk statement', 'guidelines may be used in perform quantitative risk analysis', 'guidelines may be used in plan risk response planning', 'identify risks section of this appendix', 'metalanguage', 'numerical ‘weights’', 'plan risk response planning', 'pmi', 'practice standard for project risk management', 'probability and impact scales', 'relative importance to be assigned to these objectives', 'risk statement', 'single weighted sum over all objectives for each risk'], ['all of these approaches', 'the realism and usefulness of the qualitative risk analysis'], ['allows benchmarking previously happened', 'careful selection of document review', 'delphi technique', 'excludes project-speciﬁ c information', 'exposure to detailed tools', 'fmea/fault tree analysis', 'good tool support', 'limited to technical risks expertise of experts', 'may take longer time than careful selection of document review', 'not of the area being assessed', 'not so useful for opportunities', 'of factors that affect project objectives', 'prioritized objectives experience', 'requires expert tools', 'see chapter 7', 'so does not provide whole-project view', 'statistically accurate understanding', 'time-consuming and single objective'], ['andrew fry', 'cma, pmp kamlesh gandhi, pmp, pqs'], ['ashok jain, pmp, itil', 'bruce c. chadbourne, pmp, pgmp', 'carl l. pritchard, pmp, pmi-rmp', 'carlos r. ponce de leon', 'christoph werner jacobi', 'cqa, pmp marlene carnevali', 'david r. soto', 'dirk pons', 'felicia elizabeth hong, pmp, mba', 'ignacio a. moreno', 'jame healy', 'javier a. vidal', 'jesus a. lozano', 'jorge j. sanz', 'juan j. arcos', 'kenneth p. katz pmp', 'kristian hurt', 'manuel huerta', 'marina c. baez', 'marlene carnevali', 'miguel a. holgado', 'patricia cohen', 'pmp walter hekala', 'ramesh d. kandadai, member rsig', 'sergio a. calvo abarca', 'shirley hinton, pmp', 'steve charters mapm msc', 'syed asad jawed c.c.e', 'tomio chiba, pmp', 'wendra collet, mpm'], ['assessing individual risks', 'assessment of individual risks', 'data collection and evaluation tools', 'figure 6-2', 'information collected about them', 'listing of risks in priority order or groups (e.g., high, moderate, low)', 'management support and attention', 'organization or project stakeholders', 'qualitative risk analysis process', 'qualitative risk analysis tools', 'risks of interest to management', 'risks that are important to the project’s success', 'tools and techniques'], ['assessing the high-priority risks’ impact on one objective, such as the schedule', 'indicate which activities to address to reduce that objective’s uncertainty'], ['chapter 4', 'd.1 techniques, examples and templates for risk management planning'], ['clusters of priority risks arising from speciﬁ c sources', 'combining the results of the perform qualitative risk analysis process with the risk breakdown structure'], ['communication of the results', 'specific needs of each stakeholder'], ['comprehensive input from stakeholders', 'risk identiﬁ cation and analysis'], ['credibility of the process', 'understanding and seen as credible by all concerned'], ['each chapter', 'purpose and objectives of each process'], ['eduardo fleischer appendix c', 'leslie fiedler'], ['effective and honest communication', 'project risk management process to the rest of the project team'], ['example of an approach', 'table d1'], ['geneviève faragó, pmp', 'giovanni fanduiz'], ['george jackelen', 'ramona jackson dhanojkumar jadhav ayo jemiri, ms, pmp stephen michael johns kenneth e. johnson, mba, pmp valeri jonas, ba (honours), oxon roy joslin krishna kallapur, pmp rita kaul mariya kehoe rameshchandra b. ketharaju amir ahmed kheir behrad khodabandeh khosrowkhah ali akbar khosrowpour mahnaz khorasani sadegh kolahdooz mirza kazem koohbanani alireza korouby mohammad kowsari hamidreza lajevardi amineddin lankarani elaheh latifpour'], ['identifying common root causes of a group of risks', 'magnitude of the risk event for the group as a whole along with effective strategies'], ['identifying risks that can occur at the same time or using the same resources for recovery', 'problems of risk mitigation using scarce resources'], ['individuals and groups', 'risk attitude'], ['joel erickson', 'rodrigo fernandes espirito santo'], ['kirby fortenberry', 'pmp lynn francis michelle l. franklin, pmp tracy fritz'], ['linked with others in a causal chain', 'some risks'], ['maliha elahi', 'msc, pmp'], ['msc, pmp tina gilrein, pmp, mpm', 'nélio gaspar'], ['norman epstein', 'pmp, mba'], ['pmp balasubramaniam hari gopal, fca, pmp chandrashekar hassan henry hattenrath david a. haugh, pmp john hendricks, ms, pmp arnold a. hill, pmp rosemarie a. hilt, mba, pmp george hopman, phd, pe sean hugo john humphrey walter hussey, pmp', 'robert w. harding'], ['pmp, mpm silvio hernan giraldo, pmp, cbcp vikram godboley vivek goel, pmp francisco gomez', 'tina gilrein'], ['pmp, pgmp ronald r.goodwin, pmp priyesh gopalakrishnan robert grant steve grunewald denise m. guerin sanjay gupta, pmp cristine gusmão, phd heidi ann hahn, phd, pmp laurie hall', 'serge goncharov'], ['possibility and magnitude of project risk', 'understanding'], ['potential causes of risk', 'risk category']]\n"
+     ]
+    }
+   ],
+   "source": [
+    "communities_generator = nx.community.girvan_newman(G)\n",
+    "top_level_communities = next(communities_generator)\n",
+    "next_level_communities = next(communities_generator)\n",
+    "communities = sorted(map(sorted, next_level_communities))\n",
+    "\n",
+    "print(\"Number of Communities:\", len(communities))\n",
+    "print(communities)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Create a dataframe for community colors"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import seaborn as sns\n",
+    "palette = \"hls\"\n",
+    "\n",
+    "def colors2Community(communities) -> pd.DataFrame:\n",
+    "\n",
+    "    p=sns.color_palette(palette, len(communities)).as_hex()\n",
+    "    random.shuffle(p)\n",
+    "    rows = []\n",
+    "    group=0\n",
+    "\n",
+    "    for community in communities:\n",
+    "        color = p.pop()\n",
+    "        group+=1\n",
+    "        \n",
+    "        for node in community:\n",
+    "            rows += [{\"node\": node, \"color\": color, \"group\": group}]\n",
+    "    \n",
+    "    df_colors = pd.DataFrame(rows)\n",
+    "    return df_colors"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>node</th>\n",
+       "      <th>color</th>\n",
+       "      <th>group</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>'confidence'</td>\n",
+       "      <td>#57db5f</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>'correlation between risks'</td>\n",
+       "      <td>#57db5f</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>'expected value of a project decision'</td>\n",
+       "      <td>#57db5f</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>'identity or location within the project model...</td>\n",
+       "      <td>#57db5f</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>'probability distribution of its potential imp...</td>\n",
+       "      <td>#57db5f</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "                                                node    color  group\n",
+       "0                                       'confidence'  #57db5f      1\n",
+       "1                        'correlation between risks'  #57db5f      1\n",
+       "2             'expected value of a project decision'  #57db5f      1\n",
+       "3  'identity or location within the project model...  #57db5f      1\n",
+       "4  'probability distribution of its potential imp...  #57db5f      1"
+      ]
+     },
+     "execution_count": 73,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "colors = colors2Community(communities)\n",
+    "colors.head(5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Add colors to the graph"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for index, row in colors.iterrows():\n",
+    "    G.nodes[row['node']]['group'] = row['group']\n",
+    "    G.nodes[row['node']]['color'] = row['color']\n",
+    "    G.nodes[row['node']]['size'] = G.degree[row['node']]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from pyvis.network import Network "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "graph_output_directory = \"./docs/index.html\"\n",
+    "\n",
+    "net = Network (\n",
+    "    notebook = False,\n",
+    "    cdn_resources = \"remote\",\n",
+    "    height = \"900px\",\n",
+    "    width = \"100%\",\n",
+    "    select_menu = True,\n",
+    "    filter_menu = False,\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "./docs/index.html\n"
+     ]
+    }
+   ],
+   "source": [
+    "net.from_nx(G)\n",
+    "net.force_atlas_2based(central_gravity = 0.015, gravity = -31)\n",
+    "net.show_buttons(filter_= [\"physics\"])\n",
+    "net.show(graph_output_directory, notebook=False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "RA_KG",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
