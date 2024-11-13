@@ -1,0 +1,1 @@
+9.3.4 tracking compliance in order to monitor the quality of the execution of the risk related plans and processes a set of quality metrics such as degree of variation from the baseline should be tracked and recorded. these metrics will normally have been defined in the risk management plan.

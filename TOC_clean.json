@@ -1,0 +1,726 @@
+[
+    {
+        "type": "Chapter",
+        "number": "1",
+        "title": "INTRODUCTION",
+        "page": 13,
+        "children": [
+            {
+                "number": "1.1",
+                "title": "Purpose of the Practice Standard for Project Risk Management",
+                "page": 14,
+                "children": []
+            },
+            {
+                "number": "1.2",
+                "title": "Project Risk Management Definition",
+                "page": 16,
+                "children": []
+            },
+            {
+                "number": "1.3",
+                "title": "Role of Project Risk Management in Project Management",
+                "page": 16,
+                "children": []
+            },
+            {
+                "number": "1.4",
+                "title": "Good Risk Management Practice",
+                "page": 17,
+                "children": []
+            },
+            {
+                "number": "1.5",
+                "title": "Critical Success Factors for Project Risk Management",
+                "page": 18,
+                "children": []
+            },
+            {
+                "number": "1.6",
+                "title": "Conclusion",
+                "page": 19,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "2",
+        "title": "PRINCIPLES AND CONCEPTS",
+        "page": 21,
+        "children": [
+            {
+                "number": "2.1",
+                "title": "Introduction",
+                "page": 21,
+                "children": []
+            },
+            {
+                "number": "2.2",
+                "title": "Definition of Project Risk",
+                "page": 21,
+                "children": []
+            },
+            {
+                "number": "2.3",
+                "title": "Individual Risks and Overall Project Risk",
+                "page": 22,
+                "children": []
+            },
+            {
+                "number": "2.4",
+                "title": "Stakeholder Risk Attitudes",
+                "page": 22,
+                "children": []
+            },
+            {
+                "number": "2.5",
+                "title": "Iterative Process",
+                "page": 23,
+                "children": []
+            },
+            {
+                "number": "2.6",
+                "title": "Communication",
+                "page": 23,
+                "children": []
+            },
+            {
+                "number": "2.7",
+                "title": "Responsibility for Project Risk Management",
+                "page": 24,
+                "children": []
+            },
+            {
+                "number": "2.8",
+                "title": "Project Manager ’s Role for Project Risk Management",
+                "page": 24,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "3",
+        "title": "INTRODUCTION TO PROJECT RISK MANAGEMENT PROCESSES",
+        "page": 25,
+        "children": [
+            {
+                "number": "3.1",
+                "title": "Project Risk Management and Project Management",
+                "page": 25,
+                "children": []
+            },
+            {
+                "number": "3.2",
+                "title": "Project Risk Management Processes",
+                "page": 26,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "4",
+        "title": "PLAN RISK MANAGEMENT",
+        "page": 31,
+        "children": [
+            {
+                "number": "4.1",
+                "title": "Purpose and Objectives of the Plan Risk Management Process",
+                "page": 31,
+                "children": []
+            },
+            {
+                "number": "4.2",
+                "title": "Critical Success Factors for the Plan Risk Management Process",
+                "page": 33,
+                "children": [
+                    {
+                        "number": "4.2.2",
+                        "title": "Involve Project Stakeholders in Project Risk Management",
+                        "page": 34,
+                        "children": []
+                    },
+                    {
+                        "number": "4.2.3",
+                        "title": "Comply with the Organization ’s Objectives , Policies , and Practices",
+                        "page": 34,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "4.3",
+                "title": "Tools and Techniques for the Plan Risk Management Process",
+                "page": 34,
+                "children": [
+                    {
+                        "number": "4.3.1",
+                        "title": "Planning Sessions",
+                        "page": 34,
+                        "children": []
+                    },
+                    {
+                        "number": "4.3.2",
+                        "title": "Templates",
+                        "page": 35,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "4.4",
+                "title": "Documenting the Results of the Plan Risk Management Process",
+                "page": 35,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "5",
+        "title": "IDENTIFY RISKS",
+        "page": 37,
+        "children": [
+            {
+                "number": "5.1",
+                "title": "Purpose and Objectives of the Identify Risks Process",
+                "page": 37,
+                "children": []
+            },
+            {
+                "number": "5.2",
+                "title": "Critical Success Factors for the Identify Risks Process",
+                "page": 37,
+                "children": [
+                    {
+                        "number": "5.2.1",
+                        "title": "Early Identification",
+                        "page": 37,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.2",
+                        "title": "Iterative Identification",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.3",
+                        "title": "Emergent Identification",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.4",
+                        "title": "Comprehensive Identification",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.5",
+                        "title": "Explicit Identification of Opportunities",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.6",
+                        "title": "Multiple Perspectives",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.7",
+                        "title": "Risks Linked to Project Objectives",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.8",
+                        "title": "Complete Risk Statement",
+                        "page": 38,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.9",
+                        "title": "Ownership and Level of Detail",
+                        "page": 39,
+                        "children": []
+                    },
+                    {
+                        "number": "5.2.10",
+                        "title": "Objectivity",
+                        "page": 39,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "5.3",
+                "title": "Tools and Techniques for the Identify Risks Process",
+                "page": 39,
+                "children": [
+                    {
+                        "number": "5.3.1",
+                        "title": "Historical Review",
+                        "page": 40,
+                        "children": []
+                    },
+                    {
+                        "number": "5.3.2",
+                        "title": "Current Assessments",
+                        "page": 40,
+                        "children": []
+                    },
+                    {
+                        "number": "5.3.3",
+                        "title": "Creativity Techniques",
+                        "page": 40,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "5.4",
+                "title": "Documenting the Results of the Identify Risks Process",
+                "page": 41,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "6",
+        "title": "PERFORM QUALITATIVE RISK ANALYSIS",
+        "page": 43,
+        "children": [
+            {
+                "number": "6.1",
+                "title": "Purpose and Objectives of the Perform Qualitative Risk Analysis Process",
+                "page": 43,
+                "children": []
+            },
+            {
+                "number": "6.2",
+                "title": "Critical Success Factors for the Perform Qualitative Risk Analysis Process",
+                "page": 43,
+                "children": [
+                    {
+                        "number": "6.2.1",
+                        "title": "Use Agreed - Upon Approach",
+                        "page": 44,
+                        "children": []
+                    },
+                    {
+                        "number": "6.2.2",
+                        "title": "Use Agreed - Upon Definitions of Risk Terms",
+                        "page": 44,
+                        "children": []
+                    },
+                    {
+                        "number": "6.2.3",
+                        "title": "Collect High - Quality Information about Risks",
+                        "page": 45,
+                        "children": []
+                    },
+                    {
+                        "number": "6.2.4",
+                        "title": "Perform Iterative Qualitative Risk Analysis",
+                        "page": 45,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "6.3",
+                "title": "Tools and Techniques for the Perform Qualitative Risk Analysis Process",
+                "page": 45,
+                "children": [
+                    {
+                        "number": "6.3.1",
+                        "title": "Select Risk Characteristics that Define Risks ’ Importance",
+                        "page": 46,
+                        "children": []
+                    },
+                    {
+                        "number": "6.3.2",
+                        "title": "Collect and Analyze Data",
+                        "page": 46,
+                        "children": []
+                    },
+                    {
+                        "number": "6.3.3",
+                        "title": "Prioritize Risks by Probability and Impact on Specific Objectives",
+                        "page": 46,
+                        "children": []
+                    },
+                    {
+                        "number": "6.3.4",
+                        "title": "Prioritize Risks by Probability and Impact on Overall Project",
+                        "page": 46,
+                        "children": []
+                    },
+                    {
+                        "number": "6.3.5",
+                        "title": "Categorize Risk Causes",
+                        "page": 47,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "7",
+        "title": "PERFORM QUANTITATIVE RISK ANALYSIS",
+        "page": 49,
+        "children": [
+            {
+                "number": "7.1",
+                "title": "Purpose and Objectives of the Perform Quantitative Risk Analysis Process",
+                "page": 49,
+                "children": []
+            },
+            {
+                "number": "7.2",
+                "title": "Critical Success Factors for the Perform Quantitative Risk Analysis Process",
+                "page": 50,
+                "children": [
+                    {
+                        "number": "7.2.1",
+                        "title": "Prior Risk Identification and Qualitative Risk Analysis",
+                        "page": 51,
+                        "children": []
+                    },
+                    {
+                        "number": "7.2.2",
+                        "title": "Appropriate Project Model",
+                        "page": 51,
+                        "children": []
+                    },
+                    {
+                        "number": "7.2.3",
+                        "title": "Commitment to Collecting High Quality Risk Data",
+                        "page": 51,
+                        "children": []
+                    },
+                    {
+                        "number": "7.2.4",
+                        "title": "Unbiased Data",
+                        "page": 51,
+                        "children": []
+                    },
+                    {
+                        "number": "7.2.5",
+                        "title": "Overall Project Risk Derived from Individual Risks",
+                        "page": 51,
+                        "children": []
+                    },
+                    {
+                        "number": "7.2.6",
+                        "title": "Interrelationships Between Risks in Quantitative Risk Analysis",
+                        "page": 52,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "7.3",
+                "title": "Tools and Techniques for the Perform Quantitative Risk Analysis Process",
+                "page": 52,
+                "children": [
+                    {
+                        "number": "7.3.1",
+                        "title": "Comprehensive Risk Representation",
+                        "page": 52,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.2",
+                        "title": "Risk Impact Calculation",
+                        "page": 52,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.3",
+                        "title": "Quantitative Method Appropriate to Analyzing Uncertainty",
+                        "page": 52,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.4",
+                        "title": "Data Gathering Tools",
+                        "page": 52,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.5",
+                        "title": "Effective Presentation of Quantitative Analysis Results",
+                        "page": 53,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.6",
+                        "title": "Iterative Quantitative Risk Analysis",
+                        "page": 54,
+                        "children": []
+                    },
+                    {
+                        "number": "7.3.7",
+                        "title": "Information for Response Planning",
+                        "page": 54,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "7.4",
+                "title": "Documenting the Results of the Perform Quantitative Risk Analysis Process",
+                "page": 54,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "8",
+        "title": "PLAN RISK RESPONSES",
+        "page": 55,
+        "children": [
+            {
+                "number": "8.1",
+                "title": "Purpose and Objectives of the Plan Risk Responses Process",
+                "page": 55,
+                "children": []
+            },
+            {
+                "number": "8.2",
+                "title": "Critical Success Factors for the Plan Risk Responses Process",
+                "page": 56,
+                "children": [
+                    {
+                        "number": "8.2.1",
+                        "title": "Communicate",
+                        "page": 56,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.2",
+                        "title": "Clearly Define Risk - Related Roles and Responsibilities",
+                        "page": 57,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.3",
+                        "title": "Specify Timing of Risk Responses",
+                        "page": 57,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.4",
+                        "title": "Provide Resources , Budget , and Schedule for Responses",
+                        "page": 57,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.5",
+                        "title": "Address the Interaction of Risks and Responses",
+                        "page": 57,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.6",
+                        "title": "Ensure Appropriate , Timely , Effective , and Agreed - Upon Responses",
+                        "page": 58,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.7",
+                        "title": "Address Both Threats and Opportunities",
+                        "page": 58,
+                        "children": []
+                    },
+                    {
+                        "number": "8.2.8",
+                        "title": "Develop Strategies before Tactical Responses",
+                        "page": 58,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "8.3",
+                "title": "Risk Response Strategies",
+                "page": 58,
+                "children": [
+                    {
+                        "number": "8.3.1",
+                        "title": "Avoid a Threat or Exploit an Opportunity",
+                        "page": 59,
+                        "children": []
+                    },
+                    {
+                        "number": "8.3.2",
+                        "title": "Transfer a Threat or Share an Opportunity",
+                        "page": 59,
+                        "children": []
+                    },
+                    {
+                        "number": "8.3.3",
+                        "title": "Mitigate a Threat or Enhance an Opportunity",
+                        "page": 59,
+                        "children": []
+                    },
+                    {
+                        "number": "8.3.4",
+                        "title": "Accept a Threat or an Opportunity",
+                        "page": 59,
+                        "children": []
+                    },
+                    {
+                        "number": "8.3.5",
+                        "title": "Applying Risk Response Strategies to Overall Project Risk",
+                        "page": 59,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "8.4",
+                "title": "Tools and Techniques for the Plan Risk Responses Process",
+                "page": 59,
+                "children": [
+                    {
+                        "number": "8.4.1",
+                        "title": "Response Identification",
+                        "page": 60,
+                        "children": []
+                    },
+                    {
+                        "number": "8.4.2",
+                        "title": "Response Selection",
+                        "page": 60,
+                        "children": []
+                    },
+                    {
+                        "number": "8.4.3",
+                        "title": "Action Planning",
+                        "page": 60,
+                        "children": []
+                    },
+                    {
+                        "number": "8.4.4",
+                        "title": "Ownership and Responsibility Assignment",
+                        "page": 60,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "8.5",
+                "title": "Documenting the Results of the Plan Risk Responses Process",
+                "page": 62,
+                "children": [
+                    {
+                        "number": "8.5.1",
+                        "title": "Add Risk Responses to the Risk Register",
+                        "page": 62,
+                        "children": []
+                    },
+                    {
+                        "number": "8.5.3",
+                        "title": "Review and Document Predicted Exposure",
+                        "page": 62,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Chapter",
+        "number": "9",
+        "title": "MONITOR AND CONTROL RISKS",
+        "page": 63,
+        "children": [
+            {
+                "number": "9.1",
+                "title": "Purpose and Objectives of the Monitor and Control Risks Process",
+                "page": 63,
+                "children": []
+            },
+            {
+                "number": "9.2",
+                "title": "Critical Success Factors for the Monitor and Control Risks Process",
+                "page": 65,
+                "children": [
+                    {
+                        "number": "9.2.2",
+                        "title": "Continuously Monitor Risk Trigger Conditions",
+                        "page": 66,
+                        "children": []
+                    },
+                    {
+                        "number": "9.2.3",
+                        "title": "Maintain Risk Awareness",
+                        "page": 66,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "9.3",
+                "title": "Tools and Techniques for the Monitor and Control Risks Process",
+                "page": 66,
+                "children": [
+                    {
+                        "number": "9.3.1",
+                        "title": "Managing Contingency Reserves",
+                        "page": 66,
+                        "children": []
+                    },
+                    {
+                        "number": "9.3.2",
+                        "title": "Tracking Trigger Conditions",
+                        "page": 67,
+                        "children": []
+                    },
+                    {
+                        "number": "9.3.3",
+                        "title": "Tracking Overall Risk",
+                        "page": 67,
+                        "children": []
+                    },
+                    {
+                        "number": "9.3.4",
+                        "title": "Tracking Compliance",
+                        "page": 67,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "number": "9.4",
+                "title": "Documenting the Results of the Monitor and Control Risks Process",
+                "page": 67,
+                "children": []
+            }
+        ]
+    },
+    {
+        "type": "Appendix",
+        "number": "A",
+        "title": "GUIDELINES FOR A PMI PRACTICE STANDARD",
+        "page": 69,
+        "children": []
+    },
+    {
+        "type": "Appendix",
+        "number": "D",
+        "title": "TOOLS , TECHNIQUES AND TEMPLATES FOR PROJECT RISK MANAGEMENT",
+        "page": 81,
+        "children": []
+    }
+]

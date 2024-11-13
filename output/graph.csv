@@ -1,0 +1,1615 @@
+node_1|node_2|edge|chunk_id|example
+practice standard for project risk management|project management practitioners|is applicable to|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|other stakeholders|is applicable to|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|aspects of project risk management that are recognized as good practice on most projects most of the time|defines|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|globally applicable and consistently applied standard|provides|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|chapter 11 of the pmbok guide fourth edition|is based on|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|concepts and principles relating to project risk|emphasizes|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|project risk management|covers|9296cc65ba44446dbbf42a5725de359c|
+project risk management|single projects only|applies to|9296cc65ba44446dbbf42a5725de359c|
+practice standard for project risk management|risk in programs or portfolios of projects|does not cover|9296cc65ba44446dbbf42a5725de359c|
+edition|practice standard for project risk management|is the basis for|c463b4c99e454549a4e0f5ee1c906609|
+practice standard for project risk management|project management institute (pmi)|is consistent with|c463b4c99e454549a4e0f5ee1c906609|
+chapter 1|pmbok guide fourth edition|emphasizing the concepts and principles relating to|c463b4c99e454549a4e0f5ee1c906609|
+project risk management processes|pmbok guide fourth edition|as defined in|c463b4c99e454549a4e0f5ee1c906609|
+figure 1.1|purposes of this practice standard|compares the purposes to|c463b4c99e454549a4e0f5ee1c906609|
+figure 1.1|purposes of pmbok guide fourth edition|compares the purposes to|c463b4c99e454549a4e0f5ee1c906609|
+figure 1.1|textbooks, handbooks and courses|compares the purposes to|c463b4c99e454549a4e0f5ee1c906609|
+practice standard|three main sections|is organized in|c463b4c99e454549a4e0f5ee1c906609|
+section 1|introductory material|includes|c463b4c99e454549a4e0f5ee1c906609|
+section 2|principles underlying the six project risk management processes|covers|c463b4c99e454549a4e0f5ee1c906609|
+six project risk management processes|pmbok guide fourth edition|are as follows|c463b4c99e454549a4e0f5ee1c906609|
+guide fourth edition|six processes|is associated with|f69a553dfbd94af7859d66fca7974968|
+six processes|plan risk management|is one of|f69a553dfbd94af7859d66fca7974968|
+six processes|identify risks|is one of|f69a553dfbd94af7859d66fca7974968|
+six processes|perform qualitative risk analysis|is one of|f69a553dfbd94af7859d66fca7974968|
+six processes|perform quantitative risk analysis|is one of|f69a553dfbd94af7859d66fca7974968|
+six processes|plan risk responses|is one of|f69a553dfbd94af7859d66fca7974968|
+six processes|monitor and control risks|is one of|f69a553dfbd94af7859d66fca7974968|
+each of these six processes|a purpose and objectives of the process|has a|f69a553dfbd94af7859d66fca7974968|
+each of these six processes|critical success factors for the process|has|f69a553dfbd94af7859d66fca7974968|
+each of these six processes|tools and techniques for the process|uses|f69a553dfbd94af7859d66fca7974968|
+each of these six processes|documenting the results of the process|produces|f69a553dfbd94af7859d66fca7974968|
+this practice standard|glossary of terms|contains|f69a553dfbd94af7859d66fca7974968|
+the principles that are fundamental to effective, comprehensive, and successful project risk management|guide fourth edition|is described in|f69a553dfbd94af7859d66fca7974968|
+project risk management principles|applicability in a global context|applies to|bf690b9478a54d53a79d0e86bb63397c|
+project risk management principles|business and organizational arrangements between participants (e.g., joint ventures, government and non-government organizations)|applies to|bf690b9478a54d53a79d0e86bb63397c|
+project risk management|large projects|applies to|bf690b9478a54d53a79d0e86bb63397c|
+project risk management|small projects|applies to|bf690b9478a54d53a79d0e86bb63397c|
+project risk management practice|project|is applied to|bf690b9478a54d53a79d0e86bb63397c|
+tailoring of project risk management practice|project|is tailored for|bf690b9478a54d53a79d0e86bb63397c|
+effectiveness of project risk management|organizational culture, processes, and assets|is more effective when congruent with|bf690b9478a54d53a79d0e86bb63397c|
+compliance with the principles of project risk management|different ways of conducting risk management|complies with|bf690b9478a54d53a79d0e86bb63397c|
+business and organizational arrangements|joint ventures|is an example of|fa5aee74a734410aa945cc3d6a0ab4b9|
+business and organizational arrangements|commercial companies|one of the participants|fa5aee74a734410aa945cc3d6a0ab4b9|
+business and organizational arrangements|national companies|one of the participants|fa5aee74a734410aa945cc3d6a0ab4b9|
+business and organizational arrangements|government organizations|one of the participants|fa5aee74a734410aa945cc3d6a0ab4b9|
+business and organizational arrangements|non-government organizations|one of the participants|fa5aee74a734410aa945cc3d6a0ab4b9|
+project teams|business and organizational arrangements|context in which they operate|fa5aee74a734410aa945cc3d6a0ab4b9|
+cross cultural environment|project teams|often found on these project teams|fa5aee74a734410aa945cc3d6a0ab4b9|
+principles described herein|organization's processes|can be used as a check|fa5aee74a734410aa945cc3d6a0ab4b9|
+practitioners|principles described herein|can establish processes based on|fa5aee74a734410aa945cc3d6a0ab4b9|
+particular situation/project or organization|processes established by practitioners|specific to|fa5aee74a734410aa945cc3d6a0ab4b9|
+processes established by practitioners|principles described herein|compare them with|fa5aee74a734410aa945cc3d6a0ab4b9|
+principles described herein|good project risk management practice|validate them against|fa5aee74a734410aa945cc3d6a0ab4b9|
+project risk management|pmbok guide fourth edition|is based on|e8160efae3a34db9a55edfc509091a31|
+project risk management|processes|includes|e8160efae3a34db9a55edfc509091a31|
+processes|risk management planning|is one of|e8160efae3a34db9a55edfc509091a31|
+processes|identification|is one of|e8160efae3a34db9a55edfc509091a31|
+processes|analysis|is one of|e8160efae3a34db9a55edfc509091a31|
+processes|responses and monitoring and control|is one of|e8160efae3a34db9a55edfc509091a31|
+objectives of project risk management|increase the probability and impact of positive events|includes|e8160efae3a34db9a55edfc509091a31|
+objectives of project risk management|decrease the probability and impact of negative events|includes|e8160efae3a34db9a55edfc509091a31|
+project risk|uncertain event or condition|is defined as|e8160efae3a34db9a55edfc509091a31|
+project objectives|scope|includes|e8160efae3a34db9a55edfc509091a31|
+project objectives|schedule|includes|e8160efae3a34db9a55edfc509091a31|
+project objectives|cost|includes|e8160efae3a34db9a55edfc509091a31|
+project objectives|quality|includes|e8160efae3a34db9a55edfc509091a31|
+project risk management|identify and prioritize risks in advance of their occurrence|aims to|e8160efae3a34db9a55edfc509091a31|
+project risk management|provide action-oriented information to project managers|aims to|e8160efae3a34db9a55edfc509091a31|
+risk management|project managers|provides information to|6c74a26583a2456ea639d30eb1cb5dc4|
+risk management|events|identifies and prioritizes|6c74a26583a2456ea639d30eb1cb5dc4|
+events|project managers|is communicated to|6c74a26583a2456ea639d30eb1cb5dc4|
+events|likelihood or probability of occurrence|described in terms of|6c74a26583a2456ea639d30eb1cb5dc4|
+events|impact on objectives|described in addition to|6c74a26583a2456ea639d30eb1cb5dc4|
+project risk management|pmbok guide fourth edition|is based on|c83172944116436eb1594eb46bf86e6b|
+project risk management|processes|includes|c83172944116436eb1594eb46bf86e6b|
+project risk management processes|risk management planning|concerned with|c83172944116436eb1594eb46bf86e6b|
+project risk management processes|risk identification|concerned with|c83172944116436eb1594eb46bf86e6b|
+project risk management processes|risk analysis|concerned with|c83172944116436eb1594eb46bf86e6b|
+project risk management processes|risk responses|concerned with|c83172944116436eb1594eb46bf86e6b|
+project risk management processes|monitoring and control|concerned with|c83172944116436eb1594eb46bf86e6b|
+project risk management objectives|increase the probability and impact of positive events|aims to|c83172944116436eb1594eb46bf86e6b|
+project risk management objectives|decrease the probability and impact of negative events|aims to|c83172944116436eb1594eb46bf86e6b|
+project risk|uncertain event or condition|is|c83172944116436eb1594eb46bf86e6b|
+project risk|affects project objectives|has an effect on|c83172944116436eb1594eb46bf86e6b|
+project objectives|scope|includes|c83172944116436eb1594eb46bf86e6b|
+project objectives|schedule|includes|c83172944116436eb1594eb46bf86e6b|
+project objectives|cost|includes|c83172944116436eb1594eb46bf86e6b|
+project objectives|quality|includes|c83172944116436eb1594eb46bf86e6b|
+risk management|identifying risks|is necessary for|0c2429fe8d9f4f1e973b312ea0dcbda7|
+risk management|prioritizing risks|is part of|0c2429fe8d9f4f1e973b312ea0dcbda7|
+risk management|project managers|provides information to|0c2429fe8d9f4f1e973b312ea0dcbda7|
+events|risk management|related to|0c2429fe8d9f4f1e973b312ea0dcbda7|
+events|occurrence of events|represents|0c2429fe8d9f4f1e973b312ea0dcbda7|
+events|likelihood or probability of occurrence|includes|0c2429fe8d9f4f1e973b312ea0dcbda7|
+events|impact on objectives|includes|0c2429fe8d9f4f1e973b312ea0dcbda7|
+project risk management|project management|is essential to|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|all projects|should be applied to|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|project plans|should be included in|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|operational documents|should be included in|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|every aspect of managing the project|becomes an integral part of|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|every phase|is applied in every|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|every process group|is applied in every|c90814c0131b47599b8ec23cc69bdd08|
+many of the project management processes|address planning the project|from concept to final design and from procurement through daily management of execution and close out.|c90814c0131b47599b8ec23cc69bdd08|
+project management processes|assume an unrealistic degree of certainty about the project|therefore they need to include|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|treatment of project risks|is necessary for|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|project risk estimates and assumptions|addresses the uncertainty in|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|other project management processes|builds upon and extends|c90814c0131b47599b8ec23cc69bdd08|
+project scheduling|project risk management|provides dates and critical paths based on activity durations and resource availability assumed to be|c90814c0131b47599b8ec23cc69bdd08|
+project risk management|project management processes|requires|720d0a4235b4411799785ce55038f800|
+project risk management|scheduling|adds the perspective of project risk to the outputs of|720d0a4235b4411799785ce55038f800|
+project risk management|budgeting|adds the perspective of project risk to the outputs of|720d0a4235b4411799785ce55038f800|
+project risk management|change management|adds the perspective of project risk to the outputs of|720d0a4235b4411799785ce55038f800|
+quantitative risk analysis|project scheduling|explores the uncertainty in the estimated durations and may provide alternative dates and critical paths that are more realistic given the risks to the project|720d0a4235b4411799785ce55038f800|
+project risk management|cost and schedule contingency reserves|provides the basis upon which to estimate|720d0a4235b4411799785ce55038f800|
+project risk exposure|information on project risks|affects|b28cb8af473a4cadac4bbc817b41f6f1|
+early stages of a project|level of risk exposure|is associated with|b28cb8af473a4cadac4bbc817b41f6f1|
+late stages of a project|minimum level of risk exposure|is associated with|b28cb8af473a4cadac4bbc817b41f6f1|
+project plans and expectations of results|realistic level of project risks recognition|is related to|b28cb8af473a4cadac4bbc817b41f6f1|
+project life cycle|risk management approach applicability|is associated with|b28cb8af473a4cadac4bbc817b41f6f1|
+early recognition of risks|realistic project plans|influences|b28cb8af473a4cadac4bbc817b41f6f1|
+risk management approach|estimation of cost and schedule contingency reserves|provides the basis for|b28cb8af473a4cadac4bbc817b41f6f1|
+risk management approach|project life cycle|is applicable throughout|b01ed1f1876f4973ade945b4c2c72236|
+recognition of risks|project plans and expectations of results|the earlier in the project, the more realistic|b01ed1f1876f4973ade945b4c2c72236|
+risk management|project planning progresses|continues to add value|b01ed1f1876f4973ade945b4c2c72236|
+more information|aspects and components of the project and its environment|becomes available|b01ed1f1876f4973ade945b4c2c72236|
+stakeholders scope time and cost|corresponding assumptions and constraints|are also considered|b01ed1f1876f4973ade945b4c2c72236|
+project flexibility and knowledge about project risk|balance|needs to be reviewed regularly|b01ed1f1876f4973ade945b4c2c72236|
+plans develop|options for making substantial changes|are reduced|b01ed1f1876f4973ade945b4c2c72236|
+project execution|risk management processes|monitor the changes|b01ed1f1876f4973ade945b4c2c72236|
+new risks that may emerge||are monitored during project execution so that|b01ed1f1876f4973ade945b4c2c72236|
+changes|risk management processes|monitor|54c1c747d14c46d4b2484a8d2aa51532|
+changes|new risks|emerge|54c1c747d14c46d4b2484a8d2aa51532|
+changes|existing risks|check for|54c1c747d14c46d4b2484a8d2aa51532|
+risk management processes|appropriate responses to new risks|develop|54c1c747d14c46d4b2484a8d2aa51532|
+existing risks|plausibility|no longer plausible|54c1c747d14c46d4b2484a8d2aa51532|
+project risk management|completion dates|provide realistic expectations for|54c1c747d14c46d4b2484a8d2aa51532|
+project risk management|cost of the project|provide realistic expectations for|54c1c747d14c46d4b2484a8d2aa51532|
+project execution|few options for changing the future|exists|54c1c747d14c46d4b2484a8d2aa51532|
+project closure|risk related lessons|review|54c1c747d14c46d4b2484a8d2aa51532|
+organizational learning|risk related lessons|contribute to|54c1c747d14c46d4b2484a8d2aa51532|
+project risk management practice|continuous improvement|support|54c1c747d14c46d4b2484a8d2aa51532|
+project risk management|project management|is a valuable component of|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|other project management processes|enhances the value of|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|existing organizational practices and policies|should be conducted in a manner consistent with|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|the project|should be appropriate to|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|business challenges|should recognize|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|multi-cultural environment|should recognize|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|global environment|should recognize|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|joint venture projects|associated with|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|customers|includes|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|suppliers|includes|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management|workforces spread around the globe|includes|4beef5efab2b4e4698db31cdfc6fc2ce|
+changes in the project management plan|project risk management process|result from|4beef5efab2b4e4698db31cdfc6fc2ce|
+decisions at the appropriate level of management|reassign personnel|may require|4beef5efab2b4e4698db31cdfc6fc2ce|
+decisions at the appropriate level of management|establish or modify budgets|may require|4beef5efab2b4e4698db31cdfc6fc2ce|
+decisions at the appropriate level of management|make commitments to others outside the project|may require|4beef5efab2b4e4698db31cdfc6fc2ce|
+decisions at the appropriate level of management|interact|may require|4beef5efab2b4e4698db31cdfc6fc2ce|
+project risk management process|appropriate level of management|requires decisions from|e86fed425641496d97b4dba9db60dc04|
+project risk management process|personnel reassignment|may require|e86fed425641496d97b4dba9db60dc04|
+project risk management process|budget establishment or modification|may require|e86fed425641496d97b4dba9db60dc04|
+project risk management process|making commitments to others outside the project|may require interactions with|e86fed425641496d97b4dba9db60dc04|
+project risk management process|regulator interaction|requires compliance with|e86fed425641496d97b4dba9db60dc04|
+project risk management process|accounting and legal rules compliance|requires|e86fed425641496d97b4dba9db60dc04|
+project risk management|internal and external requirements|should be conducted in compliance with|e86fed425641496d97b4dba9db60dc04|
+project risk management|ethical basis|should always be conducted on an|e86fed425641496d97b4dba9db60dc04|
+ethical basis|project management code of ethics or conduct|in keeping with|e86fed425641496d97b4dba9db60dc04|
+successful project risk management|honesty|is among the characteristics of|e86fed425641496d97b4dba9db60dc04|
+successful project risk management|responsibility|is among the characteristics of|e86fed425641496d97b4dba9db60dc04|
+successful project risk management|realism|is among the characteristics of|e86fed425641496d97b4dba9db60dc04|
+successful project risk management|professionalism|is among the characteristics of|e86fed425641496d97b4dba9db60dc04|
+successful project risk management|fair dealing with others|is among the characteristics of|e86fed425641496d97b4dba9db60dc04|
+effective project risk management|robust communication|benefits from|e86fed425641496d97b4dba9db60dc04|
+effective project risk management|consultation with stakeholders|benefits from|e86fed425641496d97b4dba9db60dc04|
+stakeholder agreement|project risk management in general|enables|e86fed425641496d97b4dba9db60dc04|
+stakeholder agreement|risk identification analysis and response|enables|e86fed425641496d97b4dba9db60dc04|
+project risk management|stakeholders|carried out by|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management|political influences|should not be subject to|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management|other unreasonable influences|should not be subject to|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management|risk identification analysis|includes|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management|response|includes|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management|all projects|applied to|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management degree level of detail, sophistication, resources and time applied|project under management and its value|should be in proportion to|dd4c6daecf434f98ae83d25062cc2fd8|
+large project|more resources time and attention to project risk management|theoretically requires|dd4c6daecf434f98ae83d25062cc2fd8|
+small internal short-term project|less resources time and attention to project risk management|can be conducted with|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management processes|each of the project under management|should be scaled to be appropriate to|dd4c6daecf434f98ae83d25062cc2fd8|
+plan risk management process|project risk management processes|during|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management processes|review|should be reviewed|dd4c6daecf434f98ae83d25062cc2fd8|
+project risk management processes|plan risk management process|is scaled to be appropriate|d098ff7f03fb4902b1493051c5f7b726|
+project risk management processes|review periodically|is reviewed|d098ff7f03fb4902b1493051c5f7b726|
+project risk management processes|project under management|during the management of|d098ff7f03fb4902b1493051c5f7b726|
+decisions made in plan risk management process|project risk management processes|remain appropriate|d098ff7f03fb4902b1493051c5f7b726|
+project risk management|organizational management|provides a positive potential return on investment for|f64310587691451da5ec79c1d2b56555|
+project risk management|project stakeholders (both internal and external)|is recognized as valuable by|f64310587691451da5ec79c1d2b56555|
+project risk management process|individual commitment & responsibility|requires acceptance of responsibility for undertaking risk-related activities|f64310587691451da5ec79c1d2b56555|
+risk management|everyone|is everybody's responsibility|f64310587691451da5ec79c1d2b56555|
+project risk management process|open and honest communication|everyone should be involved in|f64310587691451da5ec79c1d2b56555|
+actions or attitudes that hinder communication about project risk|reduce the effectiveness of|reduce|f64310587691451da5ec79c1d2b56555|
+open and honest communication|project risk management process|is part of|fc4f0aa823c6406db9f515ad67a5f976|
+any actions or attitudes that hinder communication about project risk|project risk management process|reduces the effectiveness of|fc4f0aa823c6406db9f515ad67a5f976|
+organizational commitment|risk management|can only be established if aligned with|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management|organization's goals and values|should be aligned with|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management|other project management disciplines|may require a higher level of managerial support than|fc4f0aa823c6406db9f515ad67a5f976|
+handling some of the risks|approval of or responses from others at levels above the project manager|will require approval of or responses from|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management activities|value of the project to the organization|should be consistent with|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management activities|level of project risk|should be consistent with|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management activities|its scale and other organizational constraints|should be consistent with|fc4f0aa823c6406db9f515ad67a5f976|
+cost of project risk management|its potential value to the project|should be appropriate to its potential value|fc4f0aa823c6406db9f515ad67a5f976|
+project risk management|project|is part of|bf31bd123a2b4617b1640baff54708b5|
+project risk management|organization|affects|bf31bd123a2b4617b1640baff54708b5|
+project risk management|project risk|manages|bf31bd123a2b4617b1640baff54708b5|
+project risk management|cost of project risk management|is related to|bf31bd123a2b4617b1640baff54708b5|
+cost of project risk management|potential value to the project and the organization|is appropriate to|bf31bd123a2b4617b1640baff54708b5|
+project risk management|project management processes|depends on|bf31bd123a2b4617b1640baff54708b5|
+project management processes|successful project risk management|is necessary for|bf31bd123a2b4617b1640baff54708b5|
+project risk management|good practice principles|is appropriately applied based on|9886f1dd63ca4df696256e27d415c8ad|
+project risk management|organizational environment|should be appropriately applied based on the specifi cs of|9886f1dd63ca4df696256e27d415c8ad|
+project risk management|implementation|provides benefits when it is implemented|9886f1dd63ca4df696256e27d415c8ad|
+good practice principles|organizational commitment|and with organizational commitment to taking the decisions and performing actions in an open and unbiased manner|9886f1dd63ca4df696256e27d415c8ad|
+chapter 2|principles and concepts|refers to|9886f1dd63ca4df696256e27d415c8ad|
+project risk management|chapter 11 of the pmbok guide fourth edition|is consistent with|bb4984583fa746c7aabe7506836c46f8|
+project risk management principles and concepts|key ideas required to understand and apply project risk management|are|bb4984583fa746c7aabe7506836c46f8|
+project risk management approach|approach described in chapter 11 of the pmbok guide fourth edition|is|bb4984583fa746c7aabe7506836c46f8|
+other approaches to project risk management|commonly used approaches to project risk management|are also consistent with|bb4984583fa746c7aabe7506836c46f8|
+terminology of project risk management|some details differ in other approaches|may differ|bb4984583fa746c7aabe7506836c46f8|
+project risk|uncertain event or condition|is|d2173cb145e5494a9b1cca164cc4245d|
+project risk|positive effect on a project's objectives|has a positive effect on|d2173cb145e5494a9b1cca164cc4245d|
+project risk|negative effect on a project's objectives|has a negative effect on|d2173cb145e5494a9b1cca164cc4245d|
+uncertain event or condition|project s objectives|affects|d2173cb145e5494a9b1cca164cc4245d|
+project risk|uncertainty dimension|includes|d2173cb145e5494a9b1cca164cc4245d|
+uncertainty dimension|probability|described using the term|d2173cb145e5494a9b1cca164cc4245d|
+uncertainty dimension|impact|may be called|d2173cb145e5494a9b1cca164cc4245d|
+definition of risk|other descriptors|includes|d2173cb145e5494a9b1cca164cc4245d|
+definition of risk|likelihood|other descriptors are possible such as|d2173cb145e5494a9b1cca164cc4245d|
+definition of risk|consequence|other descriptors are possible such as|d2173cb145e5494a9b1cca164cc4245d|
+risk|uncertain future events or conditions|is|fafbedc3f58f499d86339d751b97d1d5|
+risk|conditions which would matter if they did occur|also includes|fafbedc3f58f499d86339d751b97d1d5|
+distinct events|risk|is a type of|fafbedc3f58f499d86339d751b97d1d5|
+general conditions|risk|is also a type of|fafbedc3f58f499d86339d751b97d1d5|
+project risk|uncertain events which could have a negative effect on a project's objectives|includes|fafbedc3f58f499d86339d751b97d1d5|
+project risk|uncertain events which could have a positive effect|also includes|fafbedc3f58f499d86339d751b97d1d5|
+threats|uncertain events which could have a negative effect on a project's objectives|is called|fafbedc3f58f499d86339d751b97d1d5|
+opportunities|uncertain events which could have a positive effect|is also called|fafbedc3f58f499d86339d751b97d1d5|
+addressing both threats and opportunities|unified project risk management process|allows for|fafbedc3f58f499d86339d751b97d1d5|
+gain of synergies and efficiencies|addressing both threats and opportunities within a unified project risk management process|results in|fafbedc3f58f499d86339d751b97d1d5|
+risks|uncertain future events or conditions|are|ca51a83a849140318aa9e0e41dd3f276|
+risks|which would matter if they did occur|would matter if they occurred|ca51a83a849140318aa9e0e41dd3f276|
+causes|events or circumstances|are|ca51a83a849140318aa9e0e41dd3f276|
+causes|which currently exist or are certain to exist in the future|are|ca51a83a849140318aa9e0e41dd3f276|
+causes|which might give rise to risks|might give rise to|ca51a83a849140318aa9e0e41dd3f276|
+effects|conditional future events or conditions|are|ca51a83a849140318aa9e0e41dd3f276|
+effects|which would directly affect one or more project objectives if the associated risk occurs|would directly affect if associated risk occurred|ca51a83a849140318aa9e0e41dd3f276|
+risk event|uncertainty|ceases to be|ca51a83a849140318aa9e0e41dd3f276|
+threats|issues or problems|are called|ca51a83a849140318aa9e0e41dd3f276|
+opportunities|benefits|are called|ca51a83a849140318aa9e0e41dd3f276|
+project risk|uncertain event or condition|is defined by|a67ca94627dc418990573e6f47098bdc|
+project risk|project objectives|affects|a67ca94627dc418990573e6f47098bdc|
+uncertain event or condition|positive or negative effect|has|a67ca94627dc418990573e6f47098bdc|
+project risk|probability|characterizes the uncertainty dimension|a67ca94627dc418990573e6f47098bdc|
+project risk|impact|characterizes the effect on a project's objectives|a67ca94627dc418990573e6f47098bdc|
+probability|uncertainty dimension|represents|a67ca94627dc418990573e6f47098bdc|
+impact|effect|represents|a67ca94627dc418990573e6f47098bdc|
+risk|uncertain future events or conditions|is|349951abb5d745c5a997c84d5b45aad6|
+risk|conditions which would matter if they occurred|includes|349951abb5d745c5a997c84d5b45aad6|
+risk|events or conditions which may or may not occur|encompasses|349951abb5d745c5a997c84d5b45aad6|
+project risk|uncertain events|includes|349951abb5d745c5a997c84d5b45aad6|
+project risk|events which could have a negative effect on project objectives|encompasses|349951abb5d745c5a997c84d5b45aad6|
+project risk|events which could have a positive effect|encompasses|349951abb5d745c5a997c84d5b45aad6|
+threats|uncertain events with negative impact on project objectives|represents|349951abb5d745c5a997c84d5b45aad6|
+opportunities|uncertain events with positive impact on project objectives|represents|349951abb5d745c5a997c84d5b45aad6|
+project risk management process|addressing threats and opportunities|allows for|349951abb5d745c5a997c84d5b45aad6|
+project risk management process|gaining synergies and efficiencies|allows for|349951abb5d745c5a997c84d5b45aad6|
+project risk management process|addressing both in the same analyses|enables|349951abb5d745c5a997c84d5b45aad6|
+project risk management process|coordinating responses to both if they overlap or can reinforce each other|enables|349951abb5d745c5a997c84d5b45aad6|
+risks|uncertain future events or conditions|are|1af86686cbc241c4a8212710ebb0a24b|
+risks|future events or conditions which would matter if they did occur|would be|1af86686cbc241c4a8212710ebb0a24b|
+risks|project objectives|directly affect|1af86686cbc241c4a8212710ebb0a24b|
+risks|causes|are related to|1af86686cbc241c4a8212710ebb0a24b|
+causes|events or circumstances which might give rise to risks|might give rise to|1af86686cbc241c4a8212710ebb0a24b|
+effects|conditional future events or conditions|are|1af86686cbc241c4a8212710ebb0a24b|
+effects|risks|would directly affect if the associated risk occurs|1af86686cbc241c4a8212710ebb0a24b|
+cause-risk-effect chain|structured risk statement or risk description|can be used in|1af86686cbc241c4a8212710ebb0a24b|
+risk event|uncertainty|ceases to be when it occurs|1af86686cbc241c4a8212710ebb0a24b|
+threats|issues or problems|are called|1af86686cbc241c4a8212710ebb0a24b|
+opportunities|benefits|are called|1af86686cbc241c4a8212710ebb0a24b|
+individual risks|project objectives|affects|959a721d1ac245bdbde631178132938d|
+individual risks|project objectives elements or tasks|affects|959a721d1ac245bdbde631178132938d|
+day to day project risk management|individual risks|focuses on|959a721d1ac245bdbde631178132938d|
+overall project risk|individual risks on a project|is more than the sum of|959a721d1ac245bdbde631178132938d|
+overall project risk|the whole project rather than to individual elements or tasks|applies to|959a721d1ac245bdbde631178132938d|
+overall project risk|stakeholders|exposes to the implications of variations in project outcome|959a721d1ac245bdbde631178132938d|
+overall project risk|project as a whole|represents the effect of uncertainty on|959a721d1ac245bdbde631178132938d|
+project|outcome of project|represents|a6aeef58bce44f03aa5096aa1ec47416|
+project outcome|implications for stakeholders|is related to|a6aeef58bce44f03aa5096aa1ec47416|
+strategic decision making program|project|involved in|a6aeef58bce44f03aa5096aa1ec47416|
+portfolio management|project|related to|a6aeef58bce44f03aa5096aa1ec47416|
+project governance|project|governed by|a6aeef58bce44f03aa5096aa1ec47416|
+investments|project|sanctioned or cancelled|a6aeef58bce44f03aa5096aa1ec47416|
+priorities|project|set for|a6aeef58bce44f03aa5096aa1ec47416|
+cost and duration of a project|project|realistic targets for|a6aeef58bce44f03aa5096aa1ec47416|
+contingency reserve levels|project stakeholders|required to protect|a6aeef58bce44f03aa5096aa1ec47416|
+appropriate project priorities|project risk of overall success|judge whether the risk is increasing or decreasing as implementation advances|a6aeef58bce44f03aa5096aa1ec47416|
+project stakeholders|risk attitudes|determines|6019b4df36c4438795a33599d3fed1de|
+risk attitudes|individual risk or overall project risk|determines|6019b4df36c4438795a33599d3fed1de|
+project scale|stakeholder risk attitudes|influences|6019b4df36c4438795a33599d3fed1de|
+public commitments made about the project performance|stakeholder risk attitudes|influences|6019b4df36c4438795a33599d3fed1de|
+stakeholder sensitivity to issues such as environmental impacts, industrial relations and other factors|stakeholder risk attitudes|influences|6019b4df36c4438795a33599d3fed1de|
+project outcomes certainty|stakeholder risk attitudes|results in a desire for|6019b4df36c4438795a33599d3fed1de|
+one project objective over another|stakeholder risk attitudes|may express a preference for|6019b4df36c4438795a33599d3fed1de|
+organization culture|how risk is regarded|usually also strongly influences|6019b4df36c4438795a33599d3fed1de|
+openness of an organization|application of risk management|often impacts|6019b4df36c4438795a33599d3fed1de|
+risk management planning|understanding stakeholders attitudes toward risk|is an important component of|6019b4df36c4438795a33599d3fed1de|
+risk management planning|understanding stakeholders' attitudes toward risk|precedes|d852d3f03a8b4d78bc94344190e92782|
+understanding stakeholders' attitudes toward risk|risk identification and analysis|proceeds|d852d3f03a8b4d78bc94344190e92782|
+understanding stakeholders' attitudes toward risk|project success|affects|d852d3f03a8b4d78bc94344190e92782|
+understanding stakeholders' attitudes toward risk|stakeholder satisfaction with the project results|affects|d852d3f03a8b4d78bc94344190e92782|
+project risk management process|identifying and managing stakeholders' attitudes|requires|d852d3f03a8b4d78bc94344190e92782|
+project risk management process|proactive and deliberate management of stakeholders' attitudes|involves|d852d3f03a8b4d78bc94344190e92782|
+stakeholder attitudes toward risk|project risk management process|impacts|d852d3f03a8b4d78bc94344190e92782|
+stakeholder attitudes toward risk|project results|can influence|d852d3f03a8b4d78bc94344190e92782|
+stakeholders|project risk management process|related to|d852d3f03a8b4d78bc94344190e92782|
+stakeholder attitudes toward risk|international, cross-industry or multi-organizational projects|particularly important in|d852d3f03a8b4d78bc94344190e92782|
+project|project circumstances|changes as they are being planned and executed|193b1f4ea2b44c88a87060d49dfa83ca|
+circumstances change|amount of information about risks|will usually increase as time goes on|193b1f4ea2b44c88a87060d49dfa83ca|
+amount of information about risks|risks|increases with the passage of time|193b1f4ea2b44c88a87060d49dfa83ca|
+risks|new risks|will occur while others will not|193b1f4ea2b44c88a87060d49dfa83ca|
+new risks|project risk management processes|arise or are discovered|193b1f4ea2b44c88a87060d49dfa83ca|
+project risk management processes|characteristics of already identified risks|may change|193b1f4ea2b44c88a87060d49dfa83ca|
+characteristics of already identified risks|project risk management processes|should be repeated and the corresponding plans progressively elaborated throughout the lifetime of the project|193b1f4ea2b44c88a87060d49dfa83ca|
+project risk management remains effective|identification and analysis of risks|should be revisited periodically|193b1f4ea2b44c88a87060d49dfa83ca|
+progress on risk response actions|project risk management|should be monitored and the action plans adjusted accordingly|193b1f4ea2b44c88a87060d49dfa83ca|
+significant external circumstances change|risk management planning process|may also be necessary to revisit|193b1f4ea2b44c88a87060d49dfa83ca|
+initial risk management plan and risk assessment|development of an initial risk management plan|is the start of the process not the end|193b1f4ea2b44c88a87060d49dfa83ca|
+risk management planning process|initial risk management plan and risk assessment|is the start of|96f5b67a9e174f28954e4c7eb651073f|
+risk management planning process|reviews and updates|includes|96f5b67a9e174f28954e4c7eb651073f|
+reviews and updates|project nature|depends on|96f5b67a9e174f28954e4c7eb651073f|
+reviews and updates|environment volatility|depends on|96f5b67a9e174f28954e4c7eb651073f|
+reviews and updates|project management reviews and updates|is influenced by|96f5b67a9e174f28954e4c7eb651073f|
+project risk management process|communication throughout the process|relies heavily on|75078065dd5f470fb3187dc07cfe07eb|
+risk identification and analysis|comprehensive input from stakeholders in a project|depends on|75078065dd5f470fb3187dc07cfe07eb|
+risk identification and analysis|nothing significant is overlooked|ensures that|75078065dd5f470fb3187dc07cfe07eb|
+risk identification and analysis|risks are realistically assessed|ensures that|75078065dd5f470fb3187dc07cfe07eb|
+project risk management process|credibility of the process|can be assured only if|75078065dd5f470fb3187dc07cfe07eb|
+project risk management process|understanding and credibility by all concerned|demands|75078065dd5f470fb3187dc07cfe07eb|
+project risk management process|effective and honest communication|requires|75078065dd5f470fb3187dc07cfe07eb|
+communication of the results|project risk management process|should be targeted to meet the specific needs of|75078065dd5f470fb3187dc07cfe07eb|
+project communications strategy|the overall project communications strategy|with each stakeholder's responsibility and role in risk management identified and|75078065dd5f470fb3187dc07cfe07eb|
+project communications strategy|overall project|is part of|92c3c5910d914a3c8710bd79636c5305|
+project communications strategy|stakeholder needs|should reflect|92c3c5910d914a3c8710bd79636c5305|
+stakeholder needs|each stakeholder|belongs to|92c3c5910d914a3c8710bd79636c5305|
+project communications strategy|stakeholder responsibilities and roles in risk management|includes|92c3c5910d914a3c8710bd79636c5305|
+stakeholder responsibilities and roles in risk management|stakeholder responsibility|includes|92c3c5910d914a3c8710bd79636c5305|
+stakeholder responsibilities and roles in risk management|stakeholder role in risk management|includes|92c3c5910d914a3c8710bd79636c5305|
+stakeholder responsibilities and roles in risk management|risk management|related to|92c3c5910d914a3c8710bd79636c5305|
+project risk management|all project processes|is included as an integral part of|fa41f49ce90d41908c13a5a2160a63b8|
+project risks|project objectives|can affect|fa41f49ce90d41908c13a5a2160a63b8|
+anyone with an interest in achieving project objectives|project risk management|should play a role in|fa41f49ce90d41908c13a5a2160a63b8|
+roles and responsibilities for project risk management|project team members and other stakeholders|depend on the place within the project and their relation to project objectives|fa41f49ce90d41908c13a5a2160a63b8|
+roles and responsibilities for project risk management|project team members and other stakeholders|should be clearly defined and communicated|fa41f49ce90d41908c13a5a2160a63b8|
+individuals|roles and responsibilities for project risk management|should be held responsible and accountable for results|fa41f49ce90d41908c13a5a2160a63b8|
+responsibility|specific activities within the risk process|includes allocating responsibility for|fa41f49ce90d41908c13a5a2160a63b8|
+responsibility|resulting actions required to implement agreed upon responses|includes allocating responsibility for|fa41f49ce90d41908c13a5a2160a63b8|
+risk process|allocating responsibility for specific activities|includes|243bb95a946c4d7ea9f5069e7fd350ab|
+risk process|resulting actions required to implement agreed upon responses|includes|243bb95a946c4d7ea9f5069e7fd350ab|
+responsibility|specific activities within the risk process|applies to|243bb95a946c4d7ea9f5069e7fd350ab|
+responsibility|resulting actions required to implement agreed upon responses|applies to|243bb95a946c4d7ea9f5069e7fd350ab|
+responsibility|risk related lessons|is responsible for capturing|243bb95a946c4d7ea9f5069e7fd350ab|
+risk related lessons|future use|is used for|243bb95a946c4d7ea9f5069e7fd350ab|
+project manager|successful project delivery|is responsible for|bac0945ee7194fc18c99d0ab6813f487|
+project manager|defined project objectives|has overall responsibility for|bac0945ee7194fc18c99d0ab6813f487|
+project manager|day-to-day management of the project|is accountable for|bac0945ee7194fc18c99d0ab6813f487|
+project manager|effective risk management|is accountable for|bac0945ee7194fc18c99d0ab6813f487|
+project manager|senior management support for project risk management activities|may include encouraging|bac0945ee7194fc18c99d0ab6813f487|
+project manager|acceptable levels of risk for the project|determines in consultation with stakeholders|bac0945ee7194fc18c99d0ab6813f487|
+project manager|risk management plan|develops and approves|bac0945ee7194fc18c99d0ab6813f487|
+project manager|project risk management process|promotes|bac0945ee7194fc18c99d0ab6813f487|
+project manager|open and honest communication about risk within the project team|facilitates|bac0945ee7194fc18c99d0ab6813f487|
+project manager|management and other stakeholders|facilitates|bac0945ee7194fc18c99d0ab6813f487|
+project manager|all aspects of the project risk management process|participates in|bac0945ee7194fc18c99d0ab6813f487|
+project manager|risk responses and associated actions|approves prior to implementation|bac0945ee7194fc18c99d0ab6813f487|
+project team|risk management process|participates in|5036d53d21dd452b86ef25982b3cc658|
+management|risk management process|oversees|5036d53d21dd452b86ef25982b3cc658|
+stakeholders|risk management process|provides input to|5036d53d21dd452b86ef25982b3cc658|
+project team|risk responses|approves|5036d53d21dd452b86ef25982b3cc658|
+project contingency funds|identified risks|applies to deal with|5036d53d21dd452b86ef25982b3cc658|
+subcontractors and suppliers|risk management|overseen by|5036d53d21dd452b86ef25982b3cc658|
+project team|key stakeholders|reports risk status to|5036d53d21dd452b86ef25982b3cc658|
+project team|appropriate strategic decisions and actions|provides recommendations for|5036d53d21dd452b86ef25982b3cc658|
+project team|senior management|escalates identified risks to|5036d53d21dd452b86ef25982b3cc658|
+identified risks|senior management|escalated to|5036d53d21dd452b86ef25982b3cc658|
+project team|project risk management process efficiency and effectiveness|monitors|5036d53d21dd452b86ef25982b3cc658|
+risk responses|project risk management process efficiency and effectiveness|audited for effectiveness|5036d53d21dd452b86ef25982b3cc658|
+risk responses|lessons learned|documented|5036d53d21dd452b86ef25982b3cc658|
+chapter 3 introduction|risk management process|introduces|5036d53d21dd452b86ef25982b3cc658|
+project risk management process|efficiency|is related to|73e10cae299242ab98495fa842f17067|
+project risk management process|effectiveness|is related to|73e10cae299242ab98495fa842f17067|
+project risk management process|auditing|is part of|73e10cae299242ab98495fa842f17067|
+auditing|risk responses|is related to|73e10cae299242ab98495fa842f17067|
+auditing|effectiveness|evaluates|73e10cae299242ab98495fa842f17067|
+documenting lessons learned|risk responses|is related to|73e10cae299242ab98495fa842f17067|
+chapter 3|project risk management processes|introduces|73e10cae299242ab98495fa842f17067|
+project management|controlling uncertain environment|attempts to|93453ea344aa447c8fa779feecc88297|
+project management|uncertainty inherent in all projects|deals with|93453ea344aa447c8fa779feecc88297|
+structured and disciplined techniques|defining or controlling uncertainty|have a role in|93453ea344aa447c8fa779feecc88297|
+project risk management|understanding assessing and managing uncertainty within projects|provides an approach for|93453ea344aa447c8fa779feecc88297|
+project risk management|projects|forms an integral part of|93453ea344aa447c8fa779feecc88297|
+effective project risk management|project success|is a critical success factor for|93453ea344aa447c8fa779feecc88297|
+project management|effective project success|is a critical success factor for|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management|project success|is a critical success factor for|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management|project management|is an integral part of|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management|optional process|is not viewed as|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management|additional overhead task|is not performed as|4d2841ef8ad0492b833e9e6a592ccca5|
+structured project risk management|other processes of project management|needs to have a clear interface with|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|estimating resource requirements|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|cost|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|duration|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|assessing the impact of proposed scope changes|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|planning or replanning the forward strategy of the project|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|allocating resources to tasks|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+project risk management outputs|reporting progress to stakeholders|can impact|4d2841ef8ad0492b833e9e6a592ccca5|
+allocating resources|project management process effectiveness|increases|dfd5196339b14bcfa1dd93ae477b6dbf|
+reporting progress|project management process effectiveness|increases|dfd5196339b14bcfa1dd93ae477b6dbf|
+clearly viewing risk|allocating resources|is necessary for|dfd5196339b14bcfa1dd93ae477b6dbf|
+clearly viewing risk|reporting progress|is necessary for|dfd5196339b14bcfa1dd93ae477b6dbf|
+project risk management process|properly allocating resources|improves|dfd5196339b14bcfa1dd93ae477b6dbf|
+project risk management process|reporting progress|improves|dfd5196339b14bcfa1dd93ae477b6dbf|
+project risk management|project management process effectiveness|enhances|dfd5196339b14bcfa1dd93ae477b6dbf|
+effective project risk management|other project management processes|requires input from|dfd5196339b14bcfa1dd93ae477b6dbf|
+work breakdown structure (wbs)|effective project risk management|is important prerequisite for|dfd5196339b14bcfa1dd93ae477b6dbf|
+project schedule assumptions list|effective project risk management|is important prerequisite for|dfd5196339b14bcfa1dd93ae477b6dbf|
+project risk management processes|defined steps of project risk management|describes|a603a2675af54f6e84df818e81d92432|
+project risk management processes|understanding and managing risk on a project|provides a structured approach for|a603a2675af54f6e84df818e81d92432|
+project risk management processes|effective project risk management|outlines the steps required for|a603a2675af54f6e84df818e81d92432|
+project risk|uncertain event or condition|is|a603a2675af54f6e84df818e81d92432|
+project risk|has a positive or negative effect on a project's objectives|if it occurs|a603a2675af54f6e84df818e81d92432|
+risks|exist in relation to objectives|are|a603a2675af54f6e84df818e81d92432|
+start of project risk management process|clearly define the objectives|is essential at|a603a2675af54f6e84df818e81d92432|
+project risk management processes|varying degrees of risk|should be scalable to meet the|a603a2675af54f6e84df818e81d92432|
+scalable elements of project risk management processes|available resources|include|a603a2675af54f6e84df818e81d92432|
+scalable elements of project risk management processes|methodology and processes used|include|a603a2675af54f6e84df818e81d92432|
+scalable elements of project risk management processes|tools and techniques used|include|a603a2675af54f6e84df818e81d92432|
+scalable elements of project risk management processes|supporting infrastructure|include|a603a2675af54f6e84df818e81d92432|
+project risk management processes|review and update|includes|a603a2675af54f6e84df818e81d92432|
+project risk management process|scalable elements|includes|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|available resources|uses|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|methodology and processes used|utilizes|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|tools and techniques used|employs|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|supporting infrastructure|requires|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|review and update frequency|includes|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|reporting requirements|includes|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|clear understanding of risk thresholds|is necessary for|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|framework against which identified risks can be assessed|uses|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|initiation step|starts with|59b34d29acd243a0a58f195ddde7b32e|
+initiation step|common understanding and agreement of the team and other stakeholders on the approach and parameters|ensures|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|scope and objectives of the project risk management process itself|defines|59b34d29acd243a0a58f195ddde7b32e|
+project risk management process|scope and objectives of the project|is related to|8087f7d7452940348150536c28a46387|
+project risk management activities|project risk management process|is part of|8087f7d7452940348150536c28a46387|
+attention|project risk management activities|requires|8087f7d7452940348150536c28a46387|
+resources|project risk management activities|requires|8087f7d7452940348150536c28a46387|
+different projects|level of risk management application|warrants|8087f7d7452940348150536c28a46387|
+define objectives|project risk management process|is necessary for|8087f7d7452940348150536c28a46387|
+define project risk management process elements scaling|project risk management process|includes|8087f7d7452940348150536c28a46387|
+define risk thresholds, tolerances and assessment framework|project risk management process|includes|8087f7d7452940348150536c28a46387|
+documentation|outputs from initial step|is|8087f7d7452940348150536c28a46387|
+communication|outputs from initial step|is|8087f7d7452940348150536c28a46387|
+stakeholders|document for project risk management process understanding|ensures|8087f7d7452940348150536c28a46387|
+senior level|document for project risk management process approval|is approved at|8087f7d7452940348150536c28a46387|
+chapter 3 introduction to project risk management processes|project risk management scope and objectives agreed upon|is possible after|8087f7d7452940348150536c28a46387|
+project risk management processes|project scope and objectives|is necessary for|395ae6e34d8d41ba8139eafd795b1d3f|
+project risk management processes|risk identification|includes|395ae6e34d8d41ba8139eafd795b1d3f|
+risk identification|genuine risks|distinguishes|395ae6e34d8d41ba8139eafd795b1d3f|
+risk identification|non-risks|distinguishes|395ae6e34d8d41ba8139eafd795b1d3f|
+risk identification techniques|project risk management processes|is part of|395ae6e34d8d41ba8139eafd795b1d3f|
+risk identification techniques|specific project|is selected for|395ae6e34d8d41ba8139eafd795b1d3f|
+project stakeholders|identifying risks|input is sought from|395ae6e34d8d41ba8139eafd795b1d3f|
+project stakeholders|risk identification|affects|395ae6e34d8d41ba8139eafd795b1d3f|
+project risk management processes|iterative process|is|395ae6e34d8d41ba8139eafd795b1d3f|
+iterative process|identify risks process|repeats|395ae6e34d8d41ba8139eafd795b1d3f|
+project risk management processes|emergent nature of risk|acknowledges|395ae6e34d8d41ba8139eafd795b1d3f|
+risks|project stakeholders|input is sought from|d1ff8b5cc44744d99fb1378d29d4a03c|
+risks|historical records|should also be reviewed to identify|d1ff8b5cc44744d99fb1378d29d4a03c|
+risks|project documents|should also be reviewed to identify|d1ff8b5cc44744d99fb1378d29d4a03c|
+risks|project stakeholders|each will have a different perspective on the risks facing|d1ff8b5cc44744d99fb1378d29d4a03c|
+identified risks|risk owner|is designated for each identified risk|d1ff8b5cc44744d99fb1378d29d4a03c|
+risk owner|managing the corresponding risk|is the responsibility of|d1ff8b5cc44744d99fb1378d29d4a03c|
+identified risks|subsequent project risk management processes|are managed through all of|d1ff8b5cc44744d99fb1378d29d4a03c|
+risks|evaluate the importance of each risk|in order to prioritize individual risks for further attention|d1ff8b5cc44744d99fb1378d29d4a03c|
+risk evaluation|qualitative techniques|can be used to address individual risks|d1ff8b5cc44744d99fb1378d29d4a03c|
+risk evaluation|quantitative techniques|can be used to consider the overall effect of risk on the project outcome|d1ff8b5cc44744d99fb1378d29d4a03c|
+risk evaluation|both qualitative and quantitative techniques can be used in combination||d1ff8b5cc44744d99fb1378d29d4a03c|
+qualitative techniques|individual risks|help to gain a better understanding of|27de6ab668ed4adb9e643d40545dc242|
+qualitative techniques|range of characteristics|consider|27de6ab668ed4adb9e643d40545dc242|
+qualitative techniques|project outcomes|affect the overall effect on|27de6ab668ed4adb9e643d40545dc242|
+quantitative techniques|overall effect of risk on project outcome|consider|27de6ab668ed4adb9e643d40545dc242|
+integrated approach|qualitative techniques quantitative techniques|should be adopted when both are used|27de6ab668ed4adb9e643d40545dc242|
+qualitative techniques|outputs from assessments|documented and communicated to key project stakeholders|27de6ab668ed4adb9e643d40545dc242|
+qualitative techniques outputs|basis for determining appropriate responses|form a basis for|27de6ab668ed4adb9e643d40545dc242|
+quantitative techniques|key project stakeholders|provide insights to|27de6ab668ed4adb9e643d40545dc242|
+qualitative assessments|key project stakeholders|communicated to|cdf6f85dd57e494798f78bfb2f893ade|
+qualitative assessments|project outcomes|form a basis for determining appropriate responses|cdf6f85dd57e494798f78bfb2f893ade|
+quantitative techniques|identified risks|provide insights into the combined effect on|cdf6f85dd57e494798f78bfb2f893ade|
+quantitative techniques|project outcomes|indicate the degree of overall risk faced by the project|cdf6f85dd57e494798f78bfb2f893ade|
+quantitative analysis results|appropriate responses|used to focus the development of|cdf6f85dd57e494798f78bfb2f893ade|
+quantitative analysis results|contingency reserve levels|calculation of required|cdf6f85dd57e494798f78bfb2f893ade|
+quantitative techniques|project risk management processes|may not be required for all projects to ensure effective management of|cdf6f85dd57e494798f78bfb2f893ade|
+prioritized individual risks|project risk management processes|once prioritized and|cdf6f85dd57e494798f78bfb2f893ade|
+project risk management processes|effective management of risk|is necessary for|8595f66768bb41d1a678723361ac8cce|
+chapter 3 introduction to project risk management processes|project risk management processes|introduces|8595f66768bb41d1a678723361ac8cce|
+individual risks|project risk exposure|is used to understand|8595f66768bb41d1a678723361ac8cce|
+appropriate risk responses|prioritized individual risks|should be developed using|8595f66768bb41d1a678723361ac8cce|
+iterative process|appropriate risk responses|continues until|8595f66768bb41d1a678723361ac8cce|
+optimal set of responses|iterative process|is achieved by|8595f66768bb41d1a678723361ac8cce|
+range of possible response strategies|appropriate strategy for each individual risk|exists for|8595f66768bb41d1a678723361ac8cce|
+risk owner|suitable strategy for each individual risk|should be selected by|8595f66768bb41d1a678723361ac8cce|
+risk owner|affordable cost effective and appropriate strategy|ensuring that the strategy is|8595f66768bb41d1a678723361ac8cce|
+single strategy|several related risks|should be considered whenever possible|8595f66768bb41d1a678723361ac8cce|
+risk owner|actions to implement the chosen strategy|is responsible for defining|8595f66768bb41d1a678723361ac8cce|
+action owners|actions to implement the chosen strategy|actions may be delegated to|8595f66768bb41d1a678723361ac8cce|
+risk owner|actions to implement the chosen strategy|should monitor actions to determine|8595f66768bb41d1a678723361ac8cce|
+risk owner|defining actions|is responsible for|ad5a0dab83ce49838cf40472fc8ebf5c|
+risk owner|choosing strategy|is responsible for|ad5a0dab83ce49838cf40472fc8ebf5c|
+action owners|delegated actions|receives|ad5a0dab83ce49838cf40472fc8ebf5c|
+risk owner|monitoring actions|is responsible for|ad5a0dab83ce49838cf40472fc8ebf5c|
+risk owner|identifying secondary risks|determines the presence of|ad5a0dab83ce49838cf40472fc8ebf5c|
+risk responses|implementation|results in|ad5a0dab83ce49838cf40472fc8ebf5c|
+project risk|response strategies and actions|is subject to|ad5a0dab83ce49838cf40472fc8ebf5c|
+project stakeholders|documented response strategies and actions|informed of|ad5a0dab83ce49838cf40472fc8ebf5c|
+project plan|incorporated response strategies and actions|is amended with|ad5a0dab83ce49838cf40472fc8ebf5c|
+agreed upon actions|implementation|is essential for changing risk exposure|ad5a0dab83ce49838cf40472fc8ebf5c|
+project team|repeating project risk management process|responsible for|ad5a0dab83ce49838cf40472fc8ebf5c|
+project team|reevaluating the status of previously identified risks|enables to identify emergent and secondary risks|ad5a0dab83ce49838cf40472fc8ebf5c|
+project risk management process|repetition at regular intervals throughout the life of the project|is necessary for|ad5a0dab83ce49838cf40472fc8ebf5c|
+project|project team|enables|94e0e3ad913346bcb583559c60769467|
+previously identified risks|project|are related to|94e0e3ad913346bcb583559c60769467|
+emergent and secondary risks|project|are related to|94e0e3ad913346bcb583559c60769467|
+project risk management process|project|is a part of|94e0e3ad913346bcb583559c60769467|
+plan risk management|project risk management process|is a step in|94e0e3ad913346bcb583559c60769467|
+define the scope and objectives of the project risk management process|plan risk management|is a task in|94e0e3ad913346bcb583559c60769467|
+integrate into wider project management|define the scope and objectives of the project risk management process|ensures|94e0e3ad913346bcb583559c60769467|
+identify risks|project risk management process|is a step in|94e0e3ad913346bcb583559c60769467|
+knowable risks|identify risks|are identified as|94e0e3ad913346bcb583559c60769467|
+qualitative risk analysis|perform qualitative risk analysis|is a step in|94e0e3ad913346bcb583559c60769467|
+key characteristics of individual risks|qualitative risk analysis|are evaluated by|94e0e3ad913346bcb583559c60769467|
+prioritized for further action|qualitative risk analysis|enable the prioritization of|94e0e3ad913346bcb583559c60769467|
+perform quantitative risk analysis|project risk management process|is a step in|94e0e3ad913346bcb583559c60769467|
+evaluates the combined effect of risks on the overall project outcome|perform quantitative risk analysis|evaluates|94e0e3ad913346bcb583559c60769467|
+plan risk responses|project risk management process|is a step in|94e0e3ad913346bcb583559c60769467|
+appropriate response strategies and actions for each individual risk|plan risk responses|are determined by|94e0e3ad913346bcb583559c60769467|
+overall|project risk management process|is related to|94e0e3ad913346bcb583559c60769467|
+project risk management process|evaluate the combined effect of risks on the overall project outcome|is part of|f97ff7d5d5634d9896dcac3ac47083e8|
+project risk management process|plan risk responses|is part of|f97ff7d5d5634d9896dcac3ac47083e8|
+plan risk responses|determine appropriate response strategies and actions for each individual risk|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+plan risk responses|integrate them into a consolidated project management plan|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+project risk management process|monitor and control risks|is part of|f97ff7d5d5634d9896dcac3ac47083e8|
+monitor and control risks|implement agreed upon actions|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+monitor and control risks|review changes in project risk exposure|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+monitor and control risks|identify additional risk management actions as required|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+monitor and control risks|assess the effectiveness of the project risk management process|includes|f97ff7d5d5634d9896dcac3ac47083e8|
+chapter 3|project risk management process|discusses|f97ff7d5d5634d9896dcac3ac47083e8|
+chapter 4|plan risk management|introduces|f97ff7d5d5634d9896dcac3ac47083e8|
+risk management process|overall risk management strategy for the project|develops|19c470871db64bdda2f70a5437516308|
+risk management process|decision on how the risk management processes will be executed|decides|19c470871db64bdda2f70a5437516308|
+risk management process|integration with all other project management activities|integrates|19c470871db64bdda2f70a5437516308|
+creation of a risk management plan|risk management processes|describes how to carry out|19c470871db64bdda2f70a5437516308|
+risk management plan|other project management processes|fits in with|19c470871db64bdda2f70a5437516308|
+project risk management|general project management|describes the relationships among|19c470871db64bdda2f70a5437516308|
+risk management plan|early planning of the project|should be carried out early in|19c470871db64bdda2f70a5437516308|
+risk management plan|overall project management plan|corresponding risk management activities integrated into|19c470871db64bdda2f70a5437516308|
+project overall planning|risk management activities|integrated into|7b30112ac4ef407d9b0e223e12a20d1f|
+risk management plan|overall project management plan|is part of|7b30112ac4ef407d9b0e223e12a20d1f|
+risk management plan|project needs and stakeholders|adapts as the needs change|7b30112ac4ef407d9b0e223e12a20d1f|
+project risk management processes|overall project management plan|forms an integral part of|7b30112ac4ef407d9b0e223e12a20d1f|
+budget for risk management activities|project management plan|established in order to track, control and defend expenditures|7b30112ac4ef407d9b0e223e12a20d1f|
+cost of treating risks|project budget|included appropriately|7b30112ac4ef407d9b0e223e12a20d1f|
+risk management plan|project budget evaluation, allocation and management|describes how this part is evaluated, allocated and managed|7b30112ac4ef407d9b0e223e12a20d1f|
+monitoring methods|risk management plan|define the methods to ensure appropriate tracking of expenditures|7b30112ac4ef407d9b0e223e12a20d1f|
+conditions under which|||7b30112ac4ef407d9b0e223e12a20d1f|
+risk management plan|monitoring methods|defines|db8a34b215f84238a0515500adf69704|
+risk management plan|corresponding expenditures|tracks appropriately|db8a34b215f84238a0515500adf69704|
+risk management plan|approved budget for risk management|can be modified under conditions defined in the plan|db8a34b215f84238a0515500adf69704|
+project management|risk management activities|is a process of progressive elaboration|db8a34b215f84238a0515500adf69704|
+risk management activities|project management plan|should be integrated into|db8a34b215f84238a0515500adf69704|
+risk management|success criteria for project|has success criteria defined in Chapter 4 (Plan Risk Management Project Related Criteria)|db8a34b215f84238a0515500adf69704|
+project risk management success criteria|stakeholders|must agree on|db8a34b215f84238a0515500adf69704|
+project risk management|general project success|is necessary for|0b5b4e0d4af443bca4a779e13951464b|
+chapter 4 plan risk management|project risk management|is part of|0b5b4e0d4af443bca4a779e13951464b|
+project related criteria|chapter 4 plan risk management|presented by|0b5b4e0d4af443bca4a779e13951464b|
+stakeholders|project related criteria|agree on an acceptable level of results for|0b5b4e0d4af443bca4a779e13951464b|
+cost, time, scope|project related criteria|includes|0b5b4e0d4af443bca4a779e13951464b|
+risk management plan|project definition documents|refers to|0b5b4e0d4af443bca4a779e13951464b|
+stakeholders|risk management plan|should agree on|0b5b4e0d4af443bca4a779e13951464b|
+project objectives|stakeholders|prioritized by|0b5b4e0d4af443bca4a779e13951464b|
+process related criteria|project risk management|depends on|0b5b4e0d4af443bca4a779e13951464b|
+factors for success in project risk management|process related criteria|includes|0b5b4e0d4af443bca4a779e13951464b|
+level of uncertainty of the project|factors for success in project risk management|affects|0b5b4e0d4af443bca4a779e13951464b|
+project risk management process|research project|applicable to|0b5b4e0d4af443bca4a779e13951464b|
+unforeseen changes|project risk management process for a research project|requires addressing|0b5b4e0d4af443bca4a779e13951464b|
+management process for a research project|project with a more predictable environment|differs from|1e24d975d77140ac918a6f9f330d87e8|
+research project risk management process|project risk management process in a more predictable project|differs from|1e24d975d77140ac918a6f9f330d87e8|
+success of research project risk management process|success of project risk management process in a more predictable project|may result in more variance from the baseline|1e24d975d77140ac918a6f9f330d87e8|
+acceptable level of risk in a project|stakeholders|depends on|1e24d975d77140ac918a6f9f330d87e8|
+risk attitudes of stakeholders|organization|may be influenced by|1e24d975d77140ac918a6f9f330d87e8|
+risk attitudes of stakeholders|factors affecting risk attitudes|influenced by|1e24d975d77140ac918a6f9f330d87e8|
+factors affecting risk attitudes|tolerance for uncertainty of stakeholders|includes|1e24d975d77140ac918a6f9f330d87e8|
+factors affecting risk attitudes|relative importance to them of achieving or missing specific project objectives|includes|1e24d975d77140ac918a6f9f330d87e8|
+output of analysis|setting thresholds and providing weighting factors|should then be taken into account for|1e24d975d77140ac918a6f9f330d87e8|
+project risk management processes|specific project|is applied in|cda560eaa12c45b59960f18e41b2e175|
+guidelines and rules for escalating risk information|management and stakeholders|should reflect|cda560eaa12c45b59960f18e41b2e175|
+risk attitudes and expectations of stakeholders|guidelines and rules for escalating risk information|should reflect|cda560eaa12c45b59960f18e41b2e175|
+project manager|stakeholders|should maintain effective communication with|cda560eaa12c45b59960f18e41b2e175|
+project manager|project evolution|should become aware of any changes in order to adapt the risk management approach|cda560eaa12c45b59960f18e41b2e175|
+stakeholders attitudes|project manager|should be aware of any changes in|cda560eaa12c45b59960f18e41b2e175|
+terms used to describe risks|participants|should share a common understanding of|cda560eaa12c45b59960f18e41b2e175|
+critical values and thresholds|tools|should be defined in a manner consistent with|cda560eaa12c45b59960f18e41b2e175|
+scope of the project|critical values and thresholds|and the attitudes of Stakeholders|cda560eaa12c45b59960f18e41b2e175|
+qualitative analysis|high impact medium probability|uses such terms as|cda560eaa12c45b59960f18e41b2e175|
+high impact medium probability|qualitative analysis|should be defined|cda560eaa12c45b59960f18e41b2e175|
+risk management plan|project scope|is consistent with|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+risk management plan|stakeholders' attitudes|takes into account|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+qualitative analysis|high impact or medium probability|uses terms defined objectively in the risk management plan|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+risk management plan|key numerical values for quantitative analysis and decision making|specifies|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+risk management planning|type and level of risk detail to be addressed|establishes|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+risk management plan|risk register template for recording risk related information|provides a template of|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+risk management plan|intensity of effort and frequency of project risk management processes application|indicates|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+project characteristics|intensity of effort and frequency of project risk management processes application|depends on|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+project risk management processes|correct and effective execution|requires|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+project team|project risk management processes|carries out|ae2c37d44d9d4d58bbe550c6ca06a6ad|
+project risk management processes|project team and other stakeholders|needs to participate|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management processes|criteria for determining success|needs to know|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management processes|level of authority|needs to know|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management processes|actions or decisions beyond this level|action to take relative to|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management plan|project's risk management roles and responsibilities|specifies|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management plan|senior management|defines the corresponding expectations for|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management plan|project personnel|defines the corresponding expectations for|6bfba2bd3e57484cabfa87a4a20c840e|
+risk management plan|project risk management communication|occurs at two levels|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management communication|project team|communication category|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management communication (project team)|risk management meetings and reports|describes the frequency and scope of|6bfba2bd3e57484cabfa87a4a20c840e|
+project risk management communication|other project stakeholders|communication category|6bfba2bd3e57484cabfa87a4a20c840e|
+risk management plan|team|describes|203510887f6540a3a41d54e17792c494|
+risk management plan|frequency and scope of risk management meetings|defines|203510887f6540a3a41d54e17792c494|
+risk management plan|scope of various risk management reports|defines|203510887f6540a3a41d54e17792c494|
+risk management plan|structure and content of such meetings and reports|defines|203510887f6540a3a41d54e17792c494|
+risk management plan|corresponding project risk management processes|describes|203510887f6540a3a41d54e17792c494|
+risk management plan|other stakeholders|sets expectations for|203510887f6540a3a41d54e17792c494|
+risk management plan|structure content and frequency of routine documents|sets expectations for|203510887f6540a3a41d54e17792c494|
+risk management plan|way of information sharing for escalation or exceptional events|sets expectations for|203510887f6540a3a41d54e17792c494|
+risk management plan|information required by the project team from stakeholders|details|203510887f6540a3a41d54e17792c494|
+project manager|project stakeholders|involves|295ee5cc20da40d3a9fe917668f2b6b4|
+project risk management activities|project stakeholders|build on the skills and experience of|295ee5cc20da40d3a9fe917668f2b6b4|
+project risk management process|project stakeholders|ensure understanding and commitment to|295ee5cc20da40d3a9fe917668f2b6b4|
+risk management plan|management at a level adequate for carrying out the required project risk management processes|provision should be approved by|295ee5cc20da40d3a9fe917668f2b6b4|
+management|analysis of the level of resourcing required for managing project risk|should be involved in|295ee5cc20da40d3a9fe917668f2b6b4|
+management|risks that may arise from specific limitations placed on the provision of resources|should accept|295ee5cc20da40d3a9fe917668f2b6b4|
+stakeholders|disagreements between stakeholders in the areas of risk tolerance and evaluation measures|should be addressed and resolved|295ee5cc20da40d3a9fe917668f2b6b4|
+risk management planning|organization's objectives, policies, and practices|complies with|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management planning|feasibility of risk management planning|is dependent upon|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management planning|organization's culture|should be compatible with|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management planning|organization's capabilities (people and facilities)|should be compatible with|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management planning|organization's values, goals, and objectives|should be compatible with|edcb74b1407f4da59dd71166a9e5e0f3|
+project management in general|organization's effective governance|contributes to|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management (particularly)|organization's effective governance|contributes to|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management plan|relevant organizational procedures|should identify and take into account|edcb74b1407f4da59dd71166a9e5e0f3|
+risk management plan|any other enterprise environmental factors (e.g., strategic risk management or corporate governance processes)|should identify and take into account|edcb74b1407f4da59dd71166a9e5e0f3|
+plan risk management process|stakeholders|is supported by|cd85ee0164524a04b9a83c74f705322e|
+plan risk management process|management|is recognized and accepted by|cd85ee0164524a04b9a83c74f705322e|
+benefits of managing risk|stakeholders and especially management in the organization responsible for the project|are recognized as|cd85ee0164524a04b9a83c74f705322e|
+added value of addressing risk management as a skill|stakeholders and especially management in the organization responsible for the project|is perceived as|cd85ee0164524a04b9a83c74f705322e|
+plan risk management process|internal and external constraints on the project|aligns with|cd85ee0164524a04b9a83c74f705322e|
+plan risk management process|balance between cost or effort and benefit|requires|cd85ee0164524a04b9a83c74f705322e|
+plan risk management process|completeness with respect to the needs of the project risk management process|is in terms of|cd85ee0164524a04b9a83c74f705322e|
+barriers to successful project risk management|time and effort required for plan risk management process|are identified and addressed|cd85ee0164524a04b9a83c74f705322e|
+project management|risk management|is part of|8dabcbecb4744680a1fd0d9e3152b58e|
+project objectives|risk management|provides a valid basis for|8dabcbecb4744680a1fd0d9e3152b58e|
+project manager|plan risk management activity|ensures availability of|8dabcbecb4744680a1fd0d9e3152b58e|
+organization|risk management planning|engages in|8dabcbecb4744680a1fd0d9e3152b58e|
+inexperienced organization|developing own approach|may need to|8dabcbecb4744680a1fd0d9e3152b58e|
+organization|pre-existing approach|may use|8dabcbecb4744680a1fd0d9e3152b58e|
+tailoring|pre-existing approach|requires|8dabcbecb4744680a1fd0d9e3152b58e|
+organizational process assets|plan risk management activities|contributes to the chances of success of|8dabcbecb4744680a1fd0d9e3152b58e|
+standard templates|risk information|provides|8dabcbecb4744680a1fd0d9e3152b58e|
+predefined risk categories|risk information|provides|8dabcbecb4744680a1fd0d9e3152b58e|
+established project management methodology|risk information|incorporating risk management procedures that specify what|8dabcbecb4744680a1fd0d9e3152b58e|
+risk management activities|predefined risk categories|includes|23feec0a6d5648b48451040c91af1a97|
+risk management activities|established project management methodology|incorporates|23feec0a6d5648b48451040c91af1a97|
+risk management activities|risk management procedures|specifies|23feec0a6d5648b48451040c91af1a97|
+risk management procedures|decision making|requires|23feec0a6d5648b48451040c91af1a97|
+risk management procedures|concepts and terms|defines|23feec0a6d5648b48451040c91af1a97|
+risk management procedures|roles responsibilities and authority levels|defines|23feec0a6d5648b48451040c91af1a97|
+lessons learned|project|taken into account from|23feec0a6d5648b48451040c91af1a97|
+project|risk management plan|delivers value unless project risk management is carried out as an integral part of the project|23feec0a6d5648b48451040c91af1a97|
+corresponding activities|project work breakdown structure|built into|23feec0a6d5648b48451040c91af1a97|
+corresponding activities|schedule|included in|23feec0a6d5648b48451040c91af1a97|
+corresponding activities|budget|included in|23feec0a6d5648b48451040c91af1a97|
+corresponding activities|work assignment documents|included in|23feec0a6d5648b48451040c91af1a97|
+planning sessions|project stakeholders|recommended for|3bc40f809f1245cf92a9d3d40941d2ec|
+planning sessions|common understanding of the project's risk approach|build|3bc40f809f1245cf92a9d3d40941d2ec|
+planning sessions|agreement on the techniques to be used for managing risk|gain|3bc40f809f1245cf92a9d3d40941d2ec|
+elaboration of the risk management plan|effective means for the team to work together|serves to develop|3bc40f809f1245cf92a9d3d40941d2ec|
+team approach|subsequent stages of the risk management process|similar will be used in|3bc40f809f1245cf92a9d3d40941d2ec|
+participants|project manager|should include|3bc40f809f1245cf92a9d3d40941d2ec|
+participants|selected project team members|should include|3bc40f809f1245cf92a9d3d40941d2ec|
+participants|other stakeholders|should include|3bc40f809f1245cf92a9d3d40941d2ec|
+participants|members of the broader organization having responsibility for risk and other subject matter experts or facilitators as needed|may include|3bc40f809f1245cf92a9d3d40941d2ec|
+initial risk responsibilities methodology templates terms definitions time schedules and cost budgets|for the other project risk management processes|should be assigned and accepted at this point|3bc40f809f1245cf92a9d3d40941d2ec|
+specification for the tools|subsequent processes|should include|3bc40f809f1245cf92a9d3d40941d2ec|
+project risk management processes|other project|assigned|4eb5fd065fc34286b6f45a4f87608509|
+project risk management processes|subsequent processes|affects|4eb5fd065fc34286b6f45a4f87608509|
+specification for tools|project risk management processes|related to|4eb5fd065fc34286b6f45a4f87608509|
+specification for tools|parameters and other inputs required|includes|4eb5fd065fc34286b6f45a4f87608509|
+documented risk management plan|project risk management processes|result from|4eb5fd065fc34286b6f45a4f87608509|
+formally approved risk management plan|principal deliverable of the plan risk management process|is prerequisite for|4eb5fd065fc34286b6f45a4f87608509|
+chapter 4|plan risk management|contains|4eb5fd065fc34286b6f45a4f87608509|
+4.3.2 templates|experience and existing best practice risk management planning|benefits from|b9a45afcaa564f8ea2ae67e4ebe556b5|
+4.3.2 templates|relevant existing templates for work products|takes into account|b9a45afcaa564f8ea2ae67e4ebe556b5|
+relevant existing templates for work products|risk status reports|are related to|b9a45afcaa564f8ea2ae67e4ebe556b5|
+relevant existing templates for work products|risk breakdown structures|are related to|b9a45afcaa564f8ea2ae67e4ebe556b5|
+relevant existing templates for work products|the risk register|are related to|b9a45afcaa564f8ea2ae67e4ebe556b5|
+which templates are relevant to the project|4.3.2 templates|include|b9a45afcaa564f8ea2ae67e4ebe556b5|
+which templates are relevant to the project|risk management plan|are adapted and included in|b9a45afcaa564f8ea2ae67e4ebe556b5|
+plan risk management process|tools and techniques|used by|e4fe5ac1417a4576bcf8bcebb70464e2|
+tool|technique|type of|e4fe5ac1417a4576bcf8bcebb70464e2|
+risk management plan|project stakeholders|provides|7b0333f3dafa415589904addb026baef|
+risk management plan|agreement upon risk related activities|contains a description of|7b0333f3dafa415589904addb026baef|
+risk management plan|stakeholders involvement and responsibilities|describes|7b0333f3dafa415589904addb026baef|
+figure 4.1|key areas of focus for the plan risk management process|gives an overview of|7b0333f3dafa415589904addb026baef|
+size and complexity of the project|presence of elements in a risk management plan|depends upon|7b0333f3dafa415589904addb026baef|
+risk management plan|introduction|includes|7b0333f3dafa415589904addb026baef|
+risk management plan|project description|includes|7b0333f3dafa415589904addb026baef|
+risk management plan|risk management methodology|includes|7b0333f3dafa415589904addb026baef|
+risk management plan|risk management organization|includes roles, responsibilities and authority|7b0333f3dafa415589904addb026baef|
+stakeholder risk tolerance criteria for success|risk management plan|is a part of|7b0333f3dafa415589904addb026baef|
+risk management tools and guidelines for use|risk management plan|includes|7b0333f3dafa415589904addb026baef|
+thresholds and corresponding definitions|risk management plan|includes|7b0333f3dafa415589904addb026baef|
+templates|risk management plan|includes|7b0333f3dafa415589904addb026baef|
+communications plan|risk management plan|is a part of|7b0333f3dafa415589904addb026baef|
+strategy and risk breakdown structure|risk management plan|is a part of|7b0333f3dafa415589904addb026baef|
+risk tolerance criteria|success risk management tools|applies to|c44e780cc11c4d6398cd33160a67422c|
+success risk management tools|guidelines for use|includes|c44e780cc11c4d6398cd33160a67422c|
+guidelines for use|thresholds|defines|c44e780cc11c4d6398cd33160a67422c|
+thresholds|corresponding definitions|is associated with|c44e780cc11c4d6398cd33160a67422c|
+thresholds|templates|is used with|c44e780cc11c4d6398cd33160a67422c|
+templates|communications plan|is part of|c44e780cc11c4d6398cd33160a67422c|
+communications plan|strategy|is integrated with|c44e780cc11c4d6398cd33160a67422c|
+risk breakdown structure|chapter 5|is related to|c44e780cc11c4d6398cd33160a67422c|
+chapter 5|identify risks|discusses|c44e780cc11c4d6398cd33160a67422c|
+identify risks process|project objectives|is necessary for|24ec83a0d28e4cdc9023654ae2a683b1|
+identify risks process|risk management planning|comes after|24ec83a0d28e4cdc9023654ae2a683b1|
+identify risks process|project risk exposure|affects|24ec83a0d28e4cdc9023654ae2a683b1|
+identify risks process|decisions and actions taken previously in the project|is influenced by|24ec83a0d28e4cdc9023654ae2a683b1|
+identify risks process|project internal change|is influenced by|24ec83a0d28e4cdc9023654ae2a683b1|
+identify risks process|externally imposed change|is influenced by|24ec83a0d28e4cdc9023654ae2a683b1|
+purpose of risk identification|project objectives|protects|24ec83a0d28e4cdc9023654ae2a683b1|
+risk identification|known risks to project objectives|aims to identify|24ec83a0d28e4cdc9023654ae2a683b1|
+risk identification|unknown risks or emergent risks|cannot identify all|24ec83a0d28e4cdc9023654ae2a683b1|
+risk identification|identify risks process|is iterative, repeating the process to find new risks|24ec83a0d28e4cdc9023654ae2a683b1|
+potential responses|risk identified|may also be identified at the same time|24ec83a0d28e4cdc9023654ae2a683b1|
+risk identification|risks|is part of|cdd20891906247e4945a382e2c67491d|
+risks|previously identified risks|not part of|cdd20891906247e4945a382e2c67491d|
+risk identification|potential responses|results in|cdd20891906247e4945a382e2c67491d|
+potential responses|recorded during the identify risks process|is related to|cdd20891906247e4945a382e2c67491d|
+potential responses|immediate action|affects|cdd20891906247e4945a382e2c67491d|
+potential responses|not implemented immediately|is related to|cdd20891906247e4945a382e2c67491d|
+not implemented immediately potential responses|considered during the plan risk responses process|is necessary for|cdd20891906247e4945a382e2c67491d|
+human activities|bias|is susceptible to|86ee5bb1123f41a6b0cfed36756d60a6|
+bias|motivational biases|type of|86ee5bb1123f41a6b0cfed36756d60a6|
+bias|cognitive biases|type of|86ee5bb1123f41a6b0cfed36756d60a6|
+motivational biases|results in one direction or another|direction affected by|86ee5bb1123f41a6b0cfed36756d60a6|
+cognitive biases|occurs as people are using their best judgment and applying heuristics|occurs during|86ee5bb1123f41a6b0cfed36756d60a6|
+bias|should be explicitly recognized and addressed during the identify risks process|affects|86ee5bb1123f41a6b0cfed36756d60a6|
+sources of bias|should be exposed wherever possible|should be identified|86ee5bb1123f41a6b0cfed36756d60a6|
+sources of bias|effect on the risk process|affects|86ee5bb1123f41a6b0cfed36756d60a6|
+effect on the risk process|should be managed proactively|requires management|86ee5bb1123f41a6b0cfed36756d60a6|
+minimize subjectivity|allow open and honest identification of as many risks as possible to the project|goal of|86ee5bb1123f41a6b0cfed36756d60a6|
+early risk identification|project lifecycle|is part of|0999e63a4ea143289781b66ef2a19b86|
+early risk identification|project decisions|enables|0999e63a4ea143289781b66ef2a19b86|
+early risk identification|project strategy|influences|0999e63a4ea143289781b66ef2a19b86|
+initial stages of a project|uncertainty|is related to|0999e63a4ea143289781b66ef2a19b86|
+initial stages of a project|less information|results from|0999e63a4ea143289781b66ef2a19b86|
+early risk identification|risk responses|is related to|0999e63a4ea143289781b66ef2a19b86|
+development and implementation of risk responses|efficiency|enhances|0999e63a4ea143289781b66ef2a19b86|
+early risk identification|costs for risk responses|results in changes for|0999e63a4ea143289781b66ef2a19b86|early risk identification enables key project decisions to take maximum account of risks inherent in the project and may result in changes to the project strategy, such as changes to reduce potential costs for risk responses
+chapter 5|risks|identifies|0999e63a4ea143289781b66ef2a19b86|
+early risk identification|project lifecycle|is performed within|ad5bb081edd74089a308823e30c94b2c|
+uncertainty|initial stages of a project|characterizes|ad5bb081edd74089a308823e30c94b2c|
+less information|initial stages of a project|is associated with|ad5bb081edd74089a308823e30c94b2c|
+early risk identification|key project decisions|enables effective consideration of|ad5bb081edd74089a308823e30c94b2c|
+early risk identification|project strategy|may result in changes to|ad5bb081edd74089a308823e30c94b2c|
+early risk identification|time available for development and implementation of risk responses|maximizes|ad5bb081edd74089a308823e30c94b2c|
+responses taken early|efficiency|enhances|ad5bb081edd74089a308823e30c94b2c|
+chapter 5|risks|identifies|ad5bb081edd74089a308823e30c94b2c|
+risk identification|project life cycle|is part of|d96d389bae5842bbad0d95e3ff80cab2|
+risk identification|periodic review|is repeated during|d96d389bae5842bbad0d95e3ff80cab2|
+plan risk management process|frequency of periodic review|determines|d96d389bae5842bbad0d95e3ff80cab2|
+risk identification|key milestones in the project|is repeated at|d96d389bae5842bbad0d95e3ff80cab2|
+risk identification|significant change to the project or its operating environment|is repeated upon|d96d389bae5842bbad0d95e3ff80cab2|
+risk identification|project life cycle|is part of|952af3d6f1c94f9bb2665306d0762ec5|
+risk identification|plan risk management process|determined during|952af3d6f1c94f9bb2665306d0762ec5|
+risk identification|periodic frequency|determined by|952af3d6f1c94f9bb2665306d0762ec5|
+risk identification|key milestones in the project|repeated at|952af3d6f1c94f9bb2665306d0762ec5|
+risk identification|significant change to the project or its operating environment|repeated whenever there is|952af3d6f1c94f9bb2665306d0762ec5|
+project risk management process|identify risks process|permits|a5e7e81c82f44c90ad8cdcee558fa025|
+project risk management process|risk identification events|not limited to|a5e7e81c82f44c90ad8cdcee558fa025|
+project risk management process|regular reviews|not limited to|a5e7e81c82f44c90ad8cdcee558fa025|
+project plan|identify risks process|defines|a5e7e81c82f44c90ad8cdcee558fa025|
+project risk management process|identify risks process (as defined in the project plan)|permits|0820478c0e114f4db9f0d671ce2848e7|
+project risk management process|risks|allows for identification at any time|0820478c0e114f4db9f0d671ce2848e7|
+project risk management process|formal risk identification events or regular reviews|not limited to|0820478c0e114f4db9f0d671ce2848e7|
+comprehensive identification|range of sources of risk|considers|dddc3642739347f2b6334787ec83ffe2|
+comprehensive identification|uncertainties|ensures that as many as possible have been identified|dddc3642739347f2b6334787ec83ffe2|
+uncertainties|objectives|might affect|dddc3642739347f2b6334787ec83ffe2|
+comprehensive identification|broad range of sources of risk|considers|e2e90571c21c45b9827cfcef5daa1e1c|
+broad range of sources of risk|uncertainties|might affect|e2e90571c21c45b9827cfcef5daa1e1c|
+comprehensive identification|objectives|have been identified in relation to|e2e90571c21c45b9827cfcef5daa1e1c|
+opportunities identification process|opportunities|ensures|9331168b90f145609b7f2c1571296d25|
+risk management process (implied)|identify risks process|is part of|9331168b90f145609b7f2c1571296d25|
+opportunity identification process|opportunities|ensures|183d1b48548642a0b851e4f7a331dbef|
+opportunities|risk management process (specifically the 'identify risks' process)|should be properly considered by|183d1b48548642a0b851e4f7a331dbef|
+risk identification process|project stakeholders|takes input from|bbff5608bcc340f79e17a7060b6a1765|
+risk identification process|immediate project team|limited to|bbff5608bcc340f79e17a7060b6a1765|
+all perspectives|risks|ensured to be represented and considered|bbff5608bcc340f79e17a7060b6a1765|
+limiting risk identification|exposure of all knowable risks|unlikely to|bbff5608bcc340f79e17a7060b6a1765|
+project objectives|identified project risks|relates to|eef612278e1b4c4889c2bb50e8abd05b|
+project objectives|risk|affects|eef612278e1b4c4889c2bb50e8abd05b|
+risk|uncertain event or condition|is|eef612278e1b4c4889c2bb50e8abd05b|
+project objectives|pmbok guide|defined by|eef612278e1b4c4889c2bb50e8abd05b|
+risk|pmbok guide|governed by|eef612278e1b4c4889c2bb50e8abd05b|
+complete risk statement|identified risks|contains|926dd80740b345369a5722c30cd24d62|
+identified risks|those responsible for risk assessment and risk response planning|affects|926dd80740b345369a5722c30cd24d62|
+complete risk statement|more detailed risk descriptions|requires|926dd80740b345369a5722c30cd24d62|
+more detailed risk descriptions|uncertainty and its causes and effects|explicitly states|926dd80740b345369a5722c30cd24d62|
+single words or phrases such as resources or logistics|inadequate descriptions|are not proper examples of|926dd80740b345369a5722c30cd24d62|
+ownership risks|risk description level|is affected by|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+ownership risks|development of responses|makes it difficult to|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+ownership risks|assignment of ownership|makes it difficult to|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+risk description level|clear responsibility and accountability for its management|enables|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+risk description level|a single risk owner|is necessary for|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+risk description level|detail|creates a great deal of work|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+trigger conditions|risk description|should also be identified where this is possible and appropriate|9ed9afbe50eb4ed5810ffd0c2dc0e7de|
+identify risks process|critical success factors|is governed by|0c5a4c26bae142bcbf3c1d6b641fdac7|
+value and effectiveness of the identify risks process|critical success factors|affects|0c5a4c26bae142bcbf3c1d6b641fdac7|
+likelihood of identifying as many risks as practicable|critical success factors|influences|0c5a4c26bae142bcbf3c1d6b641fdac7|
+section 5.2.1|practices|is part of|0c5a4c26bae142bcbf3c1d6b641fdac7|
+section 5.2.10|practices|is part of|0c5a4c26bae142bcbf3c1d6b641fdac7|
+maximization of the value and effectiveness of the identify risks process|section 5.2.1 through 5.2.10|results from|0c5a4c26bae142bcbf3c1d6b641fdac7|
+historical review|past events in this project|based on|f92957f2bcb5408394f474878a7d8072|
+historical review|other similar projects in the same organization|applicable to|f92957f2bcb5408394f474878a7d8072|
+historical review|comparable projects in other organizations|applicable to|f92957f2bcb5408394f474878a7d8072|
+historical review approaches|careful selection of comparable situations|rely on|f92957f2bcb5408394f474878a7d8072|
+historical review approaches|filtering of data|rely on|f92957f2bcb5408394f474878a7d8072|
+historical situation selected|current project|applicable to|f92957f2bcb5408394f474878a7d8072|
+risks identified in the historical situation|this project|might arise in|f92957f2bcb5408394f474878a7d8072|
+current assessments|detailed consideration|relies on|9f6f5208f21341d4890e9c536d10aa9e|
+current assessments|project|analyzing|9f6f5208f21341d4890e9c536d10aa9e|
+current assessments|project characteristics|considering against|9f6f5208f21341d4890e9c536d10aa9e|
+current assessments|given frameworks and models|examining in order to expose areas of uncertainty|9f6f5208f21341d4890e9c536d10aa9e|
+current assessment techniques|historical review approaches|do not rely on|9f6f5208f21341d4890e9c536d10aa9e|
+current assessment techniques|outside reference points|do not rely on|9f6f5208f21341d4890e9c536d10aa9e|
+current assessment techniques|project|based purely on examination of|9f6f5208f21341d4890e9c536d10aa9e|
+creativity techniques|risk identification|used for|2991ccecc384421ca6e91b44a2e8f3a8|
+project stakeholders|use creativity techniques|encouraged to|2991ccecc384421ca6e91b44a2e8f3a8|
+project stakeholders|find risks|encourages|2991ccecc384421ca6e91b44a2e8f3a8|
+creativity techniques|affect the project|might affect|2991ccecc384421ca6e91b44a2e8f3a8|
+participants' ability to think creatively|determines outcomes or effectiveness of creativity techniques|depends on|2991ccecc384421ca6e91b44a2e8f3a8|
+creativity techniques|can be used singly|can be used|2991ccecc384421ca6e91b44a2e8f3a8|
+creativity techniques|can be used in groups|can be used|2991ccecc384421ca6e91b44a2e8f3a8|
+creativity techniques|employ varying degrees of structure|vary in structure|2991ccecc384421ca6e91b44a2e8f3a8|
+participants' ability to think creatively|success is enhanced by a skilled facilitator|enhances success|2991ccecc384421ca6e91b44a2e8f3a8|
+category of risk identification technique|has strengths and weaknesses|possesses|2991ccecc384421ca6e91b44a2e8f3a8|
+no single technique|cannot reveal all knowable risks|cannot be expected to|2991ccecc384421ca6e91b44a2e8f3a8|
+identify risks process for a particular project|should use a combination of techniques|should use|2991ccecc384421ca6e91b44a2e8f3a8|
+particular project|may choose to use a risk identification checklist|can choose to use|2991ccecc384421ca6e91b44a2e8f3a8|
+particular project|may choose historical review together with assumptions analysis current assessment|can choose|2991ccecc384421ca6e91b44a2e8f3a8|
+risk identification techniques|project|is used by|ddb1b552c3084c68896f84ea8b295936|
+risk identification techniques|historical review|is one of|ddb1b552c3084c68896f84ea8b295936|
+risk identification techniques|assumptions analysis|is one of|ddb1b552c3084c68896f84ea8b295936|
+risk identification techniques|current assessment|is one of|ddb1b552c3084c68896f84ea8b295936|
+risk identification techniques|brainstorming creativity|is one of|ddb1b552c3084c68896f84ea8b295936|
+project|risk breakdown structure|uses|ddb1b552c3084c68896f84ea8b295936|
+risk breakdown structure|categories of potential risks|organizes|ddb1b552c3084c68896f84ea8b295936|
+prompt list or set of generic list categories|project risk identification techniques|assists in ensuring that|ddb1b552c3084c68896f84ea8b295936|
+project risk process|identified risks|is focused on|ddb1b552c3084c68896f84ea8b295936|
+identified risks|project risk process|are unambiguously described to ensure that|ddb1b552c3084c68896f84ea8b295936|
+structured risk descriptions|clarity|ensures|ddb1b552c3084c68896f84ea8b295936|
+risk meta language|structured risk descriptions|offers a useful way of|ddb1b552c3084c68896f84ea8b295936|
+structured risk descriptions|clarity|ensures|f6a007251edd4ae6a63ebb1035713b24|
+risk meta language|distinguishing a risk from its causes and effects|offers a useful way of|f6a007251edd4ae6a63ebb1035713b24|
+three part statements|risk meta language|describing each risk using|f6a007251edd4ae6a63ebb1035713b24|
+three part statements|as a result of cause, risk may occur which would lead to effect|in the form of|f6a007251edd4ae6a63ebb1035713b24|
+cause|risk|is|f6a007251edd4ae6a63ebb1035713b24|
+risk|occur which would lead to effect|may result in|f6a007251edd4ae6a63ebb1035713b24|
+effect|cause risk|is related to|f6a007251edd4ae6a63ebb1035713b24|
+figure 5.2|the relationship between cause, risk, and effect|shows|f6a007251edd4ae6a63ebb1035713b24|
+tools and techniques for risk identification|range of tools and techniques|is a part of|81bb7a7dfe494d7190266507162df791|
+risk identification process|tools and techniques for risk identification|belongs to|81bb7a7dfe494d7190266507162df791|
+figure 5.1|three perspectives of risk identification|illustrates|81bb7a7dfe494d7190266507162df791|
+chapter 5|identify risks|provides information about|81bb7a7dfe494d7190266507162df791|
+identify risks process|risk register|results from|55889990f51346e4bf84e18f30ea0687|
+results of the identify risks process|all relevant information for each identified risk|includes|55889990f51346e4bf84e18f30ea0687|
+identify risks process|risk description|includes|55889990f51346e4bf84e18f30ea0687|
+identify risks process|nominated risk owner|includes|55889990f51346e4bf84e18f30ea0687|
+identify risks process|causes and effects of the risk|may include|55889990f51346e4bf84e18f30ea0687|
+identify risks process|preliminary responses|may include|55889990f51346e4bf84e18f30ea0687|
+chapter 6|qualitative risk analysis|performs|55889990f51346e4bf84e18f30ea0687|
+perform qualitative risk analysis process|project risks|assesses and evaluates|ee721e0086d04cd3978dc90e0ded4556|
+perform qualitative risk analysis process|agreed upon characteristics|based on|ee721e0086d04cd3978dc90e0ded4556|
+individual risks|project objectives|affects|ee721e0086d04cd3978dc90e0ded4556|
+qualitative risk analysis|probability of each risk occurrence|evaluates|ee721e0086d04cd3978dc90e0ded4556|
+qualitative risk analysis|effects of individual risks on the project objectives|evaluates|ee721e0086d04cd3978dc90e0ded4556|
+quantitative risk analysis techniques|overall risk to project objectives|addresses directly|ee721e0086d04cd3978dc90e0ded4556|
+analysis step|risks categorization according to sources or causes|includes|ee721e0086d04cd3978dc90e0ded4556|
+root cause risk|risk responses|focuses on addressing|ee721e0086d04cd3978dc90e0ded4556|
+common sources or causes of risks|more effective risk responses|when they focus on addressing this|ee721e0086d04cd3978dc90e0ded4556|
+identified risks|common effects from groups of risks|arise from|ee721e0086d04cd3978dc90e0ded4556|
+root cause risk|several risks|arises from|af78ec6081bc421c8a24b1ed46e10cde|
+root cause risk|response to root cause risk|focuses on addressing|af78ec6081bc421c8a24b1ed46e10cde|
+common effects from groups of risks|areas of greatest risk exposure|allows identification of|af78ec6081bc421c8a24b1ed46e10cde|
+areas of greatest risk exposure|project completion date|exposure to|af78ec6081bc421c8a24b1ed46e10cde|
+areas of greatest risk exposure|budget|exposure to|af78ec6081bc421c8a24b1ed46e10cde|
+areas of greatest risk exposure|particular deliverable's scope|exposure to|af78ec6081bc421c8a24b1ed46e10cde|
+list of risks|project management|provides characteristics of|af78ec6081bc421c8a24b1ed46e10cde|
+risks with the most influence (positive or negative)|project objectives|influence on achieving|af78ec6081bc421c8a24b1ed46e10cde|
+high priority risks|plan risk responses process|an important focus in|af78ec6081bc421c8a24b1ed46e10cde|
+quantitative risk analysis|analysis of overall project risk|discussed in|af78ec6081bc421c8a24b1ed46e10cde|
+agreed upon approach|risk assessment process|is based on|a8cd47daa55e45d2a8e4f443ffad23fa|
+agreed upon approach|all risks|is applied to|a8cd47daa55e45d2a8e4f443ffad23fa|
+all risks|any project|are identified in|a8cd47daa55e45d2a8e4f443ffad23fa|
+risk|probability of occurrence|is assessed according to|a8cd47daa55e45d2a8e4f443ffad23fa|
+risk|impact on individual objectives|is assessed according to|a8cd47daa55e45d2a8e4f443ffad23fa|
+risks|urgency|are considered by|a8cd47daa55e45d2a8e4f443ffad23fa|
+urgency|near term responses|may be more urgent to address|a8cd47daa55e45d2a8e4f443ffad23fa|
+urgency|lead time necessary to execute a risk response|is influenced by|a8cd47daa55e45d2a8e4f443ffad23fa|
+urgency|clarity of symptoms and warning signs|is influenced by|a8cd47daa55e45d2a8e4f443ffad23fa|
+risks|manageability|are examined in terms of|a8cd47daa55e45d2a8e4f443ffad23fa|
+manageability|resources to address them|is evaluated with respect to|a8cd47daa55e45d2a8e4f443ffad23fa|
+unmanageable risks|project team|may decide to go forward perhaps establishing a contingency reserve|a8cd47daa55e45d2a8e4f443ffad23fa|
+unmanageable risks|stop or re scope the project|pose an unmanageable threat or opportunity|a8cd47daa55e45d2a8e4f443ffad23fa|
+project team|contingency reserve|establishes|d801016a5485466596412059379350c2|
+project team|stop or re scope the project|decides to go forward perhaps|d801016a5485466596412059379350c2|
+risks|project|poses an unmanageable threat or an opportunity|d801016a5485466596412059379350c2|
+risks|customer|informs|d801016a5485466596412059379350c2|
+decision|customer|asks for|d801016a5485466596412059379350c2|
+risks|impact|impacts|d801016a5485466596412059379350c2|
+risk|enterprise|affects beyond the project|d801016a5485466596412059379350c2|
+risk assessment|agreed upon definitions of important terms|is based on|45c1243b9a9e4090bc1a1182e8ac211c|
+use of definitions for level of probability and impact on objectives|risk assessment|assists in giving realistic assessments for each risk|45c1243b9a9e4090bc1a1182e8ac211c|
+communication of the results to management and other stakeholders|risk assessment|facilitates the communication of|45c1243b9a9e4090bc1a1182e8ac211c|
+chapter 6|qualitative risk analysis|performs|45c1243b9a9e4090bc1a1182e8ac211c|
+risk assessment|agreed upon definitions of risk terms|is based on|043e3cb77b304e69bd146662d198e544|
+agreed upon definitions of risk terms|consistent use of definitions|is used consistently when assessing each risk|043e3cb77b304e69bd146662d198e544|
+levels of probability|definitions for example|is a part of|043e3cb77b304e69bd146662d198e544|
+impact on objectives|definitions for example|is a part of|043e3cb77b304e69bd146662d198e544|
+realistic assessments for each risk|providers of information|assists|043e3cb77b304e69bd146662d198e544|
+communication of results to management and other stakeholders|realistic assessments for each risk|facilitates|043e3cb77b304e69bd146662d198e544|
+qualitative risk analysis|risk assessment|is performed|043e3cb77b304e69bd146662d198e544|
+risk information collection|high quality information about risks|requires|0015624fb8b74f50a40594c6803482a9|
+historic database|high quality information about risks|is not available in|0015624fb8b74f50a40594c6803482a9|
+interviews, workshops|means for gathering information|includes|0015624fb8b74f50a40594c6803482a9|
+expert judgment|means for gathering information|includes|0015624fb8b74f50a40594c6803482a9|
+individuals|data source|provides|0015624fb8b74f50a40594c6803482a9|
+reporting bias, intentional bias|potential issues with data gathered from individuals|may be subject to|0015624fb8b74f50a40594c6803482a9|
+identification and remedy|reporting bias, intentional bias|should be identified and remedied where possible|0015624fb8b74f50a40594c6803482a9|
+unbiased source of information|different data source|should be found and used when necessary|0015624fb8b74f50a40594c6803482a9|
+iterative qualitative risk analysis|project|is part of|4873356d5fbb4774a7d047e2e5d4df3d|
+qualitative risk analysis processes|project|affects|4873356d5fbb4774a7d047e2e5d4df3d|
+success|qualitative risk analysis processes|enhanced by|4873356d5fbb4774a7d047e2e5d4df3d|
+risk identification and qualitative analysis|project|is necessary for|4873356d5fbb4774a7d047e2e5d4df3d|
+risk identification and qualitative analysis|individual risks|applies to|4873356d5fbb4774a7d047e2e5d4df3d|
+plan risk management process|frequency of risk analysis effort|governs|4873356d5fbb4774a7d047e2e5d4df3d|
+project events|frequency of risk analysis effort|may affect|4873356d5fbb4774a7d047e2e5d4df3d|
+project stakeholders agreement|project success factors|is a fundamental criterion|c992c5063a4540d6a0e5cf73f5f3519e|
+agreed upon approach|process credibility|is the foundation of|c992c5063a4540d6a0e5cf73f5f3519e|
+agreed upon definitions|high quality information collection|enables|c992c5063a4540d6a0e5cf73f5f3519e|
+fulfilled conditions (agreement, approach, definitions)|process execution reliability|contributes to|c992c5063a4540d6a0e5cf73f5f3519e|
+process execution reliability|credibility of process outputs|contributes to|c992c5063a4540d6a0e5cf73f5f3519e|
+chapter 6 perform qualitative risk analysis figure 6.1|building risk analysis credibility|represents|c992c5063a4540d6a0e5cf73f5f3519e|
+risk characteristics|importance of risk|defines|f0394aafbc004099a79e1fc43dbddafb|
+qualitative risk analysis tools|risk characteristics|provide ways to distinguish|f0394aafbc004099a79e1fc43dbddafb|
+qualitative risk analysis tools|less important risks|help to identify|f0394aafbc004099a79e1fc43dbddafb|
+management|risks of interest|are agreed upon in advance by|f0394aafbc004099a79e1fc43dbddafb|
+qualitative risk analysis tools|risks of interest|implement in the tools used|f0394aafbc004099a79e1fc43dbddafb|
+qualitative risk analysis tools|priority order or groups (high, moderate, low)|output from|f0394aafbc004099a79e1fc43dbddafb|
+organization or project stakeholders|risk characteristics|specify those levels or combinations of|f0394aafbc004099a79e1fc43dbddafb|
+qualitative risk analysis tools|importance of a risk|assess from a combination of probability of occurrence and degree of impact on objectives|f0394aafbc004099a79e1fc43dbddafb|
+risk characteristics|importance|defines|5cad5e6ab348498bafc15092de30e9dd|
+qualitative risk analysis tools|risk characteristics|provide ways to specify|5cad5e6ab348498bafc15092de30e9dd|
+qualitative risk analysis tools|less important risks|allow for filtering out|5cad5e6ab348498bafc15092de30e9dd|
+management|risk of interest to management|are agreed upon in advance by|5cad5e6ab348498bafc15092de30e9dd|
+qualitative risk analysis tools|listing of risks|produce|5cad5e6ab348498bafc15092de30e9dd|
+priority order/groups (high, moderate, low)|listing of risks|are part of|5cad5e6ab348498bafc15092de30e9dd|
+qualitative risk analysis tools|organization or project stakeholders|allow for specifying levels/combinations of|5cad5e6ab348498bafc15092de30e9dd|
+qualitative risk analysis tools|probability of occurrence and degree of impact on objectives|assess a risk's importance from a combination of|5cad5e6ab348498bafc15092de30e9dd|
+data collection|individual risks|is based on|39b6c5d42be243c1af4243ab6fd84b68|
+information collected about individual risks|data collection|is part of|39b6c5d42be243c1af4243ab6fd84b68|
+data evaluation tools|individual risks|is based on|39b6c5d42be243c1af4243ab6fd84b68|
+data evaluation tools|data collection|requires|39b6c5d42be243c1af4243ab6fd84b68|
+management support|data evaluation tools|requires|39b6c5d42be243c1af4243ab6fd84b68|
+attention|data evaluation tools|requires|39b6c5d42be243c1af4243ab6fd84b68|
+interviews|data collection|includes|39b6c5d42be243c1af4243ab6fd84b68|
+workshops|data collection|includes|39b6c5d42be243c1af4243ab6fd84b68|
+references to databases of prior projects|data collection|includes|39b6c5d42be243c1af4243ab6fd84b68|
+bias in data gathering|data gathering|is important to protect against|39b6c5d42be243c1af4243ab6fd84b68|
+risk prioritization|probability and impact|is based on|cbc2325f8f9243989d3a578ea1c3176e|
+risk prioritization|specific objectives|applies to|cbc2325f8f9243989d3a578ea1c3176e|
+risk tools|distinguishing risk priority|permits|cbc2325f8f9243989d3a578ea1c3176e|
+distinguishing risk priority|affected objective|in terms of|cbc2325f8f9243989d3a578ea1c3176e|
+list of risks|important risks for specific objective|contains|cbc2325f8f9243989d3a578ea1c3176e|
+risk prioritization|probability and impact|is based on|5d0a6b5db32e460b853ed00024176681|
+risk prioritization|specific objectives|is related to|5d0a6b5db32e460b853ed00024176681|
+tools for risk management|capability for distinguishing a risk's priority in terms of the affected objective|provides|5d0a6b5db32e460b853ed00024176681|
+tools for risk management|list of risks important for any specific objective of interest to management|produces|5d0a6b5db32e460b853ed00024176681|
+risks|uneven impacts on various project objectives|have|5d0a6b5db32e460b853ed00024176681|
+prioritizing risks|project as a whole|affects|c82e54f3c3d54882904cfbdea1657ca3|
+importance of a specific risk|specific objectives|contrasted with|c82e54f3c3d54882904cfbdea1657ca3|
+ease of communication|management and other stakeholders|is related to|c82e54f3c3d54882904cfbdea1657ca3|
+single risk prioritization index|organization's preference among objectives|reflected by|c82e54f3c3d54882904cfbdea1657ca3|
+creating the overall risk priority measure|plan risk management process|is documented in|c82e54f3c3d54882904cfbdea1657ca3|
+qualitative risk analysis|chapter 6|performed|c82e54f3c3d54882904cfbdea1657ca3|
+categorizing risks|improved analysis of project risk|leads to|354623d53c04490295fe368dce490d2d|
+understanding the relationships between risks|better understanding of the possibility and magnitude of project risk|provides|354623d53c04490295fe368dce490d2d|
+identifying common root causes of a group of risks|reveal[s] the magnitude of the risk event for the group as a whole|may reveal|354623d53c04490295fe368dce490d2d|
+identifying common root causes of a group of risks|effective strategies that might address several risks simultaneously|might provide|354623d53c04490295fe368dce490d2d|
+some risks|are linked with others in a causal chain|may be|354623d53c04490295fe368dce490d2d|
+understanding the chain of risks|better understanding of the implication of risk for the project|leads to|354623d53c04490295fe368dce490d2d|
+identifying risks that can occur at the same time|provide[s] a realistic picture of problems of risk mitigation using scarce resources|might provide|354623d53c04490295fe368dce490d2d|
+performing qualitative analysis|combining the results|requires|354623d53c04490295fe368dce490d2d|
+perform qualitative risk analysis process|undifferentiated risks (from 'identify risks' chapter 5)|applies to|159b7899e46b45c7a556dfa3dee5eb2d|
+perform qualitative risk analysis process|categories of priority|converts into|159b7899e46b45c7a556dfa3dee5eb2d|
+qualitative risk analysis results|risks clusters arising from specific sources|reveals|159b7899e46b45c7a556dfa3dee5eb2d|
+combination of risk analysis information with work breakdown structure (wbs)|areas of the project exhibiting the most risk|shows|159b7899e46b45c7a556dfa3dee5eb2d|
+assessing high priority risks impact on one objective|activities to address to reduce uncertainty of that objective|indicates|159b7899e46b45c7a556dfa3dee5eb2d|
+documentation of perform qualitative risk analysis process results|structure added to the list of undifferentiated risks|adds|159b7899e46b45c7a556dfa3dee5eb2d|
+risk analysis process|qualitative risk analysis process|is part of|aac4acb122da42158e01157d8f52a7b8|
+risk analysis process|list of undifferentiated risks|applies to|aac4acb122da42158e01157d8f52a7b8|
+qualitative risk analysis process|identify risks chapter 5|adds structure to|aac4acb122da42158e01157d8f52a7b8|
+categories of priority|priorities|is divided into|aac4acb122da42158e01157d8f52a7b8|
+priorities|risk|based on|aac4acb122da42158e01157d8f52a7b8|
+priorities|risk's probability of occurring|is determined by|aac4acb122da42158e01157d8f52a7b8|
+priorities|risk's potential impact on specific project objectives or on the whole project|is determined by|aac4acb122da42158e01157d8f52a7b8|
+each identified risk|priority|is assigned|aac4acb122da42158e01157d8f52a7b8|
+risk register|list of prioritized risks|stores|aac4acb122da42158e01157d8f52a7b8|
+project participants|risk register list of prioritized risks|are posted to|aac4acb122da42158e01157d8f52a7b8|
+risks that are judged to have high priority|further analysis and response planning|are segregated for|aac4acb122da42158e01157d8f52a7b8|
+risks of low priority to the project|watch list|are placed on|aac4acb122da42158e01157d8f52a7b8|
+chapter 7|quantitative risk|performs|aac4acb122da42158e01157d8f52a7b8|
+project risks|high-priority risks|are monitored frequently|4bbf0f889c434ee6bb30de26c2cbce5a|
+project risks|low-priority risks|are placed on a watch list and are reviewed less often for changes in their status|4bbf0f889c434ee6bb30de26c2cbce5a|
+quantitative risk analysis|project risks|is performed on|4bbf0f889c434ee6bb30de26c2cbce5a|
+perform qualitative risk analysis process|chapter 6|is part of|20cbc9a60d204e1abf18c5da5e47a94d|
+perform qualitative risk analysis process|figure 6.2|illustrates|20cbc9a60d204e1abf18c5da5e47a94d|
+tools and techniques for performing qualitative risk analysis process|assessing individual risks|used for|20cbc9a60d204e1abf18c5da5e47a94d|
+assessing individual risks|risks that are important to the project's success|identifies|20cbc9a60d204e1abf18c5da5e47a94d|
+perform quantitative risk analysis process|project objectives|provides a numerical estimate of the overall effect on|760e1a2e8ad3493d85c4f461277e2812|
+results from perform quantitative risk analysis|likelihood of success in achieving project objectives|used to evaluate|760e1a2e8ad3493d85c4f461277e2812|
+results from perform quantitative risk analysis|contingency reserves (usually for time and cost)|estimate that are appropriate to both the risks and the risk tolerance of project stakeholders|760e1a2e8ad3493d85c4f461277e2812|
+quantitative techniques such as monte carlo simulation|perform quantitative risk analysis process|analyzing uncertainty in the project|760e1a2e8ad3493d85c4f461277e2812|
+non probabilistic approach|perform quantitative risk analysis process|may provide more realism in the estimate of the overall project cost or schedule|760e1a2e8ad3493d85c4f461277e2812|
+quantitative risk analysis|project|is generally accepted that it is required or appropriate for|760e1a2e8ad3493d85c4f461277e2812|
+deterministic activity durations or line item cost estimates|quantitative risk analysis|assumes that|3cab04c2d45e432aa8eea2da7397c7cf|
+quantitative risk analysis|plan risk management process|is a part of|3cab04c2d45e432aa8eea2da7397c7cf|
+quantitative risk analysis|projects|is applicable for|3cab04c2d45e432aa8eea2da7397c7cf|
+quantitative risk analysis|smaller projects|may not be appropriate for|3cab04c2d45e432aa8eea2da7397c7cf|
+qualitative risk analysis|effective risk responses|provides enough information for the development of|3cab04c2d45e432aa8eea2da7397c7cf|
+quantitative risk analysis|additional insights and value|justifies the additional effort|3cab04c2d45e432aa8eea2da7397c7cf|
+partial risk analyses|qualitative risk analysis|is an example of|3cab04c2d45e432aa8eea2da7397c7cf|
+partial risk analyses|individual risks|prioritizes one at a time|3cab04c2d45e432aa8eea2da7397c7cf|
+partial risk analyses|overall project risk|cannot produce measures of when all risks are considered simultaneously|3cab04c2d45e432aa8eea2da7397c7cf|
+perform quantitative risk analysis process|calculating estimates of overall project risk|is the focus of|3cab04c2d45e432aa8eea2da7397c7cf|
+specific project risks|detailed level such as|are usually best understood and quantified at|3cab04c2d45e432aa8eea2da7397c7cf|
+perform quantitative risk analysis process|estimates of overall project risk|is the focus of|7007cdd789fe487b9ed3f6d493db6e77|
+estimates of overall project risk|project objectives|affects|7007cdd789fe487b9ed3f6d493db6e77|
+project objectives|achievement of the project's budget|is one of|7007cdd789fe487b9ed3f6d493db6e77|
+project objectives|the schedule|is one of|7007cdd789fe487b9ed3f6d493db6e77|
+specific project risks|estimates of overall project risk|is related to|7007cdd789fe487b9ed3f6d493db6e77|
+specific project risks|line item cost or schedule activity level|is best understood and quantified at|7007cdd789fe487b9ed3f6d493db6e77|
+overall risk analysis|quantitative techniques|uses|7007cdd789fe487b9ed3f6d493db6e77|
+overall risk analysis|project objectives|estimates the implication of all quantified risks on|7007cdd789fe487b9ed3f6d493db6e77|
+complete and accurate representation of the project objectives|overall risk analysis using quantitative methods|requires|7007cdd789fe487b9ed3f6d493db6e77|
+examples of these representations|project schedule or cost estimate|include|7007cdd789fe487b9ed3f6d493db6e77|
+identifying risks on individual project elements|specific project risks|is related to|7007cdd789fe487b9ed3f6d493db6e77|
+quantitative risk analysis|project plan baseline/current|compared to|f0b6f495fcc6493e8f05739d49f14f57|
+quantitative risk analysis|overall project objective|determining impact on|f0b6f495fcc6493e8f05739d49f14f57|
+management|overall project risk|given an estimate of|f0b6f495fcc6493e8f05739d49f14f57|
+management|probability of meeting the project's objectives|answering the question about|f0b6f495fcc6493e8f05739d49f14f57|
+management|contingency reserve|providing the organization with the level of certainty it requires based upon its risk tolerance|f0b6f495fcc6493e8f05739d49f14f57|
+quantitative method (e.g., monte carlo simulation or decision tree analysis)|individual risks|incorporates multiple risks simultaneously in determining overall impact|f0b6f495fcc6493e8f05739d49f14f57|
+individual risks|project elements (schedule activities, line item costs)|applied to|f0b6f495fcc6493e8f05739d49f14f57|
+individual risks|generic risks|including|f0b6f495fcc6493e8f05739d49f14f57|
+reserves or buffers|organization|is needed to provide|d1c914d99eb3432dbfa5590cca18a3a1|
+reserves or buffers|level of certainty|is required based upon|d1c914d99eb3432dbfa5590cca18a3a1|
+level of certainty|risk tolerance|of the organization|d1c914d99eb3432dbfa5590cca18a3a1|
+project|line item costs or schedule activities|contribute the most risk when all risks are considered simultaneously|d1c914d99eb3432dbfa5590cca18a3a1|
+overall project risk|individual risks|is estimated by considering|d1c914d99eb3432dbfa5590cca18a3a1|
+quantitative methods|project risk|helps in distinguishing|d1c914d99eb3432dbfa5590cca18a3a1|
+quantified risks|objectives beyond the tolerance of the stakeholders|threaten|d1c914d99eb3432dbfa5590cca18a3a1|
+acceptable tolerances|objectives|of the stakeholders|d1c914d99eb3432dbfa5590cca18a3a1|
+quantitative and qualitative risk analysis processes|comparison|is presented in figure 7.1|d1c914d99eb3432dbfa5590cca18a3a1|
+prior risk identification|perform quantitative risk analysis|occurs after|fdc7f2a6e1b9464faaa997ec57aeb7dd|
+prioritized list of identified risks|perform quantitative risk analysis|ensures that considers all significant risks when analyzing their effects quantitatively|fdc7f2a6e1b9464faaa997ec57aeb7dd|
+identify risks|perform quantitative risk analysis|processes have been completed after|fdc7f2a6e1b9464faaa997ec57aeb7dd|
+qualitative risk analysis|identify risks|processes have been completed after|fdc7f2a6e1b9464faaa997ec57aeb7dd|
+qualitative risk analysis|perform quantitative risk analysis|is a prerequisite for|fdc7f2a6e1b9464faaa997ec57aeb7dd|
+prior risk identification and qualitative risk analysis|perform quantitative risk analysis process|occurs after|9339848bfbfb4cd29b88b3ca41e14863|
+prioritized list of identified risks|perform quantitative risk analysis process|ensures that will consider|9339848bfbfb4cd29b88b3ca41e14863|
+significant risks|effects quantitatively analyzed by perform quantitative risk analysis process|consider all when analyzing|9339848bfbfb4cd29b88b3ca41e14863|
+project model|appropriate project model|is|9ab5a974e8244551a36eb42d1fd4186c|
+appropriate project model|quantitative risk analysis|is the basis for|9ab5a974e8244551a36eb42d1fd4186c|
+project schedule|project models used in quantitative risk analysis|is one of the most frequently used|9ab5a974e8244551a36eb42d1fd4186c|
+time line item cost estimates|project models used in quantitative risk analysis|is one of the most frequently used|9ab5a974e8244551a36eb42d1fd4186c|
+decision tree for decisions in the face of uncertainty|project models used in quantitative risk analysis|is one of the most frequently used|9ab5a974e8244551a36eb42d1fd4186c|
+other total project models|project models used in quantitative risk analysis|is also used|9ab5a974e8244551a36eb42d1fd4186c|
+quantitative risk analysis|completeness and correctness of the model of the project|is especially sensitive to|9ab5a974e8244551a36eb42d1fd4186c|
+commitment to collecting high quality risk data|high quality data about risks|is related to|c4dd9af0797d45e090156bcc25e0d893|
+collection of risk data|high quality data about risks|requires|c4dd9af0797d45e090156bcc25e0d893|
+collection of risk data|interviews, workshops and other means|uses|c4dd9af0797d45e090156bcc25e0d893|
+collection of risk data|expert judgment of those present|uses|c4dd9af0797d45e090156bcc25e0d893|
+resource and time|collection of risk data|requires|c4dd9af0797d45e090156bcc25e0d893|
+management support|collection of risk data|requires|c4dd9af0797d45e090156bcc25e0d893|
+unbiased data success|gathering risk analysis data|requires|b45d03e5832b4b1b8a09a07e4f418739|
+ability to recognize biases|unbiased data success|is necessary for|b45d03e5832b4b1b8a09a07e4f418739|
+combating bias|unbiased data success|is a way to achieve|b45d03e5832b4b1b8a09a07e4f418739|
+developing other unbiased sources of data|unbiased data success|is another way to achieve|b45d03e5832b4b1b8a09a07e4f418739|
+bias in risk data|unbiased data success|can negatively impact|b45d03e5832b4b1b8a09a07e4f418739|
+cognitive bias|bias in risk data|is a source of|b45d03e5832b4b1b8a09a07e4f418739|
+motivational bias|bias in risk data|is another source of|b45d03e5832b4b1b8a09a07e4f418739|
+overall project risk|individual risks|derived from|01575af7d7ec4f26bf520b31da63bcd8|
+perform quantitative risk analysis process|methodology for deriving overall project risk|based upon|01575af7d7ec4f26bf520b31da63bcd8|
+monte carlo simulation|appropriate method for risk analysis of cost and schedule|is|01575af7d7ec4f26bf520b31da63bcd8|
+decision tree|appropriate method for making decisions when future events are not certain|is|01575af7d7ec4f26bf520b31da63bcd8|
+probability and impact of risks|factors combined in a decision tree to derive an overall project measure|are combined with|01575af7d7ec4f26bf520b31da63bcd8|
+overall project measure (e.g., value or cost)|derived from the effects of all risks|is derived by|01575af7d7ec4f26bf520b31da63bcd8|
+risks|specified at the level of detailed tasks or line item costs|are specified at|01575af7d7ec4f26bf520b31da63bcd8|
+project model|model into which risks are incorporated to calculate effects on objectives|is used to incorporate|01575af7d7ec4f26bf520b31da63bcd8|
+individual risks in the project model|common root cause of multiple risks|is related to|9f485371404b4bd0b882f9daa9f9ea94|
+several risks|correlated risks|are likely to occur together during the analysis|9f485371404b4bd0b882f9daa9f9ea94|
+risk register listing of a risk or root cause|several project elements (schedule, activities, cost elements)|is attached to|9f485371404b4bd0b882f9daa9f9ea94|
+particular risk|affected project elements|experiences the effect of that risk together|9f485371404b4bd0b882f9daa9f9ea94|
+perform quantitative risk analysis process|achieving the objectives of quantitative risk analysis|depends on|c1327ef0e6f54a4c9c2859b15d9fedb0|
+chapter 7 perform quantitative risk analysis|perform quantitative risk analysis process|contains|c1327ef0e6f54a4c9c2859b15d9fedb0|
+section 7.2.1 through 7.2.6|perform quantitative risk analysis process success|is prerequisite for|c1327ef0e6f54a4c9c2859b15d9fedb0|
+comprehensive risk representation risk models|representation of risks that have impact on an objective simultaneously|permits|ba44ffbf888043cfa562f41d1fa202bf|
+comprehensive risk representation risk models|representation of both opportunities and threats to the project's objectives|permits|ba44ffbf888043cfa562f41d1fa202bf|
+7.3.2 risk impact calculation quantitative models|risks|facilitates the correct calculation of|593bc6756a1d4f9ebfed2e6e4998f3ad|
+7.3.2 risk impact calculation quantitative models|level of detail below the total project|apply to|593bc6756a1d4f9ebfed2e6e4998f3ad|
+7.3.2 risk impact calculation quantitative models|project objectives|calculate the effect on|593bc6756a1d4f9ebfed2e6e4998f3ad|
+project objectives|total project|are typically described at the level of|593bc6756a1d4f9ebfed2e6e4998f3ad|
+quantitative method|analyzing uncertainty|is appropriate for|bae0ae3dcc094946a5b6e378a002a3f1|
+quantitative method|probability models|addresses|bae0ae3dcc094946a5b6e378a002a3f1|
+probability models|uncertainty probability|represents|bae0ae3dcc094946a5b6e378a002a3f1|
+probability models|probability of an event s occurring|can represent as|bae0ae3dcc094946a5b6e378a002a3f1|
+probability models|probability distributions for a range of outcomes|can represent as|bae0ae3dcc094946a5b6e378a002a3f1|
+monte carlo simulation tools|quantitative method|is an example of|bae0ae3dcc094946a5b6e378a002a3f1|
+monte carlo simulation tools|combination of probability distributions|permit the|bae0ae3dcc094946a5b6e378a002a3f1|
+monte carlo simulation tools|line item costs or schedule activity durations|permits the combination of probability distributions for|bae0ae3dcc094946a5b6e378a002a3f1|
+uncertain line item costs or schedule activity durations|monte carlo simulation tools|many of which are uncertain, these can be handled by|bae0ae3dcc094946a5b6e378a002a3f1|
+historical data assessment|data gathering tools|is part of|39304626af454fcab09fc00d4e7f9719|
+workshops|data gathering tools|is part of|39304626af454fcab09fc00d4e7f9719|
+interviews|data gathering tools|is part of|39304626af454fcab09fc00d4e7f9719|
+questionnaires|data gathering tools|is part of|39304626af454fcab09fc00d4e7f9719|
+probability of a risk occurring|quantified information gathered|provides|39304626af454fcab09fc00d4e7f9719|
+probability distribution|potential impacts on cost or time|is related to|39304626af454fcab09fc00d4e7f9719|
+correlation between risks|relationships gathered|is part of|39304626af454fcab09fc00d4e7f9719|
+quantitative risk analysis|chapter 7|is performed in|39304626af454fcab09fc00d4e7f9719|
+quantitative analysis results|standard deterministic project management methods (e.g., project scheduling, cost estimating)|results from|3d77257ca43c45629afc4f6271545135|
+probability distribution of project completion dates or total costs|quantitative analysis results|includes|3d77257ca43c45629afc4f6271545135|
+expected value of a project decision|quantitative analysis results|includes|3d77257ca43c45629afc4f6271545135|
+probability of achieving a project objective (e.g., finishing on time or within budget)|quantitative analysis results|includes|3d77257ca43c45629afc4f6271545135|
+contingency reserve in cost, time, or resources|quantitative analysis results|includes|3d77257ca43c45629afc4f6271545135|
+important risks within the project model|quantitative analysis results|includes|3d77257ca43c45629afc4f6271545135|
+sensitivity analysis in a cost risk analysis|example of important risks within the project model|is an example of|3d77257ca43c45629afc4f6271545135|
+criticality analysis in a schedule risk analysis|example of important risks within the project model|is an example of|3d77257ca43c45629afc4f6271545135|
+quantitative tools|elements of a quantitative risk analysis|provides|3d77257ca43c45629afc4f6271545135|
+figure 7.2|structure of a quantitative risk analysis|illustrates|3d77257ca43c45629afc4f6271545135|
+criticality analysis|schedule risk analysis|is part of|9255656a98d649a0962babcd71d5c180|
+quantitative risk analysis|criticality analysis|includes|9255656a98d649a0962babcd71d5c180|
+quantitative risk analysis|schedule risk analysis|includes|9255656a98d649a0962babcd71d5c180|
+elements of quantitative risk analysis|criticality analysis|includes|9255656a98d649a0962babcd71d5c180|
+quantitative risk analysis|figure 7.2|illustrates|9255656a98d649a0962babcd71d5c180|
+iterative quantitative risk analysis|perform quantitative risk analysis process|is part of|974ef0a36a3e4538857682ef478be36f|
+perform quantitative risk analysis process|project|is performed on|974ef0a36a3e4538857682ef478be36f|
+iterative quantitative risk analysis|project|is applied to|974ef0a36a3e4538857682ef478be36f|
+perform quantitative risk analysis process|periodically throughout the project|is enhanced by|974ef0a36a3e4538857682ef478be36f|
+knowing all of the risks that may occur in a project|iterative quantitative risk analysis|cannot predict in advance|974ef0a36a3e4538857682ef478be36f|
+quantitative risk analysis|iterative quantitative risk analysis|is a specific type of|974ef0a36a3e4538857682ef478be36f|
+plan risk management process|frequency of iterative quantitative risk analysis|will be determined during|974ef0a36a3e4538857682ef478be36f|
+project events|frequency of iterative quantitative risk analysis|depends on|974ef0a36a3e4538857682ef478be36f|
+monitor and control risks chapter 9|determining the frequency of iterative quantitative risk analysis|provides guidance on|974ef0a36a3e4538857682ef478be36f|
+project schedule|overall project contingency reserve in time|is part of|cc3b669cbaaa4dca9383ad2b39ffc98a|
+project budget|overall project contingency reserve in cost|is part of|cc3b669cbaaa4dca9383ad2b39ffc98a|
+quantitative risk analysis|project schedule and budget|provides information that may be used to modify|cc3b669cbaaa4dca9383ad2b39ffc98a|
+overall project risk (to time and cost)|project plan|affects|cc3b669cbaaa4dca9383ad2b39ffc98a|
+scope changes|overall project risk (to time and cost)|is prerequisite for|cc3b669cbaaa4dca9383ad2b39ffc98a|
+new quantitative risk analysis|project|reflects the new aspects of|cc3b669cbaaa4dca9383ad2b39ffc98a|
+quantitative risk analysis process|tools and techniques|is applied by|569fd7a98bd2477bb43b7b440af147c7|
+tools and techniques|quantitative risk analysis|used for|569fd7a98bd2477bb43b7b440af147c7|
+tools and techniques|characteristics of tools and techniques used for quantitative risk analysis|have|569fd7a98bd2477bb43b7b440af147c7|
+quantitative risk analysis process|perform quantitative risk analysis|is part of|242bebfe0ec14121bc42c81ac44e1e69|
+contingency reserves|cost estimate|is incorporated into|242bebfe0ec14121bc42c81ac44e1e69|
+contingency reserves|schedule|is incorporated into|242bebfe0ec14121bc42c81ac44e1e69|
+contingency reserves|project scope and plan|may result from exceeding|242bebfe0ec14121bc42c81ac44e1e69|
+contingency reserves|opportunities for the project|are established to provide for the capture of|242bebfe0ec14121bc42c81ac44e1e69|
+changes in the project scope and plan|contingency reserve required|may result from exceeding|242bebfe0ec14121bc42c81ac44e1e69|
+results of the analysis|prudent target for the project|establish a prudent target and a realistic expectation for|242bebfe0ec14121bc42c81ac44e1e69|
+results of the analysis|realistic expectation for the project|establish a prudent target and a realistic expectation for|242bebfe0ec14121bc42c81ac44e1e69|
+results of the analysis|project management|are recorded and passed on to|242bebfe0ec14121bc42c81ac44e1e69|
+probability of achieving the plan's objectives|results of a quantitative risk analysis|provides more or less urgency to risk response depending on|242bebfe0ec14121bc42c81ac44e1e69|
+contingency reserve required|project management's confidence|provides the necessary level of|242bebfe0ec14121bc42c81ac44e1e69|
+quantitative risk analysis results|project management within the organization|is passed on to|8299538a340f4dc790b97506d887119d|
+plan risk responses process|individual risks|determines effective response actions for|8299538a340f4dc790b97506d887119d|
+plan risk responses process|overall project risk|takes into account the priority of|8299538a340f4dc790b97506d887119d|
+plan risk responses process|stakeholders risk attitudes|takes into account the attitudes of|8299538a340f4dc790b97506d887119d|
+risk management plan|plan risk responses process|follows the conventions specified in|8299538a340f4dc790b97506d887119d|
+constraints and assumptions (determined when risks were identified and analyzed)|plan risk responses process|takes into account any constraints and assumptions that were determined when the risks were identified and analyzed|8299538a340f4dc790b97506d887119d|
+plan risk responses process|project success|enhances|58c55d1d0813470ab5643406ccb3195b|
+plan risk responses process|applicable organizational and project constraints|complies with|58c55d1d0813470ab5643406ccb3195b|
+plan risk responses process|risks (identified, analyzed, prioritized)|is applied to|58c55d1d0813470ab5643406ccb3195b|
+plan risk responses process|project team|involves|58c55d1d0813470ab5643406ccb3195b|
+risks (identified, analyzed, prioritized)|sufficiently important risks|considers|58c55d1d0813470ab5643406ccb3195b|
+sufficiently important risks|project objectives|poses a threat to|58c55d1d0813470ab5643406ccb3195b|
+sufficiently important risks|opportunities offered|offers|58c55d1d0813470ab5643406ccb3195b|
+planning|actions to be taken|entails agreeing upon|58c55d1d0813470ab5643406ccb3195b|
+planning|potential changes (to budget, schedule, resources, scope)|might cause|58c55d1d0813470ab5643406ccb3195b|
+contingent risk response actions|optimum time|need to be executed at|58c55d1d0813470ab5643406ccb3195b|
+response specification for each risk|corresponding trigger conditions|includes a description of|58c55d1d0813470ab5643406ccb3195b|
+project conditions|corresponding actions|responsibility for monitoring and implementing|58c55d1d0813470ab5643406ccb3195b|
+risk|trigger conditions|includes|42d3df21aee542c393b2911fbd68c501|
+project conditions monitoring|responsibility for implementing the corresponding actions|is responsible for|42d3df21aee542c393b2911fbd68c501|
+risk owner|ensuring that the risk response is effective|is responsible for|42d3df21aee542c393b2911fbd68c501|
+risk owner|planning additional risk responses if required|is responsible for|42d3df21aee542c393b2911fbd68c501|
+risk action owner|ensuring that the agreed upon risk responses are carried out as planned in a timely manner|is responsible for|42d3df21aee542c393b2911fbd68c501|
+risk response|effects on the project objectives|can have potential effects on|42d3df21aee542c393b2911fbd68c501|
+secondary risks|responses when implemented|are generated by|42d3df21aee542c393b2911fbd68c501|
+secondary risks|analyzed and planned for|have to be analyzed and planned for in the same way as|42d3df21aee542c393b2911fbd68c501|
+secondary risks|project objectives|can have potential effects on|27f8db1531964c7391311a250afe7312|
+secondary risks|risks which were initially identified|have to be analyzed and planned for in the same way as|27f8db1531964c7391311a250afe7312|
+elimination of all threats|project|is never feasible or even desirable to|27f8db1531964c7391311a250afe7312|
+proactively managed opportunities|project|similarly there is also a limit to the extent to which|27f8db1531964c7391311a250afe7312|
+residual risks|risks|remain after the responses have been implemented|27f8db1531964c7391311a250afe7312|
+residual risks|all relevant stakeholders|should be clearly identified, analyzed, documented and communicated to|27f8db1531964c7391311a250afe7312|
+approved unconditional actions arising from risk response planning|project management plan|should be integrated into in order to ensure that they are carried out as part of normal project implementation|27f8db1531964c7391311a250afe7312|
+approved unconditional actions arising from risk response planning|project change management|corresponding organizational and project management rules should also be invoked including|27f8db1531964c7391311a250afe7312|
+project implementation|normal project rules|is part of|17b095dcac6e4db8b62f35527933f989|
+project management|organizational rules|should also be invoked|17b095dcac6e4db8b62f35527933f989|
+project change management|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+configuration control|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+project planning|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+budgeting|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+scheduling|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+resource management|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+project communication planning|project implementation|is carried out as part of|17b095dcac6e4db8b62f35527933f989|
+communication|stakeholders|is maintained with|c58cbe799f00482c898e194bb8f3d37a|
+plans|stakeholders|are disseminated and approval obtained from|c58cbe799f00482c898e194bb8f3d37a|
+organizational causes of risks|culture, attitudes, or disagreements concerning objectives|are present if|c58cbe799f00482c898e194bb8f3d37a|
+organizational causes of risks|high levels of the organization's management and other stakeholders|should be involved in addressing openly|c58cbe799f00482c898e194bb8f3d37a|
+chapter 8 plan risk responses|organizational causes of risks|may require addressing openly|c58cbe799f00482c898e194bb8f3d37a|
+risk response success|project team and other stakeholders|is dependent on|7d7f5d02397b4d06adc45866db57697b|
+risk owner|project risk management|belongs to|7d7f5d02397b4d06adc45866db57697b|
+risk owner|identified risks|is assigned to|7d7f5d02397b4d06adc45866db57697b|
+each agreed upon risk response|single risk action owner|has|7d7f5d02397b4d06adc45866db57697b|
+responsibilities of people|what is expected of them|includes|7d7f5d02397b4d06adc45866db57697b|
+project stakeholders|understanding and accepting the needs and authority of these roles|requires|7d7f5d02397b4d06adc45866db57697b|
+management|risks with political organizational causes|takes ownership of|7d7f5d02397b4d06adc45866db57697b|
+senior management|risk related contingency reserves|approves and tracks|7d7f5d02397b4d06adc45866db57697b|
+risk response success|project team and other stakeholders|depends on|6696a0bd58a04e37acd5f27ede4966fd|
+project risk management|risk owner|key roles for|6696a0bd58a04e37acd5f27ede4966fd|
+identified risk|risk owner|is assigned to every|6696a0bd58a04e37acd5f27ede4966fd|
+agreed upon risk response|risk action owner|has a single|6696a0bd58a04e37acd5f27ede4966fd|
+responsibilities|people with corresponding responsibilities|should be aware of what is expected of them|6696a0bd58a04e37acd5f27ede4966fd|
+project stakeholders|understand and accept the needs and authority of these roles|should understand and accept|6696a0bd58a04e37acd5f27ede4966fd|
+risks with political organizational causes|management|may take ownership of|6696a0bd58a04e37acd5f27ede4966fd|
+risk related contingency reserves|senior management|should approve and track|6696a0bd58a04e37acd5f27ede4966fd|
+timing of risk responses|project management plan|is integrated into|6cc11344b99a45f48962e0bfe5d4d892|
+timing of risk responses|scheduling|is necessary for|6cc11344b99a45f48962e0bfe5d4d892|
+timing of risk responses|assignment for execution|will be|6cc11344b99a45f48962e0bfe5d4d892|
+responses that depend on uncertain conditions|monitoring|should also be|6cc11344b99a45f48962e0bfe5d4d892|
+responses that depend on uncertain conditions|performed|are performed if the conditions warrant them|6cc11344b99a45f48962e0bfe5d4d892|
+resource budget|project management plan|is part of|1ffab9caa3fb4e1b882ea551c29ce0af|
+schedule|project management plan|is part of|1ffab9caa3fb4e1b882ea551c29ce0af|
+response planning|project methodology|in accordance with|1ffab9caa3fb4e1b882ea551c29ce0af|
+resource estimation|response planning|entails|1ffab9caa3fb4e1b882ea551c29ce0af|
+budget updating|response planning|results from|1ffab9caa3fb4e1b882ea551c29ce0af|
+schedule updating|response planning|results from|1ffab9caa3fb4e1b882ea551c29ce0af|
+approval from management|response planning|requires|1ffab9caa3fb4e1b882ea551c29ce0af|
+commitment from risk owners|response planning|requires|1ffab9caa3fb4e1b882ea551c29ce0af|
+commitment from risk action owners|response planning|requires|1ffab9caa3fb4e1b882ea551c29ce0af|
+management support|project manager|is vital for|1ffab9caa3fb4e1b882ea551c29ce0af|
+authorizing resources|management|is role of|1ffab9caa3fb4e1b882ea551c29ce0af|
+risks|responses|are developed to address|1588e06933cf4c5f95133d01b36cf4f9|
+risks|responses|are related either by cause and effect or by common root cause|1588e06933cf4c5f95133d01b36cf4f9|
+categorization of risks|risks|helps identify and address|1588e06933cf4c5f95133d01b36cf4f9|
+risk breakdown structure|affinity diagram|are categorizing tools used for risks|1588e06933cf4c5f95133d01b36cf4f9|
+plan risk responses process|risks aggregated during the perform quantitative risk analysis process|consider during the process|1588e06933cf4c5f95133d01b36cf4f9|
+combination of risks|big risk to the project|e.g. ten small related risks combined may pose|1588e06933cf4c5f95133d01b36cf4f9|
+generic responses|risks|are developed where possible|1588e06933cf4c5f95133d01b36cf4f9|
+interaction effect of risks|one risk|if it occurs may affect the probability or impact of other risks|1588e06933cf4c5f95133d01b36cf4f9|
+response strategy|deciding on the response strategy|may require a compromise|1588e06933cf4c5f95133d01b36cf4f9|
+mutually exclusive or counterproductive responses|proposed responses|may be mutually exclusive or counterproductive|1588e06933cf4c5f95133d01b36cf4f9|
+mitigating a threat to time|budget|e.g. mitigating a threat to time could cost money thereby increasing pressure on the budget|1588e06933cf4c5f95133d01b36cf4f9|
+mitigating a threat to time|budget|costs|f48bf8dc02b14fcd80c930f737e05f19|
+mitigating a threat to time|project pressure|increases|f48bf8dc02b14fcd80c930f737e05f19|
+risk response planning|proposed responses|needs to take a holistic view of|f48bf8dc02b14fcd80c930f737e05f19|
+proposed responses|coherence|needs to be ensured|f48bf8dc02b14fcd80c930f737e05f19|
+planning responses to risks|strategies developed for treating the original risk|controls the potential effects of|f48bf8dc02b14fcd80c930f737e05f19|
+overlooking the need to control the potential effects of strategies developed for treating the original risk|project threat level|can actually increase|f48bf8dc02b14fcd80c930f737e05f19|
+overlooking the need to control the potential effects of strategies developed for treating the original risk|opportunity potential|can be compromised|f48bf8dc02b14fcd80c930f737e05f19|
+appropriate responses|timely responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+timely responses|effective responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+effective responses|cost effective responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+cost effective responses|feasible responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+feasible responses|achievable responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+agreed upon responses|assigned and accepted responses|should be|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|consistency with organizational values|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|project objectives|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|stakeholder expectations|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|technical feasibility|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|ability of the project team|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+proposed risk response plan|ability of the risk action owners outside the project|needs to be assessed against|4c9591af59dd40cda2d72f987f2f9fdd|
+response on the project objectives|overall impact of the response|balance between|4c9591af59dd40cda2d72f987f2f9fdd|
+response on the project objectives|improvement in the risk profile of the project|balance between|4c9591af59dd40cda2d72f987f2f9fdd|
+risk response planning|threats|addresses|64b732dcae4d4b7796b5e59cac23234f|
+risk response planning|opportunities|provides for|64b732dcae4d4b7796b5e59cac23234f|
+integrated plan|threats response strategies|combines|64b732dcae4d4b7796b5e59cac23234f|
+integrated plan|opportunities response strategies|combines|64b732dcae4d4b7796b5e59cac23234f|
+combined set of response strategies|risk response planning|derived from|64b732dcae4d4b7796b5e59cac23234f|
+incomplete combined set of response strategies|risk response planning|results from|64b732dcae4d4b7796b5e59cac23234f|
+invalid combined set of response strategies|risk response planning|results from|64b732dcae4d4b7796b5e59cac23234f|
+risk response planning|open-minded manner|carried out in|6d29b5f235094f928fa6e5061a56ac1b|
+risk response planning|first response|should not adopt|6d29b5f235094f928fa6e5061a56ac1b|
+risk response planning|general strategic level|should be planned at|6d29b5f235094f928fa6e5061a56ac1b|
+general strategic level|detailed tactical approach|validated and agreed upon prior to developing|6d29b5f235094f928fa6e5061a56ac1b|
+general strategic level|actions at the tactical level|should be expanded into|6d29b5f235094f928fa6e5061a56ac1b|
+general strategic level|project management plan|should be integrated into|6d29b5f235094f928fa6e5061a56ac1b|
+actions at the tactical level|schedule|assignment|6d29b5f235094f928fa6e5061a56ac1b|
+actions at the tactical level|budget|assignment|6d29b5f235094f928fa6e5061a56ac1b|
+actions at the tactical level|resource assignments|assignment|6d29b5f235094f928fa6e5061a56ac1b|
+risk response planning|additional secondary risks|may generate which will need to be addressed at this time|6d29b5f235094f928fa6e5061a56ac1b|
+plan risk responses process|success factors|is important for|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.1|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.2|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.3|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.4|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.5|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.6|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.7|described in|da87f54083b14d1a8e97c6e4fc859e14|
+success factors|section 8.2.8|described in|da87f54083b14d1a8e97c6e4fc859e14|
+figure 8.1|critical success factors for risk response planning|shown in|da87f54083b14d1a8e97c6e4fc859e14|
+threat|project|affects|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+opportunity|project|occurs for|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+strategy (8.3.1)|threat|involves addressing|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+strategy (8.3.1)|opportunity|involves taking advantage of|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+actions required to address a threat or an opportunity|strategy (8.3.1)|is part of|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+actions required to address a threat|threat|is necessary for mitigation|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+actions required to exploit an opportunity|opportunity|is necessary for taking advantage of|ceb0f082a7ee4d81aecd0e4a3514f6ec|
+threat transfer strategy|third party|entails|e053ccf7b99141b7af1b536fd955d784|
+threat transfer strategy|particular threat|relates to|e053ccf7b99141b7af1b536fd955d784|
+third party|particular threat|is better positioned to address|e053ccf7b99141b7af1b536fd955d784|
+mitigation|threat|decreases the probability and/or the impact of|4aa3901083624a2a9deea0d5b7204269|
+enhancement|opportunity|increases the probability and/or the impact of|4aa3901083624a2a9deea0d5b7204269|
+response strategies|mitigation enhancement|are the most widely applicable and widely used|4aa3901083624a2a9deea0d5b7204269|
+acceptance strategy|threat|applies to|75a80184d8cc41329230b0757bf93483|
+acceptance strategy|opportunity|applies to|75a80184d8cc41329230b0757bf93483|
+acceptance strategy|other strategies|is not considered applicable or feasible|75a80184d8cc41329230b0757bf93483|
+acceptance strategy|risk management processes|involves|75a80184d8cc41329230b0757bf93483|
+acceptance strategy|contingency or fallback plans|developed ahead of time if the risk presents itself|75a80184d8cc41329230b0757bf93483|
+overall project risk|cancel the project as a last resort|is a strategy to address|32e16f2690c840f9b0ec85374e23dd4d|
+overall project risk|set up a business structure to share risk|is a strategy to address|32e16f2690c840f9b0ec85374e23dd4d|
+overall project risk|replan the project or change the scope|is a strategy to address|32e16f2690c840f9b0ec85374e23dd4d|
+overall project risk|pursue the project despite a risk exposure that exceeds the desired level|is a strategy to address|32e16f2690c840f9b0ec85374e23dd4d|
+overall project risk|the customer and the supplier|share the risk (implied)|32e16f2690c840f9b0ec85374e23dd4d|
+individual risks|responding to individual risks|is separate from|32e16f2690c840f9b0ec85374e23dd4d|
+project manager|risk response strategies|develops|0a932ce31ffb44489e596c0004f00d8e|
+individual risks|risk response strategies|pertains to|0a932ce31ffb44489e596c0004f00d8e|
+sets of risks|risk response strategies|pertains to|0a932ce31ffb44489e596c0004f00d8e|
+project level risks|risk response strategies|pertains to|0a932ce31ffb44489e596c0004f00d8e|
+stakeholders|risk response strategies|involved in determining|0a932ce31ffb44489e596c0004f00d8e|
+entity that approves strategies|agreed upon risk response strategies|needs to be agreed upon by|0a932ce31ffb44489e596c0004f00d8e|
+four strategies (address individual risks for threats and opportunities)|risk response strategies|described in sections 8.3.1 through 8.3.4|0a932ce31ffb44489e596c0004f00d8e|
+chapter 8 plan risk responses|risk response strategies|given in|0a932ce31ffb44489e596c0004f00d8e|
+response identification risk|potential risks|is based on|ef3789f435d943de890bce60165e64c8|
+response identification risk|optimal set of responses|aims to determine|ef3789f435d943de890bce60165e64c8|
+response planning|subject matter experts|involves|ef3789f435d943de890bce60165e64c8|
+response planning|creativity techniques|employ|ef3789f435d943de890bce60165e64c8|
+project planning and execution techniques|various options|are required to evaluate the potential effects on|ef3789f435d943de890bce60165e64c8|
+project planning and execution techniques|project objectives|evaluate the potential effects of|ef3789f435d943de890bce60165e64c8|
+response identification risk|potential risks|is based on|452874ecb345481c81178831d034c231|
+response identification risk|optimal set of responses|aims to determine|452874ecb345481c81178831d034c231|
+subject matter experts|response identification risk|involve|452874ecb345481c81178831d034c231|
+creativity techniques|response identification risk|employ|452874ecb345481c81178831d034c231|
+project planning and execution techniques|response identification risk|required to evaluate|452874ecb345481c81178831d034c231|
+project objectives|potential effects of options|on|452874ecb345481c81178831d034c231|
+response selection|set of potential responses for the risks being addressed|is established from|25f972af49dc4073b8615a11a049bddd|
+decision support techniques|best possible subset from these responses|may need to be applied to select|25f972af49dc4073b8615a11a049bddd|
+cost of the responses|selection process|should take into account|25f972af49dc4073b8615a11a049bddd|
+impact on the project objectives|selection process|should take into account|25f972af49dc4073b8615a11a049bddd|
+uncertainty of outcomes|selection process|should take into account|25f972af49dc4073b8615a11a049bddd|
+possible secondary and residual risks|selection process|should take into account|25f972af49dc4073b8615a11a049bddd|
+identify risks|perform quantitative risk analysis and plan risk responses processes|may then need to be applied to the resultant project management plan|25f972af49dc4073b8615a11a049bddd|
+project management plan|residual and secondary risks that it would entail|would entail|25f972af49dc4073b8615a11a049bddd|
+iterative approach|individual risks|continues until all of the individual risks are deemed acceptable|25f972af49dc4073b8615a11a049bddd|
+iterative approach|overall risk|continues until all of the individual risks are deemed acceptable and the overall risk is within a predefined threshold|25f972af49dc4073b8615a11a049bddd|
+action planning|project planning tools|is used by|c27669f74e1f4a369d8bf4cda4abb98a|
+action planning|chosen strategies|turns into concrete actions|c27669f74e1f4a369d8bf4cda4abb98a|
+action planning|existing plans|integrates into|c27669f74e1f4a369d8bf4cda4abb98a|
+corresponding actions|project management plan|is integrated into unconditionally (unconditional)|c27669f74e1f4a369d8bf4cda4abb98a|
+corresponding actions|trigger condition|is contingent on|c27669f74e1f4a369d8bf4cda4abb98a|
+contingency response strategy|corresponding actions (predefined)|is predefined as|c27669f74e1f4a369d8bf4cda4abb98a|
+project manager|resource assignment processes|uses|edac77aaf14940a786daee47ee7f354f|
+project manager|owners for each risk|ensures the availability of|edac77aaf14940a786daee47ee7f354f|
+owners for each risk|risks|manages|edac77aaf14940a786daee47ee7f354f|
+owners for each response action|risk responses|carries out|edac77aaf14940a786daee47ee7f354f|
+contingency response strategy|trigger conditions|includes a set of|edac77aaf14940a786daee47ee7f354f|
+plan risk responses process|responsibility for monitoring these conditions|assigned|edac77aaf14940a786daee47ee7f354f|
+plan risk responses process|monitor and control risks process|managed in|edac77aaf14940a786daee47ee7f354f|
+risk action owners|assigned risks|monitors|edac77aaf14940a786daee47ee7f354f|
+risk action owners|agreed upon actions|takes|edac77aaf14940a786daee47ee7f354f|
+risk action owners|risk owners|provides relevant information on status or changes to the risk characteristics|edac77aaf14940a786daee47ee7f354f|
+chapter 8 plan risk responses|measurable criteria for success of the response|includes|edac77aaf14940a786daee47ee7f354f|
+risk action|risk owners|assigned to|bdd687cf88024955aaa4c8fabac27c71|
+risk owners|project manager|informs of the situation|bdd687cf88024955aaa4c8fabac27c71|
+risk action|risk characteristics|affects|bdd687cf88024955aaa4c8fabac27c71|
+risk owners|risk actions|takes|bdd687cf88024955aaa4c8fabac27c71|
+risk owners|risk effectiveness|assesses|bdd687cf88024955aaa4c8fabac27c71|
+risk owners|additional actions|decides whether required|bdd687cf88024955aaa4c8fabac27c71|
+chapter 8|plan risk responses|described in|bdd687cf88024955aaa4c8fabac27c71|
+creativity tools|plan risk responses process|is part of|35abcc319b1841a4a30dc29d5b3cf35a|
+decision support tools|plan risk responses process|is part of|35abcc319b1841a4a30dc29d5b3cf35a|
+strategy implementation techniques|plan risk responses process|is part of|35abcc319b1841a4a30dc29d5b3cf35a|
+tools to transfer control|monitor and control risks process|is part of|35abcc319b1841a4a30dc29d5b3cf35a|
+creativity tools|potential responses identification|used to identify|35abcc319b1841a4a30dc29d5b3cf35a|
+decision support tools|optimal potential response determination|used for determining|35abcc319b1841a4a30dc29d5b3cf35a|
+strategy implementation techniques|strategy into action translation|designed to turn|35abcc319b1841a4a30dc29d5b3cf35a|
+tools to transfer control|monitor and control risks process assignment|used for assigning|35abcc319b1841a4a30dc29d5b3cf35a|
+plan risk responses steps|potential responses identification|involved in identifying|35abcc319b1841a4a30dc29d5b3cf35a|
+plan risk responses steps|optimal potential response selection|involved in selecting|35abcc319b1841a4a30dc29d5b3cf35a|
+plan risk responses steps|strategy into planning translation|involved in translating|35abcc319b1841a4a30dc29d5b3cf35a|
+plan risk responses steps|corresponding actions assignment|involved in assigning|35abcc319b1841a4a30dc29d5b3cf35a|
+risk register|risk response plan|is related to|b0c9d61194a346b9b8ebb1f424b2ef83|
+risk register|interested stakeholder|provides information for|b0c9d61194a346b9b8ebb1f424b2ef83|
+risk register|residual risks|contains|b0c9d61194a346b9b8ebb1f424b2ef83|
+project management plan|detailed set of risk responses|includes|b0c9d61194a346b9b8ebb1f424b2ef83|
+project management plan|costs|implies|b0c9d61194a346b9b8ebb1f424b2ef83|
+project management plan|resource assignments|implies|b0c9d61194a346b9b8ebb1f424b2ef83|
+project management plan|scheduling details|implies|b0c9d61194a346b9b8ebb1f424b2ef83|
+project management plan|changes to project documentation|implies|b0c9d61194a346b9b8ebb1f424b2ef83|
+risk response planning|formally approved changes|cannot be considered complete without|b0c9d61194a346b9b8ebb1f424b2ef83|
+risk response planning|additional risks|cannot be considered complete without|b0c9d61194a346b9b8ebb1f424b2ef83|
+risk evaluation|individual risks|is related to|f4372d1f57d54b338cf090bf9e01ed81|
+risk evaluation|overall risks|is related to|f4372d1f57d54b338cf090bf9e01ed81|
+risk evaluation|project management plan|relates to|f4372d1f57d54b338cf090bf9e01ed81|
+risk evaluation|additional response planning|is prerequisite for|f4372d1f57d54b338cf090bf9e01ed81|
+evaluation|expected post response situation|provides an estimate of|f4372d1f57d54b338cf090bf9e01ed81|
+evaluation|potential improvement of risk exposure|provides an estimate of|f4372d1f57d54b338cf090bf9e01ed81|
+evaluation|proposed responses|assumes the effectiveness of|f4372d1f57d54b338cf090bf9e01ed81|
+project management plan|risk responses|contains|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|project risk management effectiveness|depends upon|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|approved plans|refers to|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|execution of approved plans|is carried out correctly|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|review and update of approved plans|should be executed regularly|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|invested effort|will be rewarded|f4372d1f57d54b338cf090bf9e01ed81|
+chapter 9|future projects|benefit from this project s experience|f4372d1f57d54b338cf090bf9e01ed81|
+risk response planning|identify risks and perform analysis processes|is based on|55d48766a52842598d3441fc016c727e|
+risk register|risk response planning|provides information for|55d48766a52842598d3441fc016c727e|
+execution of identify risks and perform analysis processes|risk register|populates|55d48766a52842598d3441fc016c727e|
+risk response information|risk register|is a part of|55d48766a52842598d3441fc016c727e|
+risk response plan|risk response information|refers to|55d48766a52842598d3441fc016c727e|
+monitor and control risks process|primary objectives|has|b3d2df06587c415daceaf57d791e0231|
+primary objectives|track identified risks|includes|b3d2df06587c415daceaf57d791e0231|
+primary objectives|monitor residual risks|includes|b3d2df06587c415daceaf57d791e0231|
+primary objectives|identify new risks|includes|b3d2df06587c415daceaf57d791e0231|
+primary objectives|ensure that risk response plans are executed at the appropriate time|includes|b3d2df06587c415daceaf57d791e0231|
+primary objectives|evaluate effectiveness throughout the project life cycle|includes|b3d2df06587c415daceaf57d791e0231|
+monitor and control risks process|risk monitoring and controlling|is part of|b3d2df06587c415daceaf57d791e0231|
+risk monitoring and controlling|tracking risk response actions|involves|b3d2df06587c415daceaf57d791e0231|
+risk monitoring and controlling|managing the risk response actions|involves|b3d2df06587c415daceaf57d791e0231|
+project risk management processes|effectiveness|should be reviewed to provide improvements|b3d2df06587c415daceaf57d791e0231|
+for each risk or set of risks for which a contingent response has been defined|corresponding set of trigger conditions|should have been specified|b3d2df06587c415daceaf57d791e0231|
+action owner|effectively monitoring conditions|is responsible for|b3d2df06587c415daceaf57d791e0231|
+action owner|carrying out actions as defined in a timely manner|is responsible for|b3d2df06587c415daceaf57d791e0231|
+plan risk responses process|all approved unconditional response|includes|b3d2df06587c415daceaf57d791e0231|
+risk monitoring and controlling|checking whether approved unconditional response actions are included in the current project management plan|is part of|016b33fa57e44cf1adffdd812a20cb03|
+risk monitoring and controlling|taking appropriate action if necessary|includes|016b33fa57e44cf1adffdd812a20cb03|
+taking appropriate action|invoking the change management process|may result in|016b33fa57e44cf1adffdd812a20cb03|
+effective communication|maintaining between risk owners, risk action owners, and project manager|is necessary for|016b33fa57e44cf1adffdd812a20cb03|
+effective communication|ensuring that the designated stakeholders accept accountability for controlling the potential outcomes of specific risks|enables|016b33fa57e44cf1adffdd812a20cb03|
+risk owners|being briefed on any changes that may affect their responsibilities|is governed by|016b33fa57e44cf1adffdd812a20cb03|
+project manager|designated stakeholders|assigned accountability for|9431d9ba72fd417fb67fd74eda3747dd|
+project manager|specific risks|controls the potential outcomes of|9431d9ba72fd417fb67fd74eda3747dd|
+designated stakeholders|specific risks|accept accountability for|9431d9ba72fd417fb67fd74eda3747dd|
+designated stakeholders|associated trigger conditions|track|9431d9ba72fd417fb67fd74eda3747dd|
+designated stakeholders|response actions|carry out in a timely manner|9431d9ba72fd417fb67fd74eda3747dd|
+response actions|trigger conditions|associated with|9431d9ba72fd417fb67fd74eda3747dd|
+risk responses process|effectiveness of the response|provides a mechanism for measuring|9431d9ba72fd417fb67fd74eda3747dd|
+risk action owner|response actions|owns|9431d9ba72fd417fb67fd74eda3747dd|
+risk action owner|status of the response actions|keeps the risk owner aware of|9431d9ba72fd417fb67fd74eda3747dd|
+risk owner|response actions|is kept informed about the status of|9431d9ba72fd417fb67fd74eda3747dd|
+risk owner|risk|controls|9431d9ba72fd417fb67fd74eda3747dd|
+risk owner|response actions|decides when the risk has been effectively dealt with or whether additional actions need to be planned and implemented|9431d9ba72fd417fb67fd74eda3747dd|
+project manager|planning|should ensure that is kept current|9431d9ba72fd417fb67fd74eda3747dd|
+project manager|project progress|monitors as|9431d9ba72fd417fb67fd74eda3747dd|
+project manager|project environment|adapts to changes in|9431d9ba72fd417fb67fd74eda3747dd|
+project progress|project environment|affects|9431d9ba72fd417fb67fd74eda3747dd|
+risk management planning|project events|is influenced by|4cf562ebcc324dbc81080afd3dfc0807|
+risk management planning|periodic risk reassessment|is necessary for|4cf562ebcc324dbc81080afd3dfc0807|
+periodic risk reassessment|risk identification analysis|includes|4cf562ebcc324dbc81080afd3dfc0807|
+periodic risk reassessment|response planning|includes|4cf562ebcc324dbc81080afd3dfc0807|
+periodic risk reassessment|major organizational changes|may need to be revisited prior to reassessing the risks|4cf562ebcc324dbc81080afd3dfc0807|
+project manager|periodic risk reassessment|ensures that is repeated|4cf562ebcc324dbc81080afd3dfc0807|
+periodic risk reassessment|excessive administrative overhead|should not generate|4cf562ebcc324dbc81080afd3dfc0807|
+typical reasons for risk reassessment|occurrence of a major or unexpected risk|includes|4cf562ebcc324dbc81080afd3dfc0807|
+typical reasons for risk reassessment|complex change request|includes|4cf562ebcc324dbc81080afd3dfc0807|
+typical reasons for risk reassessment|phase end review|includes|4cf562ebcc324dbc81080afd3dfc0807|
+typical reasons for risk reassessment|project re planning or major plan elaboration|includes|4cf562ebcc324dbc81080afd3dfc0807|
+typical reasons for risk reassessment|periodic review to ensure that the information remains current|includes|4cf562ebcc324dbc81080afd3dfc0807|
+periodic audits|risk management planning|is performed to determine strengths and weaknesses in handling risks within the project|4cf562ebcc324dbc81080afd3dfc0807|
+periodic audits|identifying any barriers to effectiveness|entails|4cf562ebcc324dbc81080afd3dfc0807|
+regular status reviews|periodic audits|should be performed|bbfa1e9fe50f4c978adf83e705ec4cf0|
+periodic audits|strengths and weaknesses in handling risks within the project|determine|bbfa1e9fe50f4c978adf83e705ec4cf0|
+periodic audits|barriers to effectiveness or keys to success in risk management|identify|bbfa1e9fe50f4c978adf83e705ec4cf0|
+improvements in risk management|recognition of barriers to effectiveness or keys to success in risk management|could lead to|bbfa1e9fe50f4c978adf83e705ec4cf0|
+risk management process analysis|regular status reviews|is carried out with a focus on|bbfa1e9fe50f4c978adf83e705ec4cf0|
+risk management process analysis|long term process improvements|consolidates the findings of|bbfa1e9fe50f4c978adf83e705ec4cf0|
+risk management process analysis|lessons applicable in general to a large proportion of the organization's projects in the future|identifies|bbfa1e9fe50f4c978adf83e705ec4cf0|
+project closure|description of the closure of every risk in the risk register|the project manager should ensure that a description has been given of|bbfa1e9fe50f4c978adf83e705ec4cf0|
+project manager|risk register|ensures a description has been given|83871c0798a443889149d992bd1b60cf|
+risk register|closure of every risk|contains|83871c0798a443889149d992bd1b60cf|
+closure of every risk|did not occur|one of the possibilities|83871c0798a443889149d992bd1b60cf|
+closure of every risk|occurred|one of the possibilities|83871c0798a443889149d992bd1b60cf|
+closure of every risk|contingency plan invocation|associated event when occurred|83871c0798a443889149d992bd1b60cf|
+closure of every risk|project scope impact (time, cost, quality)|impact to the project scope when occurred|83871c0798a443889149d992bd1b60cf|
+audit of risk management process|consolidated information with respect to the project's experience of risks|output should be|83871c0798a443889149d992bd1b60cf|
+consolidated information|project's experience of risks|with respect to|83871c0798a443889149d992bd1b60cf|
+audit of risk management process|generally applicable guidelines for the organization|highlights any|83871c0798a443889149d992bd1b60cf|
+audit of risk management process|potential actions proposed|proposes for applying them|83871c0798a443889149d992bd1b60cf|
+potentially applied actions|corresponding organizational process assets|can lead to an update|83871c0798a443889149d992bd1b60cf|
+monitor and control risks process|project manager|should be ensured by|83871c0798a443889149d992bd1b60cf|
+monitor and control risks process|risk register|is involved in|83871c0798a443889149d992bd1b60cf|
+chapter 9|monitor and control risks|discusses the steps involved in|83871c0798a443889149d992bd1b60cf|
+risk trigger conditions|project schedule|is part of|051c86d6fb664c2cb2afb2dc8d4726c7|
+risk trigger conditions|actions whose execution is dependent on a predefined trigger condition|affects|051c86d6fb664c2cb2afb2dc8d4726c7|
+risk action owner|risk trigger conditions|is responsible for checking|051c86d6fb664c2cb2afb2dc8d4726c7|
+risk owner|risk trigger conditions|works in close collaboration with|051c86d6fb664c2cb2afb2dc8d4726c7|
+project manager|risk trigger conditions|has overall authority|051c86d6fb664c2cb2afb2dc8d4726c7|
+risk awareness|status meetings|is a regular item on|71aedbb11bba4c439f989c293fbca080|
+risk management|status meetings|should be included in|71aedbb11bba4c439f989c293fbca080|
+team members|risk management|remain aware of the importance of|71aedbb11bba4c439f989c293fbca080|
+project management decisions|risk management|should be fully integrated into|71aedbb11bba4c439f989c293fbca080|
+senior level sponsor|regular reports on risks and planned responses|requires|71aedbb11bba4c439f989c293fbca080|
+stakeholders|awareness of importance of risk management|is conditioned in part by|71aedbb11bba4c439f989c293fbca080|
+senior level sponsor|stakeholders|ensures that stakeholders are aware of|71aedbb11bba4c439f989c293fbca080|
+senior level sponsor feedback|project team|motivates|71aedbb11bba4c439f989c293fbca080|
+risk handling|stakeholders perception of effectiveness of risk management|is conditioned in part by|71aedbb11bba4c439f989c293fbca080|
+occurrence of a risk|information about the event and progress of responses|should be communicated|71aedbb11bba4c439f989c293fbca080|
+occurrence of a risk|communication intervals|requires regular intervals|71aedbb11bba4c439f989c293fbca080|
+occurrence of a risk|honest communication|should be communicated in an honest manner|71aedbb11bba4c439f989c293fbca080|
+communication needs of stakeholders|occurrence of a risk and progress of responses|adapted to the needs of|71aedbb11bba4c439f989c293fbca080|
+risk occurrence|information communication|is related to|043f34c8a0d44489a1dfdaf85e6a9cd4|
+information communication|regular intervals|occurs at|043f34c8a0d44489a1dfdaf85e6a9cd4|
+information communication|honest manner|is adapted to|043f34c8a0d44489a1dfdaf85e6a9cd4|
+information communication|stakeholder needs|is adapted to|043f34c8a0d44489a1dfdaf85e6a9cd4|
+communications plan|information communication|supports|043f34c8a0d44489a1dfdaf85e6a9cd4|
+monitor and control risks process|project management plan|includes|8f31964071bc4a869bd2cdf420b0b555|
+monitor and control risks process|risk monitoring and control|is part of|8f31964071bc4a869bd2cdf420b0b555|
+project management plan|actions required to monitor and control project risk|includes|8f31964071bc4a869bd2cdf420b0b555|
+risk monitoring and control|project monitoring and control|is integrated with|8f31964071bc4a869bd2cdf420b0b555|
+project execution|response related actions|includes|8f31964071bc4a869bd2cdf420b0b555|
+project schedule|response related actions|includes|8f31964071bc4a869bd2cdf420b0b555|
+chapter 9 monitor and control risks|monitor and control risks process|discusses|8f31964071bc4a869bd2cdf420b0b555|
+contingency reserves|time related risks|covers|97291aa5634b4a3cb0379fedd138603f|
+contingency reserves|cost related risks|covers|97291aa5634b4a3cb0379fedd138603f|
+project manager|contingency reserves|assesses whether they provide the required level of confidence in the success of the project|97291aa5634b4a3cb0379fedd138603f|
+techniques (for managing time buffers)|project's scheduling techniques|should be closely integrated into|97291aa5634b4a3cb0379fedd138603f|
+tools (for managing time buffers)|project's scheduling techniques|are required to support|97291aa5634b4a3cb0379fedd138603f|
+techniques (for managing cost)|financial practices|should be compatible with|97291aa5634b4a3cb0379fedd138603f|
+tools|trends and forecast future outcomes|are required to determine whether the reserves will remain sufficient|97291aa5634b4a3cb0379fedd138603f|
+tools|progress and spending|are required for tracking in a consolidated manner|97291aa5634b4a3cb0379fedd138603f|
+chapter 9 (monitor and control risks)|contingency reserves|is related to|97291aa5634b4a3cb0379fedd138603f|
+plan risk responses process|trigger conditions|is defined during|c72d4e757c49457e935ef93caabbf92b|
+trigger conditions|metrics|are defined with|c72d4e757c49457e935ef93caabbf92b|
+tools|trigger conditions and the corresponding metrics|are required to evaluate and track|c72d4e757c49457e935ef93caabbf92b|
+tools|project baseline or specified thresholds based on actual status|are based on|c72d4e757c49457e935ef93caabbf92b|
+tools|risks related to the deliverables such as performance|provide information on|c72d4e757c49457e935ef93caabbf92b|
+tools|project related features such as time and cost|provide information on|c72d4e757c49457e935ef93caabbf92b|
+tracking overall risk tools|project progression|is related to|c25e0898a6ed4dbb829325eaa5a60a3e|
+tracking overall risk tools|expected effect on project's overall level of risk|is used to determine|c25e0898a6ed4dbb829325eaa5a60a3e|
+quality metrics|degree of variation from baseline|is a type of|d974282181094b348553aa37a7cf64d6|
+quality metrics|risk management plan|have been defined in|d974282181094b348553aa37a7cf64d6|
+tracking compliance|quality metrics|should be tracked and recorded|d974282181094b348553aa37a7cf64d6|
+risk monitoring and controlling|project management monitoring and control capabilities|includes|c5a07d52cd9647b6a53d89bb49278107|
+risk monitoring and controlling|tools for risk tracking|supports|c5a07d52cd9647b6a53d89bb49278107|
+risk monitoring and controlling|individual risks tracking|tracks|c5a07d52cd9647b6a53d89bb49278107|
+tools for risk tracking|key success factors|supports|c5a07d52cd9647b6a53d89bb49278107|
+monitor and control risks process|record actual data for future use|results in|2418ef618cc74a42a9e21997edf9aebd|
+record actual data for future use|relevant information relating to risk management|includes|2418ef618cc74a42a9e21997edf9aebd|
+relevant information relating to risk management|project lifecycle|covers|2418ef618cc74a42a9e21997edf9aebd|
+risk management plan|definition of what information must be included|specifies|2418ef618cc74a42a9e21997edf9aebd|
+risk management plan|storage mechanism for the information|specifies|2418ef618cc74a42a9e21997edf9aebd|
+lessons learned process|significant risk management information|uses|2418ef618cc74a42a9e21997edf9aebd|
+identified risk or type of risk|occurrence|indicates|2418ef618cc74a42a9e21997edf9aebd|
+identified risk or type of risk (occurrence)|when and how often|describes|2418ef618cc74a42a9e21997edf9aebd|
+recorded data|impact|includes|2418ef618cc74a42a9e21997edf9aebd|
+recorded data (impact)|effectiveness of detection|indicates|2418ef618cc74a42a9e21997edf9aebd|
+recorded data (impact)|effectiveness of response|indicates|2418ef618cc74a42a9e21997edf9aebd|
+recorded data (impact)|unplanned additional actions|includes|2418ef618cc74a42a9e21997edf9aebd|
+recorded data (impact)|effectiveness of avoidance or exploitation actions|indicates|2418ef618cc74a42a9e21997edf9aebd|
+relevant data|effectiveness of detection|affects|af7d0117640342e2bc19d10d40c4598a|
+relevant data|effectiveness of response|affects|af7d0117640342e2bc19d10d40c4598a|
+relevant data|unplanned additional actions|affects|af7d0117640342e2bc19d10d40c4598a|
+relevant data|effectiveness of avoidance or exploitation actions|affects|af7d0117640342e2bc19d10d40c4598a|
+relevant data|effectiveness of transfer and sharing actions|affects|af7d0117640342e2bc19d10d40c4598a|
+unexpected or undocumented risks|data about them|is related to|af7d0117640342e2bc19d10d40c4598a|
+effectiveness of risk mitigation and enhancement actions|unexpected or undocumented risks|results from|af7d0117640342e2bc19d10d40c4598a|
+occurrence of accepted threats or opportunities|relevant data|is part of|af7d0117640342e2bc19d10d40c4598a|
+consolidated information|level of effort expended|includes|af7d0117640342e2bc19d10d40c4598a|
+consolidated information|costs and benefits to the project of risk management activities|includes|af7d0117640342e2bc19d10d40c4598a|
+archived and indexed data|consolidated information|is governed by|af7d0117640342e2bc19d10d40c4598a|
+archived and indexed data|easy review during the project at closure and for future projects when the need arises|is intended for|af7d0117640342e2bc19d10d40c4598a|

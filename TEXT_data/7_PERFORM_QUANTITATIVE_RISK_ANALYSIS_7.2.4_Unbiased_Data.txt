@@ -1,0 +1,1 @@
+7.2.4 unbiased data success in gathering risk analysis data requires the ability to recognize when biases occur and combating that bias or developing other unbiased sources of the data. bias in risk data can occur for many reasons but two common sources of bias are cognitive bias and motivational bias.

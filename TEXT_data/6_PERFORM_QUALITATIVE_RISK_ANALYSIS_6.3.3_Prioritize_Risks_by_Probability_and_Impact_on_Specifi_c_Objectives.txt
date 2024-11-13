@@ -1,0 +1,1 @@
+6.3.3 prioritize risks by probability and impact on specific objectives some tools permit distinguishing a risk s priority in terms of the affected objective. this capability provides a list of risks that are important for any specific objective of interest to management. this is useful since it is common for risks to have uneven impacts on various project objectives.

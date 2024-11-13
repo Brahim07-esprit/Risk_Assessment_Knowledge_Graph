@@ -1,0 +1,1 @@
+8.4.3 action planning project planning tools are used to turn the chosen strategies into concrete actions and to integrate these into existing plans. the corresponding actions may be unconditional i.e. integrated into the project management plan or contingent on a trigger condition and predefined as a contingency response strategy.
