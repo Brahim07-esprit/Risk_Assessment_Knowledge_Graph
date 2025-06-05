@@ -1,0 +1,99 @@
+version: '3.8'
+
+services:
+  localstack:
+    container_name: risk-kg-localstack
+    build:
+      context: .
+      dockerfile: localstack.Dockerfile
+    ports:
+      - "4566:4566"
+    environment:
+      - DEBUG=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - LOCALSTACK_HOST=localstack
+      - SERVICES=s3,dynamodb,sqs,ssm,lambda
+      - AWS_DEFAULT_REGION=us-east-1
+      - LAMBDA_EXECUTOR=local
+      - LAMBDA_REMOVE_CONTAINERS=true
+      - PERSISTENCE=0
+      - EAGER_SERVICE_LOADING=1
+      - LAMBDA_DOCKER_NETWORK=risk-kg-network
+      - READY_STRATEGY=ALL_SERVICES
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - risk-kg-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4566/_localstack/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  neo4j:
+    image: neo4j:5.9
+    container_name: risk-kg-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-GenerateSecurePasswordHere123!@#}
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+      - NEO4J_dbms_memory_pagecache_size=1G
+      - NEO4J_dbms_memory_heap_max__size=1G
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*,gds.*
+      - NEO4J_dbms_security_allow__csv__import__from__file__urls=true
+    volumes:
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+      - neo4j-import:/var/lib/neo4j/import
+      - neo4j-plugins:/plugins
+    networks:
+      - risk-kg-network
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "${NEO4J_PASSWORD:-GenerateSecurePasswordHere123!@#}", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    container_name: risk-kg-app
+    ports:
+      - "8501:8501"
+    env_file:
+      - risk-assessment.env
+    environment:
+      - PYTHONUNBUFFERED=1
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD:-GenerateSecurePasswordHere123!@#}
+    volumes:
+      - ./src:/app/src:ro
+      - ./app.py:/app/app.py:ro
+      - ./data:/app/data
+      - app-cache:/app/.llm_cache
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      localstack:
+        condition: service_healthy
+    networks:
+      - risk-kg-network
+    restart: unless-stopped
+    command: >
+      sh -c "
+        echo 'Waiting for LocalStack resources to be created...' &&
+        sleep 20 &&
+        streamlit run app.py --server.address 0.0.0.0
+      "
+
+networks:
+  risk-kg-network:
+    driver: bridge
+
+volumes:
+  neo4j-data:
+  neo4j-logs:
+  neo4j-import:
+  neo4j-plugins:
+  app-cache: 
